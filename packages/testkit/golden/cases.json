@@ -1,0 +1,1475 @@
+{
+  "schema_version": 1,
+  "case": [
+    {
+      "lemma": "umntu",
+      "class": "1",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=475,1334; gloss: person; human. isixhosa.click word_id=475 (person). Class 1 to 2. frequency_rank=11."
+    },
+    {
+      "lemma": "utata",
+      "class": "1a",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=12,855; gloss: father; man. isixhosa.click word_id=12 (father). Class 1a to 2a. frequency_rank=41."
+    },
+    {
+      "lemma": "umthi",
+      "class": "3",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=95; gloss: tree. isixhosa.click word_id=95 (tree). Class 3 to 4. frequency_rank=273."
+    },
+    {
+      "lemma": "igama",
+      "class": "5",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=660,738,1847; gloss: name; word; Term. isixhosa.click word_id=660 (name). Class 5 to 6, polysyllabic stem. frequency_rank=48."
+    },
+    {
+      "lemma": "isikolo",
+      "class": "7",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=554; gloss: school. isixhosa.click word_id=554 (school). Class 7 to 8. frequency_rank=78."
+    },
+    {
+      "lemma": "inja",
+      "class": "9",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=170; gloss: dog. isixhosa.click word_id=170 (dog). Class 9 to 10, monosyllabic stem; tests the izi- rule. frequency_rank=936."
+    },
+    {
+      "lemma": "intombi",
+      "class": "9",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=487,848; gloss: girl; daughter. isixhosa.click word_id=487 (girl). Class 9 to 10, polysyllabic stem; tests the ii- rule. frequency_rank=26."
+    },
+    {
+      "lemma": "abantu",
+      "class": "2",
+      "form": "subject_concord",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=480,1335; gloss: people; humans. isixhosa.click word_id=480 (people). Ask for the concord in a short present-tense sentence and write only the concord. frequency_rank=12."
+    },
+    {
+      "lemma": "amagama",
+      "class": "6",
+      "form": "object_concord",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=659,735; gloss: names; words. isixhosa.click word_id=659 (names). Ask for 'I know them (the names)' and write only the object concord. frequency_rank=122."
+    },
+    {
+      "lemma": "isitya",
+      "class": "7",
+      "form": "possessive",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=205; gloss: dish. isixhosa.click word_id=205 (dish). Ask for 'my dish' and write only the possessive concord. frequency_rank=223."
+    },
+    {
+      "lemma": "oomama",
+      "class": "2a",
+      "form": "subject_concord",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=1101,1107; gloss: mothers; women. Class 2a, the plural of 1a. Ask for the concord as it attaches to a verb. frequency_rank=164."
+    },
+    {
+      "lemma": "iminyaka",
+      "class": "4",
+      "form": "subject_concord",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=509; gloss: years. Class 4, the plural of 3. Years: a word a learner meets early. frequency_rank=159."
+    },
+    {
+      "lemma": "izandla",
+      "class": "8",
+      "form": "subject_concord",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=202; gloss: hands. Class 8, the plural of 7. Hands. frequency_rank=254."
+    },
+    {
+      "lemma": "izinto",
+      "class": "10",
+      "form": "subject_concord",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=69; gloss: things. Class 10, the plural of 9. Things: among the most frequent words in the spoken corpus. frequency_rank=40."
+    },
+    {
+      "lemma": "umsebenzi",
+      "class": "3",
+      "form": "subject_concord",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=885,1771; gloss: work; function. MERGER QUESTION. Class 3 (work). Textbook gives a class 3 concord; Cape Town speech is reported to use the class 1 concord. Ask which the tutor says, which a learner should be taught, and whether the other is accepted. frequency_rank=44."
+    },
+    {
+      "lemma": "umhlaba",
+      "class": "3",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=549,563,750; gloss: world; earth; soil. MERGER QUESTION, second sample. Class 3 (land, earth). If the concord has merged but the plural has not, that matters and should be written down. frequency_rank=66."
+    },
+    {
+      "lemma": "umntwana",
+      "class": "1",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=559; gloss: child. Selection: frequency_rank=10."
+    },
+    {
+      "lemma": "umntwana",
+      "class": "1",
+      "form": "subject_concord",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=559; gloss: child. Selection: frequency_rank=10."
+    },
+    {
+      "lemma": "umntwana",
+      "class": "1",
+      "form": "object_concord",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=559; gloss: child. Selection: frequency_rank=10."
+    },
+    {
+      "lemma": "umntwana",
+      "class": "1",
+      "form": "possessive",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=559; gloss: child. Selection: frequency_rank=10."
+    },
+    {
+      "lemma": "umama",
+      "class": "1a",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=854,1100; gloss: woman; mother. Selection: frequency_rank=18."
+    },
+    {
+      "lemma": "umama",
+      "class": "1a",
+      "form": "subject_concord",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=854,1100; gloss: woman; mother. Selection: frequency_rank=18."
+    },
+    {
+      "lemma": "umama",
+      "class": "1a",
+      "form": "object_concord",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=854,1100; gloss: woman; mother. Selection: frequency_rank=18."
+    },
+    {
+      "lemma": "umama",
+      "class": "1a",
+      "form": "possessive",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=854,1100; gloss: woman; mother. Selection: frequency_rank=18."
+    },
+    {
+      "lemma": "abantu",
+      "class": "2",
+      "form": "singular",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=480,1335; gloss: people; humans. Selection: frequency_rank=12."
+    },
+    {
+      "lemma": "abantu",
+      "class": "2",
+      "form": "object_concord",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=480,1335; gloss: people; humans. Selection: frequency_rank=12."
+    },
+    {
+      "lemma": "abantu",
+      "class": "2",
+      "form": "possessive",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=480,1335; gloss: people; humans. Selection: frequency_rank=12."
+    },
+    {
+      "lemma": "oomama",
+      "class": "2a",
+      "form": "singular",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=1101,1107; gloss: mothers; women. Selection: frequency_rank=164."
+    },
+    {
+      "lemma": "oomama",
+      "class": "2a",
+      "form": "object_concord",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=1101,1107; gloss: mothers; women. Selection: frequency_rank=164."
+    },
+    {
+      "lemma": "oomama",
+      "class": "2a",
+      "form": "possessive",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=1101,1107; gloss: mothers; women. Selection: frequency_rank=164."
+    },
+    {
+      "lemma": "umsebenzi",
+      "class": "3",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=885,1771; gloss: work; function. Selection: frequency_rank=44."
+    },
+    {
+      "lemma": "umsebenzi",
+      "class": "3",
+      "form": "object_concord",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=885,1771; gloss: work; function. Selection: frequency_rank=44."
+    },
+    {
+      "lemma": "umsebenzi",
+      "class": "3",
+      "form": "possessive",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=885,1771; gloss: work; function. Selection: frequency_rank=44."
+    },
+    {
+      "lemma": "iminyaka",
+      "class": "4",
+      "form": "singular",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=509; gloss: years. Selection: frequency_rank=159."
+    },
+    {
+      "lemma": "iminyaka",
+      "class": "4",
+      "form": "object_concord",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=509; gloss: years. Selection: frequency_rank=159."
+    },
+    {
+      "lemma": "iminyaka",
+      "class": "4",
+      "form": "possessive",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=509; gloss: years. Selection: frequency_rank=159."
+    },
+    {
+      "lemma": "igama",
+      "class": "5",
+      "form": "subject_concord",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=660,738,1847; gloss: name; word; Term. Selection: Unit 1 (greet-and-introduce), frequency_rank=48."
+    },
+    {
+      "lemma": "igama",
+      "class": "5",
+      "form": "object_concord",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=660,738,1847; gloss: name; word; Term. Selection: Unit 1 (greet-and-introduce), frequency_rank=48."
+    },
+    {
+      "lemma": "igama",
+      "class": "5",
+      "form": "possessive",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=660,738,1847; gloss: name; word; Term. Selection: Unit 1 (greet-and-introduce), frequency_rank=48."
+    },
+    {
+      "lemma": "amacephe",
+      "class": "6",
+      "form": "singular",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=1485; gloss: spoons. Selection: Unit 1 (greet-and-introduce), frequency_rank=278."
+    },
+    {
+      "lemma": "amacephe",
+      "class": "6",
+      "form": "subject_concord",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=1485; gloss: spoons. Selection: Unit 1 (greet-and-introduce), frequency_rank=278."
+    },
+    {
+      "lemma": "amacephe",
+      "class": "6",
+      "form": "object_concord",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=1485; gloss: spoons. Selection: Unit 1 (greet-and-introduce), frequency_rank=278."
+    },
+    {
+      "lemma": "amacephe",
+      "class": "6",
+      "form": "possessive",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=1485; gloss: spoons. Selection: Unit 1 (greet-and-introduce), frequency_rank=278."
+    },
+    {
+      "lemma": "isiXhosa",
+      "class": "7",
+      "form": "subject_concord",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=1548; gloss: Xhosa. Selection: Unit 1 (greet-and-introduce), frequency_rank=57."
+    },
+    {
+      "lemma": "isiXhosa",
+      "class": "7",
+      "form": "object_concord",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=1548; gloss: Xhosa. Selection: Unit 1 (greet-and-introduce), frequency_rank=57."
+    },
+    {
+      "lemma": "isiXhosa",
+      "class": "7",
+      "form": "possessive",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=1548; gloss: Xhosa. Selection: Unit 1 (greet-and-introduce), frequency_rank=57."
+    },
+    {
+      "lemma": "izandla",
+      "class": "8",
+      "form": "singular",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=202; gloss: hands. Selection: frequency_rank=254."
+    },
+    {
+      "lemma": "izandla",
+      "class": "8",
+      "form": "object_concord",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=202; gloss: hands. Selection: frequency_rank=254."
+    },
+    {
+      "lemma": "izandla",
+      "class": "8",
+      "form": "possessive",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=202; gloss: hands. Selection: frequency_rank=254."
+    },
+    {
+      "lemma": "ingxowa",
+      "class": "9",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=58; gloss: sack. Selection: Unit 1 (greet-and-introduce), frequency_rank=158."
+    },
+    {
+      "lemma": "ingxowa",
+      "class": "9",
+      "form": "subject_concord",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=58; gloss: sack. Selection: Unit 1 (greet-and-introduce), frequency_rank=158."
+    },
+    {
+      "lemma": "ingxowa",
+      "class": "9",
+      "form": "object_concord",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=58; gloss: sack. Selection: Unit 1 (greet-and-introduce), frequency_rank=158."
+    },
+    {
+      "lemma": "ingxowa",
+      "class": "9",
+      "form": "possessive",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=58; gloss: sack. Selection: Unit 1 (greet-and-introduce), frequency_rank=158."
+    },
+    {
+      "lemma": "iingxaki",
+      "class": "10",
+      "form": "singular",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=562; gloss: problems. Selection: Unit 1 (greet-and-introduce), frequency_rank=313."
+    },
+    {
+      "lemma": "iingxaki",
+      "class": "10",
+      "form": "subject_concord",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=562; gloss: problems. Selection: Unit 1 (greet-and-introduce), frequency_rank=313."
+    },
+    {
+      "lemma": "iingxaki",
+      "class": "10",
+      "form": "object_concord",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=562; gloss: problems. Selection: Unit 1 (greet-and-introduce), frequency_rank=313."
+    },
+    {
+      "lemma": "iingxaki",
+      "class": "10",
+      "form": "possessive",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=562; gloss: problems. Selection: Unit 1 (greet-and-introduce), frequency_rank=313."
+    },
+    {
+      "lemma": "amatye",
+      "class": "6",
+      "form": "singular",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=752; gloss: stones. Selection: the singular direction's class 5 rule for a one-vowel stem (ili-), added 2026-09-28."
+    },
+    {
+      "lemma": "izikolo",
+      "class": "8",
+      "form": "singular",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=558; gloss: schools. Selection: the singular direction's class 7 default (isi-) on a consonant-initial stem, added 2026-09-28."
+    },
+    {
+      "lemma": "izinja",
+      "class": "10",
+      "form": "singular",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=173; gloss: dogs. Selection: the izi- strip on a class 10 noun in the singular direction, added 2026-09-28."
+    },
+    {
+      "lemma": "umfazi",
+      "class": "1",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=499,590; gloss: woman; wife. Locative."
+    },
+    {
+      "lemma": "umntu",
+      "class": "1",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=475,1334; gloss: person; human. Locative."
+    },
+    {
+      "lemma": "umntwana",
+      "class": "1",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=559; gloss: child. Locative."
+    },
+    {
+      "lemma": "ubhuti",
+      "class": "1a",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=874; gloss: brother. Locative. Classes 1a and 2a do not take e- ..."
+    },
+    {
+      "lemma": "umama",
+      "class": "1a",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=854,1100; gloss: woman; mother. Locative. Classes 1a and 2a do not take e- ..."
+    },
+    {
+      "lemma": "usisi",
+      "class": "1a",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=1429; gloss: sister. Locative. Classes 1a and 2a do not take e- ..."
+    },
+    {
+      "lemma": "utata",
+      "class": "1a",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=12,855; gloss: father; man. Locative. Classes 1a and 2a do not take e- ..."
+    },
+    {
+      "lemma": "oomama",
+      "class": "2a",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=1101,1107; gloss: mothers; women. Locative. Classes 1a and 2a do not take e- ..."
+    },
+    {
+      "lemma": "umnxeba",
+      "class": "3",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=596; gloss: phone. Locative."
+    },
+    {
+      "lemma": "umthi",
+      "class": "3",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=95; gloss: tree. Locative."
+    },
+    {
+      "lemma": "umzi",
+      "class": "3",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=550; gloss: homestead. Locative."
+    },
+    {
+      "lemma": "imithi",
+      "class": "4",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=96; gloss: trees. Locative."
+    },
+    {
+      "lemma": "igama",
+      "class": "5",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=660,738,1847; gloss: name; word; Term. Locative."
+    },
+    {
+      "lemma": "igxalaba",
+      "class": "5",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=1094; gloss: shoulder. Locative."
+    },
+    {
+      "lemma": "ikhaya",
+      "class": "5",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=496; gloss: home. Locative."
+    },
+    {
+      "lemma": "ilitye",
+      "class": "5",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=751; gloss: stone. Locative."
+    },
+    {
+      "lemma": "amadoda",
+      "class": "6",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=508; gloss: men. Locative."
+    },
+    {
+      "lemma": "amanzi",
+      "class": "6",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=727; gloss: water. Locative."
+    },
+    {
+      "lemma": "amatye",
+      "class": "6",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=752; gloss: stones. Locative."
+    },
+    {
+      "lemma": "isiXhosa",
+      "class": "7",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=1548; gloss: Xhosa. Locative."
+    },
+    {
+      "lemma": "isikolo",
+      "class": "7",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=554; gloss: school. Locative."
+    },
+    {
+      "lemma": "isitya",
+      "class": "7",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=205; gloss: dish. Locative."
+    },
+    {
+      "lemma": "incwadi",
+      "class": "9",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=62,679; gloss: book; letter. Locative."
+    },
+    {
+      "lemma": "indlu",
+      "class": "9",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=551; gloss: house. Locative."
+    },
+    {
+      "lemma": "indoda",
+      "class": "9",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=498; gloss: man. Locative."
+    },
+    {
+      "lemma": "ingqondo",
+      "class": "9",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=2321; gloss: brain. Locative."
+    },
+    {
+      "lemma": "ingxaki",
+      "class": "9",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=583; gloss: problem. Locative."
+    },
+    {
+      "lemma": "ingxowa",
+      "class": "9",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=58; gloss: sack. Locative."
+    },
+    {
+      "lemma": "inkosi",
+      "class": "9",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=2342; gloss: chief. Locative."
+    },
+    {
+      "lemma": "intombi",
+      "class": "9",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=487,848; gloss: girl; daughter. Locative."
+    },
+    {
+      "lemma": "uLwesihlanu",
+      "class": "1a",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=1138; gloss: Friday. Unit 6."
+    },
+    {
+      "lemma": "uMgqibelo",
+      "class": "1a",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=1139; gloss: Saturday."
+    },
+    {
+      "lemma": "umhla",
+      "class": "3",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=137; gloss: date. Unit 6."
+    },
+    {
+      "lemma": "umngqusho",
+      "class": "3",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=2139; gloss: samp. Unit 4."
+    },
+    {
+      "lemma": "umzuzwana",
+      "class": "3",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=459; gloss: second. Unit 4."
+    },
+    {
+      "lemma": "unyaka",
+      "class": "3",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=506; gloss: year."
+    },
+    {
+      "lemma": "ilizwe",
+      "class": "5",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=442; gloss: country. Unit 5."
+    },
+    {
+      "lemma": "iqanda",
+      "class": "5",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=55,838; gloss: egg; zero. Unit 4."
+    },
+    {
+      "lemma": "ithanga",
+      "class": "5",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=292,961; gloss: pumpkin; thigh. Unit 4."
+    },
+    {
+      "lemma": "ithemba",
+      "class": "5",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=223; gloss: hope. Unit 6."
+    },
+    {
+      "lemma": "ithuba",
+      "class": "5",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=2126,2224; gloss: chance; opportunity. Unit 6."
+    },
+    {
+      "lemma": "amasimi",
+      "class": "6",
+      "form": "singular",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=618; gloss: farm. Unit 5."
+    },
+    {
+      "lemma": "isibhedlele",
+      "class": "7",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=943; gloss: hospital. Unit 5."
+    },
+    {
+      "lemma": "isibini",
+      "class": "7",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=462; gloss: second. Unit 4."
+    },
+    {
+      "lemma": "isiciko",
+      "class": "7",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=1550; gloss: lid. Unit 4."
+    },
+    {
+      "lemma": "isidlo",
+      "class": "7",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=1169; gloss: meal. Unit 4."
+    },
+    {
+      "lemma": "isixeko",
+      "class": "7",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=674; gloss: city. Unit 5."
+    },
+    {
+      "lemma": "icawe",
+      "class": "9",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=1231; gloss: church. Unit 5."
+    },
+    {
+      "lemma": "iCawe",
+      "class": "9",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=1140; gloss: Sunday. Unit 6."
+    },
+    {
+      "lemma": "idolophu",
+      "class": "9",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=686; gloss: town. Unit 5."
+    },
+    {
+      "lemma": "imbotyi",
+      "class": "9",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=1574; gloss: bean. Unit 4."
+    },
+    {
+      "lemma": "impelaveki",
+      "class": "9",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=308; gloss: weekend. Unit 6."
+    },
+    {
+      "lemma": "indlela",
+      "class": "9",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=494,495; gloss: road; way. Unit 5."
+    },
+    {
+      "lemma": "ingingqi",
+      "class": "9",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=676; gloss: area. Unit 5."
+    },
+    {
+      "lemma": "inombolo",
+      "class": "9",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=1961; gloss: Number. Unit 4."
+    },
+    {
+      "lemma": "intaba",
+      "class": "9",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=1431; gloss: mountain. Unit 5."
+    },
+    {
+      "lemma": "inyanga",
+      "class": "9",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=337,585; gloss: moon; month. Unit 6."
+    },
+    {
+      "lemma": "itapile",
+      "class": "9",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=279; gloss: potato. Unit 4."
+    },
+    {
+      "lemma": "iveki",
+      "class": "9",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=586; gloss: week. Unit 6."
+    },
+    {
+      "lemma": "ivenkile",
+      "class": "9",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=1413; gloss: shop. Unit 5."
+    },
+    {
+      "lemma": "iyunivesithi",
+      "class": "9",
+      "form": "plural",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=555; gloss: university. Unit 5."
+    },
+    {
+      "lemma": "umlilo",
+      "class": "3",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=1173; gloss: fire. Unit 3. Locative."
+    },
+    {
+      "lemma": "umzimba",
+      "class": "3",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=201; gloss: body. Unit 3. Locative."
+    },
+    {
+      "lemma": "ilanga",
+      "class": "5",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=98; gloss: sun. Unit 3. Locative."
+    },
+    {
+      "lemma": "ilizwe",
+      "class": "5",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=442; gloss: country. Unit 5. Locative."
+    },
+    {
+      "lemma": "ithemba",
+      "class": "5",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=223; gloss: hope. Unit 6. Locative."
+    },
+    {
+      "lemma": "ithuba",
+      "class": "5",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=2126,2224; gloss: chance; opportunity. Unit 6. Locative."
+    },
+    {
+      "lemma": "amasimi",
+      "class": "6",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=618; gloss: farm. Unit 5. Locative."
+    },
+    {
+      "lemma": "isandla",
+      "class": "7",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=168; gloss: hand. Unit 3. Locative."
+    },
+    {
+      "lemma": "isibhedlele",
+      "class": "7",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=943; gloss: hospital. Unit 5. Locative."
+    },
+    {
+      "lemma": "isixeko",
+      "class": "7",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=674; gloss: city. Unit 5. Locative."
+    },
+    {
+      "lemma": "icawe",
+      "class": "9",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=1231; gloss: church. Unit 5. Locative."
+    },
+    {
+      "lemma": "idolophu",
+      "class": "9",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=686; gloss: town. Unit 5. Locative."
+    },
+    {
+      "lemma": "ifestile",
+      "class": "9",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=1118; gloss: window. Unit 3. Locative."
+    },
+    {
+      "lemma": "igadi",
+      "class": "9",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=757; gloss: garden. Unit 3. Locative."
+    },
+    {
+      "lemma": "impahla",
+      "class": "9",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=2192; gloss: clothing. Unit 3. Locative."
+    },
+    {
+      "lemma": "indawo",
+      "class": "9",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=564,856,1784; gloss: place; space; Rank. Unit 3. Locative."
+    },
+    {
+      "lemma": "indlela",
+      "class": "9",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=494,495; gloss: road; way. Unit 5. Locative."
+    },
+    {
+      "lemma": "ingca",
+      "class": "9",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=896; gloss: grass. Unit 3. Locative."
+    },
+    {
+      "lemma": "inkomo",
+      "class": "9",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=1119; gloss: cow. Unit 3. Locative."
+    },
+    {
+      "lemma": "intaba",
+      "class": "9",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=1431; gloss: mountain. Unit 5. Locative."
+    },
+    {
+      "lemma": "into",
+      "class": "9",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=68; gloss: thing. Unit 3. Locative."
+    },
+    {
+      "lemma": "inyama",
+      "class": "9",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=2190; gloss: meat. Unit 4. Locative."
+    },
+    {
+      "lemma": "inyanga",
+      "class": "9",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=337,585; gloss: moon; month. Unit 6. Locative."
+    },
+    {
+      "lemma": "itafile",
+      "class": "9",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=1325; gloss: table. Unit 3. Locative."
+    },
+    {
+      "lemma": "iveki",
+      "class": "9",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=586; gloss: week. Unit 6. Locative."
+    },
+    {
+      "lemma": "ivenkile",
+      "class": "9",
+      "form": "locative",
+      "expected": "",
+      "validated_by": "",
+      "validated_on": "",
+      "irregular": false,
+      "note": "isixhosa.click words.csv:word_id=1413; gloss: shop. Unit 5. Locative."
+    }
+  ]
+}

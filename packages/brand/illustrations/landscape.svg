@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" width="800" height="260">
+  <defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFF7E8"/><stop offset="1" stop-color="#FCE7B8"/></linearGradient></defs>
+  <rect width="800" height="260" fill="url(#sky)"/>
+  <circle cx="600" cy="120" r="78" fill="#F6B73C" opacity="0.18"/>
+  <circle cx="600" cy="120" r="58" fill="#F6B73C"/>
+  <path d="M0 200 C 120 150, 220 160, 330 180 C 430 198, 520 150, 620 165 C 700 176, 760 170, 800 160 L 800 260 L 0 260 Z" fill="#6DBBA7"/>
+  <path d="M0 220 C 100 190, 200 205, 300 215 C 420 226, 500 190, 610 205 C 700 217, 760 210, 800 200 L 800 260 L 0 260 Z" fill="#1FA38C"/>
+  <path d="M0 245 C 140 225, 260 240, 400 238 C 540 236, 660 222, 800 236 L 800 260 L 0 260 Z" fill="#D9772B"/>
+  <g transform="translate(430 205)">
+    <path d="M0 40 C -4 20, -10 8, -26 -6 C -8 6, -2 20, 2 40 Z" fill="#17806F"/>
+    <path d="M2 40 C 0 18, 6 4, 14 -12 C 8 6, 6 20, 6 40 Z" fill="#1FA38C"/>
+    <path d="M4 40 C 10 22, 20 12, 34 2 C 18 14, 12 26, 8 40 Z" fill="#17806F"/>
+    <path d="M-2 40 C -8 24, -16 14, -30 6 C -14 16, -8 28, -4 40 Z" fill="#1FA38C"/>
+    <path d="M6 0 l 0 -34" stroke="#D9772B" stroke-width="4" stroke-linecap="round"/>
+    <ellipse cx="6" cy="-38" rx="7" ry="12" fill="#E85D5D"/>
+  </g>
+</svg>

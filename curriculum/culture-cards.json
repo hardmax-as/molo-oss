@@ -1,0 +1,267 @@
+{
+  "header": [
+    "AI DRAFT — NOT APPROVED MATERIAL. A tutor is expected to confirm, correct or strike every claim in this file.",
+    "",
+    "Short culture cards, one idea each, drafted by a model (Claude) in English and",
+    "Norwegian. `molo content culture` loads each one as a `culture_card` exercise at",
+    "`ai_draft`, which no learner surface can query, in a culture lesson of its skill.",
+    "",
+    "NO isiXhosa IS WRITTEN HERE. Every isiXhosa word in a card is a placeholder,",
+    "`{lemma}`, naming a word the card declares in `words`, and the loader fills it",
+    "from the lexicon verbatim. If a word is not in the lexicon the whole card is",
+    "refused. Where a card needs an isiXhosa word the lexicon does not have (a clan",
+    "name, a proverb), it describes it in English and asks the tutor for it in the",
+    "caveat instead of writing it.",
+    "",
+    "THE CAVEAT IS THE POINT. Each card lists the exact claims the tutor must confirm",
+    "before it is approved. The prose is plausible, which is exactly the danger:",
+    "cultural generalisations are easy to write and easy to get wrong for a city",
+    "like Cape Town. A claim the tutor cannot confirm comes out of the card.",
+    "",
+    "NORWEGIAN IS UNREVIEWED: drafted by Claude, awaiting a Codex review pass",
+    "(the project rules, 'Norwegian goes to Codex')."
+  ],
+  "version": 1,
+  "cards": [
+    {
+      "slug": "respect-terms",
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "greet-someone",
+      "order": 1,
+      "words": ["utata", "umama", "usisi", "ubhuti"],
+      "caveat": "1. That the words for father, mother, sister and brother are used to address people who are not family.\n2. The age rule as stated: an older man as father, an older woman as mother, someone about your age or a little older as sister or brother.\n3. That calling an older person by their first name is rude.\n4. The card shows the dictionary forms. Is a different form used when you actually call someone this (for example without the first vowel)? If so, the card must say so, and that form needs its own entry and recording before it can be shown.\n5. Whether this holds in Cape Town today, among young people too.",
+      "title": {
+        "en": "Everyone is family",
+        "nb": "Alle er familie"
+      },
+      "body": {
+        "en": "An older man you do not know is {utata}, father. An older woman is {umama}, mother. Someone about your own age, or a little older, is {usisi}, sister, or {ubhuti}, brother. Calling an older person by their first name can sound rude, so when in doubt, use the family word.",
+        "nb": "En eldre mann du ikke kjenner, er {utata}, far. En eldre kvinne er {umama}, mor. En som er omtrent på din alder eller litt eldre, er {usisi}, søster, eller {ubhuti}, bror. Å kalle en eldre person ved fornavn kan virke uhøflig, så bruk familieordet hvis du er i tvil."
+      }
+    },
+    {
+      "slug": "greet-before-you-ask",
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "greet-someone",
+      "order": 2,
+      "words": ["molo", "molweni"],
+      "caveat": "1. That you greet before you ask anything, including strangers in a shop or a taxi, and that skipping it is rude.\n2. That the greeting for several people is also used to greet one older person, as a mark of respect.\n3. Whether a visitor is expected to wait for the reply before going on.",
+      "title": {
+        "en": "Greet first, then ask",
+        "nb": "Hils først, spør etterpå"
+      },
+      "body": {
+        "en": "Before you ask anyone anything, greet them: a shopkeeper, a taxi driver, a stranger in the street. {molo} is for one person and {molweni} for more than one. Many people also use {molweni} to greet a single older person, as a sign of respect.",
+        "nb": "Før du spør noen om noe, hilser du: på butikkansatte, på taxisjåføren, på en fremmed på gata. {molo} er til én person, {molweni} til flere. Mange bruker også {molweni} til én eldre person, som et tegn på respekt."
+      }
+    },
+    {
+      "slug": "the-clicks-are-letters",
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "hear-the-three-clicks",
+      "order": 1,
+      "words": ["isiXhosa", "ncokola", "ingxowa", "qhubeka"],
+      "caveat": "1. That c, x and q always stand for a click in isiXhosa spelling.\n2. The descriptions: c made behind the front teeth, x at the side of the mouth, q at the roof of the mouth.\n3. That the letters beside a click (n before c, g before x, h after q) change how it is made.\n4. That swapping a click for a k sound is not understood, or changes the word, rather than being heard as an accent.",
+      "title": {
+        "en": "The clicks are letters",
+        "nb": "Klikkene er bokstaver"
+      },
+      "body": {
+        "en": "In {isiXhosa} spelling, c, x and q are clicks, and a click is a consonant like any other, not decoration. {ncokola} is spelt with a c, made behind the front teeth. {ingxowa} has an x, made at the side of the mouth. {qhubeka} has a q, made at the roof of the mouth. The letters beside each click change how it is made; later lessons teach those.",
+        "nb": "I {isiXhosa}-rettskrivingen er c, x og q klikk, og et klikk er en konsonant som alle andre, ikke pynt. {ncokola} staves med c, som lages bak fortennene. {ingxowa} har x, som lages i siden av munnen. {qhubeka} har q, som lages mot ganen. Bokstavene ved siden av hvert klikk endrer hvordan det lages; det lærer du senere."
+      }
+    },
+    {
+      "slug": "receiving-with-both-hands",
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "say-yes-no-thanks",
+      "order": 1,
+      "words": ["enkosi"],
+      "caveat": "1. That the word shown is the everyday thank-you, to one person or several.\n2. That taking something with both hands, or with the right hand while the left touches the right forearm, shows respect, especially towards an older person.\n3. Whether this is still usual in Cape Town, or mainly in the Eastern Cape and among older people.",
+      "title": {
+        "en": "Thanks with both hands",
+        "nb": "Takk med begge hender"
+      },
+      "body": {
+        "en": "{enkosi} is the thank-you you will use most. How you take something matters too: with both hands, or with your right hand while your left touches your right arm. It shows respect, above all towards someone older than you.",
+        "nb": "{enkosi} er takk-ordet du kommer til å bruke mest. Hvordan du tar imot noe, betyr også noe: med begge hender, eller med høyre hånd mens venstre hånd berører høyre arm. Det viser respekt, særlig overfor noen som er eldre enn deg."
+      }
+    },
+    {
+      "slug": "clan-names",
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "say-who-you-are",
+      "order": 1,
+      "words": ["igama"],
+      "caveat": "1. That many people have a clan name as well as a surname, and use it to greet and to thank.\n2. That asking someone's clan name is a friendly question, not an intrusive one.\n3. The isiXhosa word for a clan name is NOT in the lexicon and is deliberately not written here. If this card is kept, please give the word so it can be added, recorded and shown.\n4. Whether a learner should be told this in their first unit at all.",
+      "title": {
+        "en": "More than one name",
+        "nb": "Mer enn ett navn"
+      },
+      "body": {
+        "en": "{igama} means name. Besides a first name and a surname, many people also have a clan name, shared with everyone descended from the same ancestor. People use it to greet and to thank each other, and asking someone which clan they belong to is a friendly question.",
+        "nb": "{igama} betyr navn. I tillegg til fornavn og etternavn har mange også et klannavn, som de deler med alle som stammer fra den samme forfaren. Man bruker det når man hilser og takker, og det er vennlig å spørre hvilken klan noen tilhører."
+      }
+    },
+    {
+      "slug": "your-mothers-brother",
+      "unitSlug": "people",
+      "skillSlug": "name-your-family",
+      "order": 1,
+      "words": ["umalume", "umama"],
+      "caveat": "1. That the mother's brother has a word of his own, distinct from other uncles.\n2. That he traditionally has a particular role in his sister's children's lives.\n3. That a mother's sisters may also be called mother. Strike any part that is not true in Cape Town today.",
+      "title": {
+        "en": "Your mother's brother",
+        "nb": "Morens bror"
+      },
+      "body": {
+        "en": "Family words cover more people than in English. Your mother's sisters may also be {umama}, mother. Your mother's brother has his own word, {umalume}, and traditionally a special place in your life.",
+        "nb": "Familieordene dekker flere enn på norsk. Morens søstre kan også være {umama}, mor. Morens bror har sitt eget ord, {umalume}, og tradisjonelt en særlig plass i livet ditt."
+      }
+    },
+    {
+      "slug": "ubuntu",
+      "unitSlug": "people",
+      "skillSlug": "say-who-someone-is",
+      "order": 1,
+      "words": ["ubuntu", "umntu", "abantu"],
+      "caveat": "1. That the noun shown is the word for humanity in the sense of the ubuntu idea.\n2. That the idea is fairly summed up as 'a person is a person through other people'.\n3. The proverb itself is NOT written here, because it is not in the lexicon. If you want the card to quote it, please give it so it can be added and recorded.",
+      "title": {
+        "en": "A person through people",
+        "nb": "Menneske gjennom mennesker"
+      },
+      "body": {
+        "en": "{ubuntu} is humanity: the idea that a person, {umntu}, becomes a person through other people, {abantu}. You will hear it in a well-known proverb, and see it in how people greet, share and look after each other.",
+        "nb": "{ubuntu} betyr menneskelighet: tanken om at et menneske, {umntu}, blir et menneske gjennom andre mennesker, {abantu}. Du hører det i et kjent ordtak, og ser det i hvordan folk hilser, deler og tar vare på hverandre."
+      }
+    },
+    {
+      "slug": "cattle",
+      "unitSlug": "things",
+      "skillSlug": "name-animals-and-plants",
+      "order": 1,
+      "words": ["inkomo", "iinkomo"],
+      "caveat": "1. That cattle have traditionally measured wealth.\n2. That cattle, or their value in money, are part of marriage negotiations (bride wealth). The isiXhosa word for bride wealth is not in the lexicon and is not written here.\n3. Whether this is a fair thing to tell a beginner, and whether it needs a sentence about how it works in town today.",
+      "title": {
+        "en": "Cattle",
+        "nb": "Kveg"
+      },
+      "body": {
+        "en": "{inkomo} is a cow; more than one are {iinkomo}. Cattle have long been a measure of wealth, and they still play a part in marriage negotiations, where the groom's family offers cattle, or their value in money, to the bride's.",
+        "nb": "{inkomo} er ei ku; flere er {iinkomo}. Kveg har lenge vært et mål på rikdom, og det spiller fortsatt en rolle i ekteskapsforhandlinger, der brudgommens familie tilbyr kveg, eller verdien i penger, til brudens familie."
+      }
+    },
+    {
+      "slug": "samp-and-beans",
+      "unitSlug": "food-and-drink",
+      "skillSlug": "name-food-and-drink",
+      "order": 1,
+      "words": ["umngqusho", "amasi"],
+      "caveat": "1. That the dish shown is samp (crushed dried maize) cooked with beans.\n2. That it is widely thought of as a classic home dish.\n3. That the second word is sour milk, and that it is commonly eaten or drunk as the card says. Strike the claim about who likes it best if it is only a cliché.",
+      "title": {
+        "en": "Samp and beans",
+        "nb": "Samp og bønner"
+      },
+      "body": {
+        "en": "{umngqusho} is samp, crushed dried maize, cooked slowly with beans. It is a classic home dish. {amasi}, thick sour milk, is another taste of home, eaten on its own or with maize porridge.",
+        "nb": "{umngqusho} er samp, knust tørket mais, kokt langsomt med bønner. Det er en klassisk hjemmerett. {amasi}, tykk surmelk, er en annen smak av hjemme, spist alene eller med maisgrøt."
+      }
+    },
+    {
+      "slug": "minibus-taxis",
+      "unitSlug": "getting-around",
+      "skillSlug": "take-a-taxi",
+      "order": 1,
+      "words": ["imoto"],
+      "caveat": "1. That minibus taxis are the main way many people get around the city.\n2. That passengers use hand signs at the roadside to show where they are going.\n3. That fares are passed forward from hand to hand to the front.\n4. That greeting the other passengers when you get in is expected.",
+      "title": {
+        "en": "The minibus taxi",
+        "nb": "Minibuss-taxien"
+      },
+      "body": {
+        "en": "For many people the way around town is not a private {imoto}, a car, but a minibus taxi. At the roadside, a hand sign tells the driver where you want to go. Inside, you pass your fare forward from hand to hand, and it is polite to greet the people you sit with.",
+        "nb": "For mange er veien rundt i byen ikke en egen {imoto}, bil, men en minibuss-taxi. Ved veikanten viser et håndtegn sjåføren hvor du skal. Inne sender du betalingen fremover fra hånd til hånd, og det er høflig å hilse på dem du sitter sammen med."
+      }
+    },
+    {
+      "slug": "friday-counts",
+      "unitSlug": "time",
+      "skillSlug": "name-the-days",
+      "order": 1,
+      "words": ["uLwesihlanu", "hlanu", "uMgqibelo", "gqiba"],
+      "caveat": "1. That the word for Friday contains the word for five, because Friday is the fifth day counting from Monday.\n2. That the word for Saturday is related to the verb to finish.\n3. That the weekdays from Tuesday to Friday are counted this way. The other day names are not in the lexicon and are not written here.",
+      "title": {
+        "en": "Friday is day five",
+        "nb": "Fredag er dag fem"
+      },
+      "body": {
+        "en": "Several weekdays are counted rather than named. Look inside {uLwesihlanu}, Friday, and you will find {hlanu}, five: it is the fifth day counting from Monday. {uMgqibelo}, Saturday, is related to {gqiba}, to finish.",
+        "nb": "Flere ukedager telles i stedet for å ha egne navn. Se inni {uLwesihlanu}, fredag, så finner du {hlanu}, fem: det er den femte dagen regnet fra mandag. {uMgqibelo}, lørdag, er i slekt med {gqiba}, å fullføre."
+      }
+    },
+    {
+      "slug": "green-and-blue",
+      "unitSlug": "describing",
+      "skillSlug": "name-the-colours",
+      "order": 1,
+      "words": ["luhlaza", "blowu"],
+      "caveat": "1. That the first word covers both green and blue, depending on context.\n2. That the second word is borrowed from English and is used when blue must be clear.\n3. Whether speakers in Cape Town actually say the borrowed word.",
+      "title": {
+        "en": "Green or blue?",
+        "nb": "Grønn eller blå?"
+      },
+      "body": {
+        "en": "{luhlaza} can mean green or blue: the grass and the sky share one colour word. When someone needs to be clear that they mean blue, they may use {blowu}, borrowed from English.",
+        "nb": "{luhlaza} kan bety både grønn og blå: gresset og himmelen deler ett fargeord. Når noen må gjøre det klart at de mener blå, kan de bruke {blowu}, lånt fra engelsk."
+      }
+    },
+    {
+      "slug": "prices-and-bargaining",
+      "unitSlug": "shopping",
+      "skillSlug": "talk-about-money",
+      "order": 1,
+      "words": ["ixabiso"],
+      "caveat": "1. That prices in shops are fixed.\n2. That at street stalls a little bargaining can be fine, but haggling hard is not expected and can seem rude.\n3. Whether greeting the stallholder before asking the price is expected, as the greetings card says.",
+      "title": {
+        "en": "Asking the price",
+        "nb": "Å spørre om prisen"
+      },
+      "body": {
+        "en": "{ixabiso} is the price. In shops the price is the price. At a street stall you can sometimes ask for a little off, but hard haggling is not the custom. Greet the seller before you ask.",
+        "nb": "{ixabiso} er prisen. I butikker er prisen fast. På en gatebod kan du noen ganger be om litt avslag, men hard pruting er ikke vanlig. Hils på selgeren før du spør."
+      }
+    },
+    {
+      "slug": "borrowed-words",
+      "unitSlug": "work-and-study",
+      "skillSlug": "talk-about-your-job",
+      "order": 1,
+      "words": ["utitshala", "isikolo"],
+      "caveat": "1. That the word for teacher is borrowed from English.\n2. That the word for school is borrowed, from Afrikaans or English.\n3. That borrowed words take a class prefix like any other noun. The classes shown come from the lexicon and are themselves unvalidated.",
+      "title": {
+        "en": "Borrowed words",
+        "nb": "Lånord"
+      },
+      "body": {
+        "en": "Some words will sound familiar. {utitshala}, teacher, comes from English, and {isikolo}, school, from Afrikaans or English. A borrowed word does not stay foreign: it takes a prefix at the front and joins a noun class like any other.",
+        "nb": "Noen ord vil høres kjente ut. {utitshala}, lærer, kommer fra engelsk, og {isikolo}, skole, fra afrikaans eller engelsk. Et lånord forblir ikke fremmed: det får et prefiks foran og blir med i en substantivklasse som alle andre."
+      }
+    },
+    {
+      "slug": "sorry-excuse-me-please",
+      "unitSlug": "asking-for-help",
+      "skillSlug": "be-polite-about-it",
+      "order": 1,
+      "words": ["uxolo:interj", "nceda"],
+      "caveat": "1. That the first word does duty as sorry, excuse me and (in some uses) please.\n2. That the verb shown, to help, is also how people say please when asking for something.\n3. That English speakers are surprised by this. Strike it if it is only our assumption.",
+      "title": {
+        "en": "Sorry, excuse me, please",
+        "nb": "Unnskyld, beklager, vær så snill"
+      },
+      "body": {
+        "en": "{uxolo:interj} is one word where English needs several: sorry, excuse me, and sometimes please. When you ask for something, you may also hear {nceda}, help, used the way English uses please.",
+        "nb": "{uxolo:interj} er ett ord der norsk trenger flere: unnskyld, beklager og noen ganger vær så snill. Når du ber om noe, kan du også høre {nceda}, hjelp, brukt slik vi bruker vær så snill."
+      }
+    }
+  ]
+}

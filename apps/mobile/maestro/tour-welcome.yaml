@@ -1,0 +1,52 @@
+# Maestro flow: the first-run onboarding, with screenshots of every step.
+# Start from settings → "Show the intro again" (or a fresh install).
+# Screenshots land in the current working directory (p4-*.png).
+appId: com.hardmax.molo
+---
+- launchApp:
+    stopApp: false
+- extendedWaitUntil:
+    visible:
+      id: "onboarding-next"
+    timeout: 150000
+- takeScreenshot: p4-20-welcome-hello
+- tapOn:
+    id: "onboarding-next"
+    retryTapIfNoChange: false
+- waitForAnimationToEnd
+- takeScreenshot: p4-21-welcome-language
+- tapOn:
+    id: "onboarding-next"
+    retryTapIfNoChange: false
+- waitForAnimationToEnd
+- tapOn:
+    id: "goal-serious"
+    retryTapIfNoChange: false
+- takeScreenshot: p4-22-welcome-goal
+- tapOn:
+    id: "onboarding-next"
+    retryTapIfNoChange: false
+- waitForAnimationToEnd
+- takeScreenshot: p4-23-welcome-where
+- tapOn:
+    id: "onboarding-next"
+    retryTapIfNoChange: false
+- waitForAnimationToEnd
+- tapOn:
+    id: "click-x"
+    retryTapIfNoChange: false
+- waitForAnimationToEnd
+- takeScreenshot: p4-24-welcome-clicks
+- tapOn:
+    id: "onboarding-next"
+    retryTapIfNoChange: false
+- waitForAnimationToEnd
+- takeScreenshot: p4-25-welcome-ready
+- tapOn:
+    id: "onboarding-guest"
+    retryTapIfNoChange: false
+- extendedWaitUntil:
+    visible:
+      id: "start-dev-fixture-unit-1"
+    timeout: 30000
+- takeScreenshot: p4-26-home-after-onboarding

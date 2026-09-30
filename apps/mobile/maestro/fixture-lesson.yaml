@@ -1,0 +1,49 @@
+# Maestro flow: open the __DEV__ fixture unit and complete its lesson.
+# The fixture exists only in dev builds (src/fixtures/demo-unit.ts), so this
+# flow runs against the dev client, never a release build.
+# Run: maestro test apps/mobile/maestro/fixture-lesson.yaml
+appId: com.hardmax.molo
+---
+- launchApp
+- scrollUntilVisible:
+    element:
+      id: "start-dev-fixture-unit-1"
+    direction: DOWN
+- tapOn:
+    id: "start-dev-fixture-unit-1"
+- tapOn:
+    id: "lesson-1"
+# Culture card first, then exercises: keep tapping through with the
+# check/continue pair until the celebration appears. Wrong answers are fine
+# here; the flow proves the runner reaches the end, not the learner's isiXhosa.
+- repeat:
+    while:
+      notVisible:
+        id: "celebration"
+    commands:
+      - runFlow:
+          when:
+            visible:
+              text: "Fortsett|Continue"
+          commands:
+            - tapOn:
+                text: "Fortsett|Continue"
+      - runFlow:
+          when:
+            visible:
+              id: "check"
+          commands:
+            - tapOn:
+                id: "check"
+      - runFlow:
+          when:
+            visible:
+              text: "Hopp over|Skip"
+          commands:
+            - tapOn:
+                text: "Hopp over|Skip"
+# The celebration is a sequence; "skip" leaves it whatever beats were earned.
+- assertVisible:
+    id: "celebration-lesson"
+- tapOn:
+    id: "celebration-skip"

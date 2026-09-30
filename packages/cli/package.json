@@ -1,0 +1,30 @@
+{
+  "name": "@molo/cli",
+  "version": "0.0.0",
+  "private": true,
+  "bin": {
+    "molo": "./src/main.ts"
+  },
+  "type": "module",
+  "scripts": {
+    "molo": "bun run src/main.ts",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@effect/cli": "0.77.0",
+    "@effect/platform": "0.97.1",
+    "@effect/platform-bun": "0.91.2",
+    "@molo/content": "workspace:*",
+    "@molo/core": "workspace:*",
+    "@molo/db": "workspace:*",
+    "@molo/gamification": "workspace:*",
+    "drizzle-orm": "0.45.2",
+    "effect": "3.22.1",
+    "postgres": "3.4.9"
+  },
+  "devDependencies": {
+    "@types/bun": "1.4.0",
+    "typescript": "7.0.2",
+    "vitest": "5.0.0"
+  }
+}

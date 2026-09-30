@@ -1,0 +1,9 @@
+[workspace]
+resolver = "3"
+members = ["crates/xh-audio", "crates/xh-fsrs", "crates/xh-morph"]
+
+[workspace.package]
+edition = "2024"
+rust-version = "1.90"
+license = "UNLICENSED"
+publish = false

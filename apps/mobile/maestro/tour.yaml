@@ -1,0 +1,130 @@
+# Maestro flow: a screenshot tour of the signed-in app for design review.
+# Screenshots land in the current working directory (p4-*.png).
+# Run: cd <out dir> && maestro test apps/mobile/maestro/tour.yaml
+appId: com.hardmax.molo
+---
+- launchApp:
+    stopApp: false
+- extendedWaitUntil:
+    visible:
+      id: "start-dev-fixture-unit-1"
+    timeout: 60000
+- takeScreenshot: p4-01-home
+- tapOn:
+    id: "start-dev-fixture-unit-1"
+- extendedWaitUntil:
+    visible:
+      id: "lesson-1"
+    timeout: 20000
+- takeScreenshot: p4-02-unit
+- tapOn:
+    id: "lesson-1"
+- extendedWaitUntil:
+    visible:
+      id: "exit-lesson"
+    timeout: 20000
+- takeScreenshot: p4-03-lesson-first
+# culture card first in the fixture: continue
+- runFlow:
+    when:
+      visible:
+        text: "Fortsett|Continue"
+    commands:
+      - tapOn:
+          text: "Fortsett|Continue"
+- takeScreenshot: p4-04-exercise
+- runFlow:
+    when:
+      visible:
+        id: "option-.*"
+    commands:
+      - tapOn:
+          id: "option-.*"
+          index: 0
+      - takeScreenshot: p4-05-picked
+      - tapOn:
+          id: "check"
+      - takeScreenshot: p4-06-feedback
+- repeat:
+    while:
+      notVisible:
+        id: "celebration"
+    commands:
+      - runFlow:
+          when:
+            visible:
+              id: "continue"
+          commands:
+            - tapOn:
+                id: "continue"
+      - runFlow:
+          when:
+            visible:
+              text: "Fortsett|Continue"
+          commands:
+            - tapOn:
+                text: "Fortsett|Continue"
+      - runFlow:
+          when:
+            visible:
+              id: "option-.*"
+          commands:
+            - tapOn:
+                id: "option-.*"
+                index: 0
+      - runFlow:
+          when:
+            visible:
+              id: "check"
+          commands:
+            - tapOn:
+                id: "check"
+      - runFlow:
+          when:
+            visible:
+              text: "Hopp over|Skip"
+          commands:
+            - tapOn:
+                text: "Hopp over|Skip"
+- takeScreenshot: p4-07-celebration
+- tapOn:
+    id: "celebration-skip"
+- extendedWaitUntil:
+    visible:
+      id: "lesson-1"
+    timeout: 20000
+- takeScreenshot: p4-08-unit-after
+- tapOn:
+    text: "Lær|Learn"
+- extendedWaitUntil:
+    visible:
+      text: "Ligaer|Leagues"
+    timeout: 20000
+- tapOn:
+    text: "Ligaer|Leagues"
+- extendedWaitUntil:
+    visible:
+      text: "Ligaer|Leagues"
+    timeout: 20000
+- takeScreenshot: p4-09-leagues
+- tapOn:
+    text: "Lær|Learn"
+- tapOn:
+    text: "Repetisjon|Review"
+- extendedWaitUntil:
+    visible:
+      text: "Repetisjon|Review"
+    timeout: 20000
+- takeScreenshot: p4-10-review
+# Tab labels, not ids: every tab shows its label on both platforms, and the
+# regex takes English or Norwegian so the flow does not depend on the device
+# language. The old `open-settings` id no longer exists anywhere in the app.
+- tapOn:
+    text: "Lær|Learn"
+- tapOn:
+    text: "Innstillinger|Settings"
+- extendedWaitUntil:
+    visible:
+      id: "sound-toggle"
+    timeout: 20000
+- takeScreenshot: p4-11-settings

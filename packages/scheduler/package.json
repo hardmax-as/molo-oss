@@ -1,0 +1,25 @@
+{
+  "name": "@molo/scheduler",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./fsrs": "./src/fsrs.ts",
+    "./wasm": "../../crates/xh-fsrs/pkg/xh_fsrs.js",
+    "./fsrs-node": "./src/fsrs-node.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@molo/core": "workspace:*",
+    "@molo/db": "workspace:*",
+    "drizzle-orm": "0.45.2"
+  },
+  "devDependencies": {
+    "@types/bun": "1.4.0",
+    "typescript": "7.0.2",
+    "vitest": "5.0.0"
+  }
+}

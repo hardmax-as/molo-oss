@@ -1,0 +1,33 @@
+{
+  "name": "@molo/api",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "typecheck": "tsc -p tsconfig.json",
+    "cf-typegen": "wrangler types"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "0.123.0",
+    "@better-auth/expo": "1.7.2",
+    "@hono/effect-validator": "1.2.0",
+    "@molo/content": "workspace:*",
+    "@molo/core": "workspace:*",
+    "@molo/db": "workspace:*",
+    "@molo/gamification": "workspace:*",
+    "@molo/i18n": "workspace:*",
+    "@molo/scheduler": "workspace:*",
+    "@sentry/cloudflare": "10.73.0",
+    "better-auth": "1.7.2",
+    "drizzle-orm": "0.45.2",
+    "effect": "3.22.1",
+    "hono": "4.13.5",
+    "postgres": "3.4.9"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "5.20260903.1",
+    "typescript": "7.0.2",
+    "wrangler": "4.128.0"
+  }
+}

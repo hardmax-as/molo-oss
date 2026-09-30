@@ -1,0 +1,629 @@
+{
+  "header": [
+    "PROPOSAL — NOT A CURRICULUM. An editor is expected to revise this file.",
+    "",
+    "This is a first ordering of an A1-to-A2 isiXhosa course, written by an agent",
+    "from what the lexicon and the corpora can actually support. Nothing in it has",
+    "been approved by an isiXhosa editor, no isiXhosa appears in it at all, and no",
+    "row it produces is ever published: `molo content curate` writes units, skills,",
+    "lessons, exercises and sentences as `draft` and they wait for the dashboard.",
+    "",
+    "Units are named for what a learner can then DO, not for a vocabulary field:",
+    "'Order food and drink', never 'Food vocabulary'. That is the CEFR can-do",
+    "framing and it is what the path banner shows. The vocabulary field lives in",
+    "`theme`, which is a key into `themes.json` and is read only by the curation",
+    "matcher.",
+    "",
+    "The order is deliberate. The expected audience is visitors on a two- or",
+    "three-week trip and Norwegians with a family or work tie to South Africa, so",
+    "the situations a visitor meets in the first days come first: greeting, people,",
+    "things, food, getting around. Grammar rides along with the situation that",
+    "needs it rather than getting units of its own.",
+    "",
+    "What an editor should change first:",
+    "  - the split between units 3 and 7: 'things' and 'describing' overlap;",
+    "  - `targetNewWords`, which is a guess at pacing and adds up to ~400 words,",
+    "    short of the ~1 500 that docs/CONTENT.md wants for a complete A2;",
+    "  - the Phase-0 sample unit `unit-1` in the database covers the same ground as",
+    "    unit 1 here and should be retired or merged;",
+    "  - `grammar` on each skill is an editor's note in English, not learner copy,",
+    "    and several of the claims in it want a tutor's eye.",
+    "",
+    "Learner-facing titles live in packages/i18n under `titleKey`; the `title`",
+    "field here is the same string kept next to the proposal so an editor can read",
+    "the file on its own. `spine.test.ts` asserts the two never drift apart."
+  ],
+  "version": 1,
+  "course": "xhosa",
+  "units": [
+    {
+      "slug": "greet-and-introduce",
+      "order": 1,
+      "cefrBand": "A1",
+      "titleKey": "curriculum.units.greet-and-introduce.title",
+      "title": {
+        "en": "Say hello and say who you are",
+        "nb": "Hils og si hvem du er"
+      },
+      "skills": [
+        {
+          "slug": "greet-someone",
+          "order": 1,
+          "kind": "vocab",
+          "theme": "greetings",
+          "targetNewWords": 8,
+          "titleKey": "curriculum.units.greet-and-introduce.skills.greet-someone.title",
+          "title": {
+            "en": "Greet someone and say goodbye",
+            "nb": "Hils på noen og si ha det"
+          },
+          "grammar": "Greetings are learned whole. molo to one person, molweni to more than one — the -ni is the first plural a learner meets, before any rule is stated."
+        },
+        {
+          "slug": "hear-the-three-clicks",
+          "order": 2,
+          "kind": "pronunciation",
+          "theme": "clicks",
+          "targetNewWords": 8,
+          "titleKey": "curriculum.units.greet-and-introduce.skills.hear-the-three-clicks.title",
+          "title": {
+            "en": "Hear the difference between c, x and q",
+            "nb": "Hør forskjellen på c, x og q"
+          },
+          "grammar": "The three basic clicks in lesson one, as sounds before they are words: c dental, x lateral, q palatal. The aspirated and nasalised variants come later.",
+          "clickIdentifySets": ["A", "B"]
+        },
+        {
+          "slug": "say-yes-no-thanks",
+          "order": 3,
+          "kind": "vocab",
+          "theme": "courtesy",
+          "targetNewWords": 6,
+          "titleKey": "curriculum.units.greet-and-introduce.skills.say-yes-no-thanks.title",
+          "title": {
+            "en": "Say yes, no and thank you",
+            "nb": "Si ja, nei og takk"
+          },
+          "grammar": "ewe and hayi as free answers; enkosi as the one word a visitor uses most."
+        },
+        {
+          "slug": "say-who-you-are",
+          "order": 4,
+          "kind": "grammar",
+          "theme": "identity",
+          "targetNewWords": 10,
+          "titleKey": "curriculum.units.greet-and-introduce.skills.say-who-you-are.title",
+          "title": {
+            "en": "Say your name and where you are from",
+            "nb": "Si hva du heter og hvor du er fra"
+          },
+          "grammar": "First person: ndi- on the verb, igama lam for 'my name'. Introduced as patterns to reuse, not as a paradigm to learn."
+        }
+      ]
+    },
+    {
+      "slug": "people",
+      "order": 2,
+      "cefrBand": "A1",
+      "titleKey": "curriculum.units.people.title",
+      "title": {
+        "en": "Talk about people and family",
+        "nb": "Snakk om folk og familie"
+      },
+      "skills": [
+        {
+          "slug": "name-your-family",
+          "order": 1,
+          "kind": "vocab",
+          "theme": "family",
+          "targetNewWords": 14,
+          "titleKey": "curriculum.units.people.skills.name-your-family.title",
+          "title": {
+            "en": "Name the people in your family",
+            "nb": "Sett navn på folkene i familien din"
+          },
+          "grammar": "Kinship terms are class 1a (umama, utata, usisi): a bare u- prefix and an oo- plural, which is why they come before class 1 proper."
+        },
+        {
+          "slug": "say-who-someone-is",
+          "order": 2,
+          "kind": "vocab",
+          "theme": "people",
+          "targetNewWords": 12,
+          "titleKey": "curriculum.units.people.skills.say-who-someone-is.title",
+          "title": {
+            "en": "Say who someone is",
+            "nb": "Si hvem noen er"
+          },
+          "grammar": "Class 1: um- for people (umntu, umfazi, umfundi). The subject concord u- on the verb agrees with it."
+        },
+        {
+          "slug": "talk-about-more-than-one",
+          "order": 3,
+          "kind": "grammar",
+          "theme": "people-plural",
+          "targetNewWords": 10,
+          "titleKey": "curriculum.units.people.skills.talk-about-more-than-one.title",
+          "title": {
+            "en": "Talk about more than one person",
+            "nb": "Snakk om flere enn én person"
+          },
+          "grammar": "Class 2: aba- as the plural of class 1, with subject concord ba-. The first place a learner sees agreement change with number."
+        }
+      ]
+    },
+    {
+      "slug": "things",
+      "order": 3,
+      "cefrBand": "A1",
+      "titleKey": "curriculum.units.things.title",
+      "title": {
+        "en": "Name the things around you",
+        "nb": "Sett navn på tingene rundt deg"
+      },
+      "skills": [
+        {
+          "slug": "name-things-at-home",
+          "order": 1,
+          "kind": "vocab",
+          "theme": "home-objects",
+          "targetNewWords": 14,
+          "titleKey": "curriculum.units.things.skills.name-things-at-home.title",
+          "title": {
+            "en": "Name the things in a home",
+            "nb": "Sett navn på tingene i et hjem"
+          },
+          "grammar": "Everyday objects spread across classes 3 to 9. The class is a fact on the word, learned with the word, never guessed from its shape."
+        },
+        {
+          "slug": "name-animals-and-plants",
+          "order": 2,
+          "kind": "vocab",
+          "theme": "animals-plants",
+          "targetNewWords": 12,
+          "titleKey": "curriculum.units.things.skills.name-animals-and-plants.title",
+          "title": {
+            "en": "Name animals and plants",
+            "nb": "Sett navn på dyr og planter"
+          },
+          "grammar": "Class 9/10 carries most animals (inja, inkomo, intaka); class 3/4 carries trees. Two pairs, contrasted."
+        },
+        {
+          "slug": "point-at-one-or-many",
+          "order": 3,
+          "kind": "grammar",
+          "theme": "things-plural",
+          "targetNewWords": 10,
+          "titleKey": "curriculum.units.things.skills.point-at-one-or-many.title",
+          "title": {
+            "en": "Say one thing or many",
+            "nb": "Si én ting eller mange"
+          },
+          "grammar": "The singular/plural pairings 3-4, 5-6, 7-8, 9-10, taught as pairs of real words rather than as a table."
+        },
+        {
+          "slug": "name-parts-of-the-body",
+          "order": 4,
+          "kind": "vocab",
+          "theme": "body",
+          "targetNewWords": 12,
+          "titleKey": "curriculum.units.things.skills.name-parts-of-the-body.title",
+          "title": {
+            "en": "Name the parts of the body",
+            "nb": "Sett navn på kroppsdelene"
+          },
+          "grammar": "Body parts are the classic mixed-class set (isandla/izandla, unyawo/iinyawo, ilizwi/amazwi) and make the plural pairings concrete. They are also what unit 10 needs."
+        }
+      ]
+    },
+    {
+      "slug": "food-and-drink",
+      "order": 4,
+      "cefrBand": "A1",
+      "titleKey": "curriculum.units.food-and-drink.title",
+      "title": {
+        "en": "Order food and drink",
+        "nb": "Bestill mat og drikke"
+      },
+      "skills": [
+        {
+          "slug": "name-food-and-drink",
+          "order": 1,
+          "kind": "vocab",
+          "theme": "food",
+          "targetNewWords": 16,
+          "titleKey": "curriculum.units.food-and-drink.skills.name-food-and-drink.title",
+          "title": {
+            "en": "Name food and drink",
+            "nb": "Sett navn på mat og drikke"
+          },
+          "grammar": "Food nouns, including the loans a Cape Town menu actually uses. Mass nouns like amanzi live in class 6 with no singular."
+        },
+        {
+          "slug": "say-what-you-want",
+          "order": 2,
+          "kind": "grammar",
+          "theme": "wanting",
+          "targetNewWords": 10,
+          "titleKey": "curriculum.units.food-and-drink.skills.say-what-you-want.title",
+          "title": {
+            "en": "Say what you want and what you like",
+            "nb": "Si hva du vil ha og hva du liker"
+          },
+          "grammar": "Present tense with ndi-ya- and the verbs an order needs: funa, thanda, cela, nika, biza. The verbs belong here, with the situation, not in a grammar unit of their own."
+        },
+        {
+          "slug": "count-what-you-order",
+          "order": 3,
+          "kind": "vocab",
+          "theme": "numbers",
+          "targetNewWords": 12,
+          "titleKey": "curriculum.units.food-and-drink.skills.count-what-you-order.title",
+          "title": {
+            "en": "Count what you order",
+            "nb": "Tell det du bestiller"
+          },
+          "grammar": "One to ten. isiXhosa numerals agree with the noun they count, which is left as a pattern here and taken up properly in unit 8."
+        },
+        {
+          "slug": "talk-about-cooking",
+          "order": 4,
+          "kind": "vocab",
+          "theme": "cooking",
+          "targetNewWords": 10,
+          "titleKey": "curriculum.units.food-and-drink.skills.talk-about-cooking.title",
+          "title": {
+            "en": "Talk about cooking and eating",
+            "nb": "Snakk om å lage mat og spise"
+          },
+          "grammar": "Kitchen verbs and the vessels they take. The Gothenburg corpus is unusually rich here, which is why this skill exists at all."
+        }
+      ]
+    },
+    {
+      "slug": "getting-around",
+      "order": 5,
+      "cefrBand": "A1",
+      "titleKey": "curriculum.units.getting-around.title",
+      "title": {
+        "en": "Find your way",
+        "nb": "Finn fram"
+      },
+      "skills": [
+        {
+          "slug": "ask-for-directions",
+          "order": 1,
+          "kind": "vocab",
+          "theme": "directions",
+          "targetNewWords": 12,
+          "titleKey": "curriculum.units.getting-around.skills.ask-for-directions.title",
+          "title": {
+            "en": "Ask for directions",
+            "nb": "Spør om veien"
+          },
+          "grammar": "phi 'where', and the direction words: phambili, emva, ecaleni, phezulu, phantsi."
+        },
+        {
+          "slug": "name-places-in-town",
+          "order": 2,
+          "kind": "vocab",
+          "theme": "places",
+          "targetNewWords": 14,
+          "titleKey": "curriculum.units.getting-around.skills.name-places-in-town.title",
+          "title": {
+            "en": "Name places in a town",
+            "nb": "Sett navn på steder i en by"
+          },
+          "grammar": "Buildings and places, most of them class 7 or 9 loans (isikolo, isibhedlele, ivenkile)."
+        },
+        {
+          "slug": "take-a-taxi",
+          "order": 3,
+          "kind": "vocab",
+          "theme": "transport",
+          "targetNewWords": 10,
+          "titleKey": "curriculum.units.getting-around.skills.take-a-taxi.title",
+          "title": {
+            "en": "Take a taxi and travel",
+            "nb": "Ta taxi og reis"
+          },
+          "grammar": "Transport nouns and the verbs of movement: hamba, ya, fika, buya, khwela."
+        },
+        {
+          "slug": "say-where-something-is",
+          "order": 4,
+          "kind": "grammar",
+          "theme": "locatives",
+          "targetNewWords": 10,
+          "titleKey": "curriculum.units.getting-around.skills.say-where-something-is.title",
+          "title": {
+            "en": "Say where something is",
+            "nb": "Si hvor noe er"
+          },
+          "grammar": "The locative e-...-ini and its lexicalised forms (ekhaya, esikolweni, eGoli). TUTOR-VALIDATE: xh-morph does not generate locatives, so every form here comes from the lexicon or a corpus."
+        }
+      ]
+    },
+    {
+      "slug": "time",
+      "order": 6,
+      "cefrBand": "A2",
+      "titleKey": "curriculum.units.time.title",
+      "title": {
+        "en": "Talk about when",
+        "nb": "Snakk om når"
+      },
+      "skills": [
+        {
+          "slug": "name-the-days",
+          "order": 1,
+          "kind": "vocab",
+          "theme": "days-months",
+          "targetNewWords": 12,
+          "titleKey": "curriculum.units.time.skills.name-the-days.title",
+          "title": {
+            "en": "Name the days and months",
+            "nb": "Sett navn på dagene og månedene"
+          },
+          "grammar": "Days and months, and the week/month/year nouns around them."
+        },
+        {
+          "slug": "tell-the-time",
+          "order": 2,
+          "kind": "vocab",
+          "theme": "time-of-day",
+          "targetNewWords": 12,
+          "titleKey": "curriculum.units.time.skills.tell-the-time.title",
+          "title": {
+            "en": "Say what time of day it is",
+            "nb": "Si hvilken tid på dagen det er"
+          },
+          "grammar": "Parts of the day (ekuseni, emini, ngokuhlwa, ebusuku) and the words for now, today, yesterday, tomorrow."
+        },
+        {
+          "slug": "talk-about-yesterday",
+          "order": 3,
+          "kind": "grammar",
+          "theme": "past",
+          "targetNewWords": 10,
+          "titleKey": "curriculum.units.time.skills.talk-about-yesterday.title",
+          "title": {
+            "en": "Talk about what happened",
+            "nb": "Snakk om det som skjedde"
+          },
+          "grammar": "Past tense -ile and nd(a)-. TUTOR-VALIDATE: xh-morph generates no verb forms at all, so every past form shown here has to come from a corpus sentence or an editor."
+        },
+        {
+          "slug": "talk-about-tomorrow",
+          "order": 4,
+          "kind": "grammar",
+          "theme": "future",
+          "targetNewWords": 10,
+          "titleKey": "curriculum.units.time.skills.talk-about-tomorrow.title",
+          "title": {
+            "en": "Talk about what will happen",
+            "nb": "Snakk om det som skal skje"
+          },
+          "grammar": "Future with -za ku-. Same caveat as the past: no generator, so no generated forms."
+        }
+      ]
+    },
+    {
+      "slug": "describing",
+      "order": 7,
+      "cefrBand": "A2",
+      "titleKey": "curriculum.units.describing.title",
+      "title": {
+        "en": "Describe things and people",
+        "nb": "Beskriv ting og folk"
+      },
+      "skills": [
+        {
+          "slug": "name-the-colours",
+          "order": 1,
+          "kind": "vocab",
+          "theme": "colours",
+          "targetNewWords": 10,
+          "titleKey": "curriculum.units.describing.skills.name-the-colours.title",
+          "title": {
+            "en": "Name the colours",
+            "nb": "Sett navn på fargene"
+          },
+          "grammar": "Colour words are relatives, not adjectives, and take a relative concord that changes with the noun's class."
+        },
+        {
+          "slug": "say-how-big",
+          "order": 2,
+          "kind": "vocab",
+          "theme": "size-shape",
+          "targetNewWords": 10,
+          "titleKey": "curriculum.units.describing.skills.say-how-big.title",
+          "title": {
+            "en": "Say how big or small something is",
+            "nb": "Si hvor stort eller lite noe er"
+          },
+          "grammar": "The true adjectives are a closed set of about a dozen stems (khulu, ncinci, de, ninzi, bini...) and take the adjective concord."
+        },
+        {
+          "slug": "describe-a-person",
+          "order": 3,
+          "kind": "vocab",
+          "theme": "character",
+          "targetNewWords": 12,
+          "titleKey": "curriculum.units.describing.skills.describe-a-person.title",
+          "title": {
+            "en": "Describe what someone is like",
+            "nb": "Beskriv hvordan noen er"
+          },
+          "grammar": "Character and feeling words, mostly relatives again (mnandi, nzima, lungileyo)."
+        },
+        {
+          "slug": "join-a-describing-word",
+          "order": 4,
+          "kind": "grammar",
+          "theme": "relatives",
+          "targetNewWords": 8,
+          "titleKey": "curriculum.units.describing.skills.join-a-describing-word.title",
+          "title": {
+            "en": "Join a describing word to a noun",
+            "nb": "Sett et beskrivende ord til et substantiv"
+          },
+          "grammar": "The relative concord per class. This is the skill concord_fill exists for, and it stays empty until a tutor validates the classes."
+        }
+      ]
+    },
+    {
+      "slug": "shopping",
+      "order": 8,
+      "cefrBand": "A2",
+      "titleKey": "curriculum.units.shopping.title",
+      "title": {
+        "en": "Shop and pay",
+        "nb": "Handle og betal"
+      },
+      "skills": [
+        {
+          "slug": "go-to-the-market",
+          "order": 1,
+          "kind": "vocab",
+          "theme": "shopping",
+          "targetNewWords": 12,
+          "titleKey": "curriculum.units.shopping.skills.go-to-the-market.title",
+          "title": {
+            "en": "Shop at a market and a shop",
+            "nb": "Handle på marked og i butikk"
+          },
+          "grammar": "thenga, thengisa and the nouns of a market. The -is- causative pair is worth noticing here, not drilling."
+        },
+        {
+          "slug": "talk-about-money",
+          "order": 2,
+          "kind": "vocab",
+          "theme": "money",
+          "targetNewWords": 10,
+          "titleKey": "curriculum.units.shopping.skills.talk-about-money.title",
+          "title": {
+            "en": "Talk about money and prices",
+            "nb": "Snakk om penger og priser"
+          },
+          "grammar": "imali, ixabiso, irandi, and the tens and hundreds."
+        },
+        {
+          "slug": "ask-how-much",
+          "order": 3,
+          "kind": "grammar",
+          "theme": "quantity",
+          "targetNewWords": 10,
+          "titleKey": "curriculum.units.shopping.skills.ask-how-much.title",
+          "title": {
+            "en": "Ask how much and how many",
+            "nb": "Spør hvor mye og hvor mange"
+          },
+          "grammar": "ngaphi and the quantifiers (-nke, -ninzi, -mbalwa), which agree with the class of what is being counted."
+        }
+      ]
+    },
+    {
+      "slug": "work-and-study",
+      "order": 9,
+      "cefrBand": "A2",
+      "titleKey": "curriculum.units.work-and-study.title",
+      "title": {
+        "en": "Talk about work and study",
+        "nb": "Snakk om jobb og studier"
+      },
+      "skills": [
+        {
+          "slug": "talk-about-your-job",
+          "order": 1,
+          "kind": "vocab",
+          "theme": "work",
+          "targetNewWords": 14,
+          "titleKey": "curriculum.units.work-and-study.skills.talk-about-your-job.title",
+          "title": {
+            "en": "Say what work you do",
+            "nb": "Si hva slags arbeid du gjør"
+          },
+          "grammar": "umsebenzi is class 1 for the worker and class 3 for the work — the clearest example in the course of why class is not decoration."
+        },
+        {
+          "slug": "talk-about-school",
+          "order": 2,
+          "kind": "vocab",
+          "theme": "school",
+          "targetNewWords": 12,
+          "titleKey": "curriculum.units.work-and-study.skills.talk-about-school.title",
+          "title": {
+            "en": "Talk about school and learning",
+            "nb": "Snakk om skole og læring"
+          },
+          "grammar": "funda/fundisa/umfundi/utitshala as one family, which is how isiXhosa vocabulary is actually built."
+        },
+        {
+          "slug": "describe-your-day",
+          "order": 3,
+          "kind": "vocab",
+          "theme": "daily-routine",
+          "targetNewWords": 12,
+          "titleKey": "curriculum.units.work-and-study.skills.describe-your-day.title",
+          "title": {
+            "en": "Describe your day",
+            "nb": "Beskriv dagen din"
+          },
+          "grammar": "The verbs of a day: vuka, hlamba, tya, sebenza, buya, lala, joined with the time words from unit 6."
+        }
+      ]
+    },
+    {
+      "slug": "asking-for-help",
+      "order": 10,
+      "cefrBand": "A2",
+      "titleKey": "curriculum.units.asking-for-help.title",
+      "title": {
+        "en": "Ask for help",
+        "nb": "Be om hjelp"
+      },
+      "skills": [
+        {
+          "slug": "say-you-are-unwell",
+          "order": 1,
+          "kind": "vocab",
+          "theme": "health",
+          "targetNewWords": 14,
+          "titleKey": "curriculum.units.asking-for-help.skills.say-you-are-unwell.title",
+          "title": {
+            "en": "Say that you are unwell",
+            "nb": "Si at du er syk"
+          },
+          "grammar": "Illness words plus the body parts from unit 3: 'my head is sore' is the pattern, and it needs the possessive concord."
+        },
+        {
+          "slug": "ask-someone-for-help",
+          "order": 2,
+          "kind": "vocab",
+          "theme": "help-trouble",
+          "targetNewWords": 12,
+          "titleKey": "curriculum.units.asking-for-help.skills.ask-someone-for-help.title",
+          "title": {
+            "en": "Ask someone for help",
+            "nb": "Be noen om hjelp"
+          },
+          "grammar": "nceda, cela, khusela and the words for trouble. The imperative is the one verb form a visitor genuinely needs in a hurry."
+        },
+        {
+          "slug": "be-polite-about-it",
+          "order": 3,
+          "kind": "vocab",
+          "theme": "politeness",
+          "targetNewWords": 8,
+          "titleKey": "curriculum.units.asking-for-help.skills.be-polite-about-it.title",
+          "title": {
+            "en": "Be polite and apologise",
+            "nb": "Vær høflig og be om unnskyldning"
+          },
+          "grammar": "uxolo does duty as sorry, excuse me and please, which surprises every English speaker and is worth a culture card."
+        }
+      ]
+    }
+  ]
+}

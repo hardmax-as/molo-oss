@@ -1,0 +1,44 @@
+Molo assets, curriculum and legal texts
+Copyright (C) 2026 Hardmax AS. All rights reserved.
+
+The source code in this repository is licensed under the GNU Affero General
+Public License v3.0 (see LICENSE). That licence covers code. It does NOT cover
+the following, which are the property of Hardmax AS and are not licensed for
+copying, modification or redistribution, except as needed to build and run this
+repository for evaluation:
+
+  1. The Molo name and logo, and the three mascots (the sunbird, the penguin
+     and the crane) in any form: image files, and the SVG path data that draws
+     them in apps/web/src/components/illustrations/ and apps/mobile/src/ui/
+     Mascots.tsx.
+  2. Illustrations, app icons, splash screens, store and press artwork:
+     packages/brand/ (illustrations/, app-assets/, presskit/), apps/web/public/
+     (images and icons), apps/mobile/assets/, and docs/screenshots/.
+  3. Sound effects: packages/sfx/sounds/.
+  4. Recordings. No recordings of isiXhosa speakers are included in this
+     repository; any made by or for Molo are reserved, and are also subject to
+     the speakers' consent agreements.
+  5. The curriculum: curriculum/*.json (the course spine, theme map, grammar
+     notes, sentence requests and culture cards).
+  6. The legal texts: packages/brand/legal/*.md (privacy policy, terms,
+     withdrawal form, company, providers, account deletion, attributions).
+
+Exceptions, which keep their own licences:
+
+  - Data adapted from IsiXhosa.click (https://isixhosa.click/), a student-led
+    dictionary supported by the University of Cape Town and SADiLaR, is
+    licensed under Creative Commons Attribution-ShareAlike 4.0 International
+    (CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/). In this
+    tree that is the isiXhosa lemmas, noun classes, word ids and English glosses
+    in crates/xh-morph/golden/classes_1_10.toml and
+    packages/testkit/golden/cases.json, and the example words quoted in
+    crates/xh-morph/rules/noun_classes.toml. Changes: the entries were selected
+    and arranged as test cases; the expected forms are left empty.
+  - Third-party libraries, fonts and other material keep the licences listed
+    in packages/brand/legal/attributions.en.md, packages/brand/legal/
+    library-notices/ and packages/brand/generated/libraries.*.json.
+
+If you fork this repository to build your own app, replace the name, logo,
+mascots, artwork, sounds, curriculum and legal texts with your own.
+
+Contact: support@hellomolo.com

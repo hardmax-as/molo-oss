@@ -1,0 +1,34 @@
+{
+  "name": "@molo/db",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./schema": "./src/schema/index.ts",
+    "./client": "./src/client.ts",
+    "./repositories": "./src/repositories/index.ts",
+    "./migrate": "./src/migrate.ts",
+    "./seed": "./src/seed.ts",
+    "./ingest": "./src/ingest/load-lexicon.ts",
+    "./stats": "./src/stats.ts",
+    "./pg-stats": "./src/pg-stats.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json",
+    "migrate": "bun run src/migrate.ts",
+    "seed": "bun run src/seed.ts",
+    "generate": "drizzle-kit generate"
+  },
+  "dependencies": {
+    "@molo/core": "workspace:*",
+    "drizzle-orm": "0.45.2",
+    "effect": "3.22.1",
+    "postgres": "3.4.9"
+  },
+  "devDependencies": {
+    "@types/bun": "1.4.0",
+    "drizzle-kit": "0.31.10",
+    "typescript": "7.0.2"
+  }
+}

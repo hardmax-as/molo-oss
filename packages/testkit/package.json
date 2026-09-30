@@ -1,0 +1,28 @@
+{
+  "name": "@molo/testkit",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./fixtures": "./src/fixtures.ts",
+    "./e2e-seed": "./src/e2e-seed.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@molo/core": "workspace:*",
+    "@molo/db": "workspace:*",
+    "@molo/gamification": "workspace:*",
+    "@molo/scheduler": "workspace:*",
+    "drizzle-orm": "0.45.2",
+    "effect": "3.22.1",
+    "postgres": "3.4.9"
+  },
+  "devDependencies": {
+    "@types/bun": "1.4.0",
+    "typescript": "7.0.2",
+    "vitest": "5.0.0"
+  }
+}

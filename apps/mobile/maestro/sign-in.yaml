@@ -1,0 +1,22 @@
+# Maestro flow: sign in with email and password against the local API.
+# Run: maestro test apps/mobile/maestro/sign-in.yaml -e EMAIL=... -e PASSWORD=...
+# Needs the dev client on a simulator and `wrangler dev` on :8787 (README).
+appId: com.hardmax.molo
+env:
+  EMAIL: zz-ui-editor@molo.local
+  PASSWORD: zz-ui-editor-pass-1234
+---
+- launchApp
+- tapOn:
+    id: "go-sign-in"
+- tapOn:
+    id: "email"
+- inputText: ${EMAIL}
+- tapOn:
+    id: "password"
+- inputText: ${PASSWORD}
+- hideKeyboard
+- tapOn:
+    id: "submit-auth"
+- assertVisible:
+    text: "Repetisjon|Review"

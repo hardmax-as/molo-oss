@@ -1,0 +1,29 @@
+{
+  "name": "@molo/core",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./gamification": "./src/gamification.ts",
+    "./path": "./src/path.ts",
+    "./status": "./src/status.ts",
+    "./publish-gate": "./src/publish-gate.ts",
+    "./report": "./src/report.ts",
+    "./exercises": "./src/exercises/index.ts",
+    "./lesson": "./src/lesson.ts",
+    "./schemas": "./src/schemas.ts",
+    "./api": "./src/api.ts",
+    "./celebration": "./src/celebration.ts",
+    "./grammar-rules": "./src/grammar-rules.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "effect": "3.22.1"
+  },
+  "devDependencies": {
+    "typescript": "7.0.2"
+  }
+}

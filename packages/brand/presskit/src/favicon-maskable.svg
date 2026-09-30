@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Maskable: the sun and the letter stay inside the middle so Android can
+       crop to any shape; only the ground reaches the edge. -->
+  <rect width="512" height="512" fill="#26264F"/>
+  <circle cx="256" cy="215" r="118" fill="#F6B73C"/>
+  <path d="M0 350 C 112 320, 236 340, 348 350 C 410 356, 470 344, 512 330 L 512 512 L 0 512 Z" fill="#1FA38C"/>
+  <path d="M0 412 C 154 392, 318 412, 512 392 L 512 512 L 0 512 Z" fill="#D9772B"/>
+  <path d="M208 268 L208 172 L256 226 L304 172 L304 268" fill="none" stroke="#26264F"
+    stroke-width="33" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

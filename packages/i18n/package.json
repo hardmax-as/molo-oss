@@ -1,0 +1,21 @@
+{
+  "name": "@molo/i18n",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./locales/en": "./src/locales/en.json",
+    "./locales/nb": "./src/locales/nb.json"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "i18next": "26.4.1"
+  },
+  "devDependencies": {
+    "typescript": "7.0.2",
+    "vitest": "5.0.0"
+  }
+}

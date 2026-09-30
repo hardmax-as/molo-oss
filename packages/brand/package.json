@@ -1,0 +1,10 @@
+{
+  "name": "@molo/brand",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Mascots, landscape, logos, the press kit and the mobile app's launcher art. `bun presskit/render.ts` renders the press-kit PNGs with Chromium; `bun app-assets/render.ts` renders the icon, splash and notification icon into apps/mobile/assets.",
+  "type": "module",
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

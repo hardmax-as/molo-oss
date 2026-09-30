@@ -1,0 +1,231 @@
+# xh-morph rule table: isiXhosa noun classes 1 to 10 (with 1a and 2a)
+#
+# READ THIS FIRST
+#
+# Every value in this file is a *claim* about isiXhosa taken from standard
+# grammatical descriptions, written down by the agent that scaffolded this
+# crate. None of it has been validated by a native speaker yet. That is what
+# `validated = false` on every class means, and it is why every example below
+# is marked `# unverified example`. The golden file `golden/classes_1_10.toml`
+# is where tutor-validated forms live; `cargo test` compares this table against
+# those forms. A class may be flipped to `validated = true` only when its
+# golden cases pass and a tutor has signed them off. Until then nothing this
+# table produces may be shown to a learner.
+#
+# THREE THINGS RESEARCH TOLD US IN SEPTEMBER 2026 (see docs/GRAMMAR.md)
+#
+# 1. This table is SHORT BY THREE CLASSES. isiXhosa is conventionally described
+#    as having fifteen noun classes. We cover 1 to 10 plus 1a and 2a, which is
+#    twelve. Classes 11, 14 and 15 are missing, and the locative classes 16 to
+#    18 are absent by a decision nobody wrote down. Adding them means writing
+#    more unvalidated claims, so they wait for the session that validates these.
+#
+# 2. A PREFIX DOES NOT DETERMINE A CLASS. `um-` is class 1 or class 3; `i-` is
+#    class 5 or class 9. `generate()` is not exposed to this because it is given
+#    the class and never infers it — an editor sets it on the lexeme. But do not
+#    add a rule that assumes the prefix is enough, because it is not.
+#
+# 3. CAPE TOWN IS MERGING CLASSES, AND CAPE TOWN IS OUR REGISTER. Class 3
+#    concords are increasingly replaced by class 1 concords in urban speech, and
+#    an incipient merger of 11 into 5 is reported. docs/CONTENT.md says we teach
+#    modern urban isiXhosa as spoken in Cape Town and the Eastern Cape today, so
+#    for class 3 the textbook answer and the register answer may differ. The
+#    tutor decides which a learner is taught and whether the other is accepted;
+#    golden/classes_1_10.toml carries the question.
+#
+# The format is documented for editors in README.md. In short, per class:
+#
+#   label               "1", "1a", "2", "2a", "3" ... "10"
+#   description         free text for editors
+#   prefix              the citation prefix as grammars print it (display only)
+#   strip               surface prefixes generate() recognises on a lemma of this
+#                       class and removes to obtain the stem; tried in order,
+#                       so list the longest first
+#   attach              how a stem becomes a noun of this class; rules are tried
+#                       in order and the first whose `when` holds wins; the last
+#                       rule must be `when = "default"`
+#   plural / singular   label of the paired class
+#   subject_concord     the SC this class takes on a verb           (u- in "umntu u-ya-hamba")   # unverified example
+#   object_concord      the OC this class takes inside a verb       (-m- in "ndi-ya-m-bona")     # unverified example
+#   possessive_concord  the concord a noun of this class takes as the possessed head
+#                                                                  (wa- in "umntu wa-m")        # unverified example
+#   validated           true only after tutor sign-off of the goldens for this class
+#   notes               anything an editor needs to know
+#
+# Conditions available in `when`:
+#   default        always matches
+#   monosyllabic   the stem contains exactly one vowel letter (a e i o u)
+#   vowel_initial  the stem begins with a vowel letter
+#
+# Hyphens inside `strip`, `attach.form` and the concords are morpheme markers
+# for readability; generate() ignores them when matching and joining, with one
+# exception: when a prefix ending in a vowel meets a vowel-initial stem and no
+# `vowel_initial` rule fired, the two are joined with a hyphen. That mirrors
+# the orthography isixhosa.click uses for loanwords (i-orenji, ii-orenji,
+# ama-orenji in their data). Whether that is the convention this course wants
+# is a TUTOR-VALIDATE question like everything else here.
+#
+# Modelling choice for classes 9 and 10: the nasal that grammars treat as part
+# of the class prefix (iN-, iiN-) is treated here as part of the stem, so the
+# class 9 strip rule is just "i-". This is a generator convenience, not a
+# linguistic claim: it means "inja" yields the stem "nja", and class 10 attaches
+# "izi-" or "ii-" in front of it. It matches the source data's own plural pairs
+# (inja/izinja, intombi/iintombi, into/izinto) but the tutor decides.
+
+schema_version = 1
+
+[[class]]
+label = "1"
+description = "Singular; overwhelmingly people. Pairs with class 2."
+prefix = "um-"
+strip = ["um-"]
+attach = [{ when = "default", form = "um-" }]
+plural = "2"
+subject_concord = "u-"
+object_concord = "-m-"
+possessive_concord = "wa-"
+validated = false
+notes = "# unverified example: umntu, umfundi, umfazi. The subject and object concords coincide with class 1a and with class 3's subject concord; only the noun prefix and the plural pairing tell them apart. TUTOR-VALIDATE."
+
+[[class]]
+label = "1a"
+description = "Singular; kinship terms, personal names, some loans. Pairs with class 2a."
+prefix = "u-"
+strip = ["u-"]
+attach = [{ when = "default", form = "u-" }]
+plural = "2a"
+subject_concord = "u-"
+object_concord = "-m-"
+possessive_concord = "wa-"
+validated = false
+notes = "# unverified example: utata, umama, utitshala. Note that strip = \"u-\" will also match a class 1 noun by mistake if a caller passes the wrong class; the class always comes from the lexicon, never from guessing off the surface form. TUTOR-VALIDATE."
+
+[[class]]
+label = "2"
+description = "Plural of class 1."
+prefix = "aba-"
+strip = ["aba-"]
+attach = [{ when = "default", form = "aba-" }]
+singular = "1"
+subject_concord = "ba-"
+object_concord = "-ba-"
+possessive_concord = "ba-"
+validated = false
+notes = "# unverified example: abantu, abafundi. Vowel-initial stems are said to coalesce with this prefix rather than take a hyphen; no rule for that is written yet because no validated example exists. TUTOR-VALIDATE."
+
+[[class]]
+label = "2a"
+description = "Plural of class 1a."
+prefix = "oo-"
+strip = ["oo-"]
+attach = [{ when = "default", form = "oo-" }]
+singular = "1a"
+subject_concord = "ba-"
+object_concord = "-ba-"
+possessive_concord = "ba-"
+validated = false
+notes = "# unverified example: ootata, oomama. TUTOR-VALIDATE."
+
+[[class]]
+label = "3"
+description = "Singular; trees, rivers, body parts, many abstracts. Same prefix as class 1, different plural and object concord. Pairs with class 4."
+prefix = "um-"
+strip = ["um-"]
+attach = [{ when = "default", form = "um-" }]
+plural = "4"
+subject_concord = "u-"
+object_concord = "-wu-"
+possessive_concord = "wa-"
+validated = false
+notes = "# unverified example: umthi, umlambo, umsebenzi (work). isixhosa.click carries umsebenzi in both class 1 (worker) and class 3 (work); the class on the lexeme row decides. TUTOR-VALIDATE."
+
+[[class]]
+label = "4"
+description = "Plural of class 3."
+prefix = "imi-"
+strip = ["imi-"]
+attach = [{ when = "default", form = "imi-" }]
+singular = "3"
+subject_concord = "i-"
+object_concord = "-yi-"
+possessive_concord = "ya-"
+validated = false
+notes = "# unverified example: imithi, imilambo. TUTOR-VALIDATE."
+
+[[class]]
+label = "5"
+description = "Singular; very mixed. The full prefix ili- surfaces before monosyllabic stems, i- elsewhere. Pairs with class 6."
+prefix = "i(li)-"
+strip = ["ili-", "i-"]
+attach = [{ when = "monosyllabic", form = "ili-" }, { when = "default", form = "i-" }]
+plural = "6"
+subject_concord = "li-"
+object_concord = "-li-"
+possessive_concord = "la-"
+validated = false
+notes = "# unverified example: ilitye (stem -tye, monosyllabic), igama, ihashe. Irregular plurals exist in this class (the eye is the textbook case) and must be editor-marked as irregular rather than generated. TUTOR-VALIDATE."
+
+[[class]]
+label = "6"
+description = "Plural of class 5; also mass nouns with no singular (water, sour milk)."
+prefix = "ama-"
+strip = ["ama-"]
+attach = [{ when = "default", form = "ama-" }]
+singular = "5"
+subject_concord = "a-"
+object_concord = "-wa-"
+possessive_concord = "a-"
+validated = false
+notes = "# unverified example: amatye, amagama, amanzi. The isixhosa.click data writes ama-orenji with a hyphen before a vowel-initial loan stem. TUTOR-VALIDATE."
+
+[[class]]
+label = "7"
+description = "Singular; tools, languages, manner, many loans. Pairs with class 8."
+prefix = "isi-"
+strip = ["isi-", "is-"]
+attach = [{ when = "vowel_initial", form = "is-" }, { when = "default", form = "isi-" }]
+plural = "8"
+subject_concord = "si-"
+object_concord = "-si-"
+possessive_concord = "sa-"
+validated = false
+notes = "# unverified example: isitya, isikolo, isiXhosa; is- before a vowel-initial stem (isandla). TUTOR-VALIDATE."
+
+[[class]]
+label = "8"
+description = "Plural of class 7."
+prefix = "izi-"
+strip = ["izi-", "iz-"]
+attach = [{ when = "vowel_initial", form = "iz-" }, { when = "default", form = "izi-" }]
+singular = "7"
+subject_concord = "zi-"
+object_concord = "-zi-"
+possessive_concord = "za-"
+validated = false
+notes = "# unverified example: izitya, izikolo; iz- before a vowel-initial stem (izandla). TUTOR-VALIDATE."
+
+[[class]]
+label = "9"
+description = "Singular; animals, many loans, many everyday nouns. Grammars print the prefix as iN- (in-/im-); here the nasal stays with the stem, see the header. Pairs with class 10."
+prefix = "iN-"
+strip = ["i-"]
+attach = [{ when = "default", form = "i-" }]
+plural = "10"
+subject_concord = "i-"
+object_concord = "-yi-"
+possessive_concord = "ya-"
+validated = false
+notes = "# unverified example: inja, intombi, imali, indlu, i-orenji (loan, hyphenated in the source data). Subject and object concords coincide with class 4. TUTOR-VALIDATE."
+
+[[class]]
+label = "10"
+description = "Plural of class 9 (and, later, of class 11, which is out of scope this session). izi- before monosyllabic stems, ii- elsewhere."
+prefix = "iiN-"
+strip = ["izi-", "ii-"]
+attach = [{ when = "monosyllabic", form = "izi-" }, { when = "default", form = "ii-" }]
+singular = "9"
+subject_concord = "zi-"
+object_concord = "-zi-"
+possessive_concord = "za-"
+validated = false
+notes = "# unverified example: izinja (stem -nja), izinto (-nto), izindlu (-ndlu), iintombi, iinkomo, ii-orenji. These pairs are as they appear in the isixhosa.click data; the rule generalising them is the claim under test. Subject and object concords coincide with class 8. TUTOR-VALIDATE."

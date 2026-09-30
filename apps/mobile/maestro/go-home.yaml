@@ -1,0 +1,58 @@
+# Sub-flow: get back to the home screen from wherever the app is (English or Norwegian UI).
+appId: com.hardmax.molo
+---
+- runFlow:
+    when:
+      visible:
+        text: "Åpne|Open"
+    commands:
+      - tapOn:
+          text: "Åpne|Open"
+- runFlow:
+    when:
+      visible:
+        id: "exit-lesson"
+    commands:
+      - tapOn:
+          id: "exit-lesson"
+          retryTapIfNoChange: false
+# Once an exercise is done, leaving asks first (audit M06).
+- runFlow:
+    when:
+      visible:
+        text: "Avslutt|Leave"
+    commands:
+      - tapOn:
+          text: "Avslutt|Leave"
+          retryTapIfNoChange: false
+- runFlow:
+    when:
+      visible:
+        id: "onboarding-skip"
+    commands:
+      - tapOn:
+          id: "onboarding-skip"
+          retryTapIfNoChange: false
+- repeat:
+    while:
+      notVisible:
+        text: "Innstillinger|Settings"
+    times: 4
+    commands:
+      - runFlow:
+          when:
+            visible:
+              text: "Lær|Learn"
+          commands:
+            - tapOn:
+                text: "Lær|Learn"
+                retryTapIfNoChange: false
+- extendedWaitUntil:
+    visible:
+      text: "Innstillinger|Settings"
+    timeout: 20000
+# A visible tab bar does not mean Learn is selected. Select it explicitly.
+- tapOn:
+    text: "Lær|Learn"
+    retryTapIfNoChange: false
+- waitForAnimationToEnd

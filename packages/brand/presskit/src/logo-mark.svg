@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- The mark: sun over the hills with the M inside it. The letter is drawn
+       as a stroked path, not type, so an SVG rendered anywhere (a favicon, a
+       README, someone's slide) looks the same as the rendered PNGs. -->
+  <rect width="256" height="256" rx="60" fill="#26264F"/>
+  <circle cx="128" cy="113" r="79" fill="#F6B73C"/>
+  <path d="M0 164 C 56 146, 118 156, 174 164 C 205 168, 232 161, 256 154 L 256 256 L 0 256 Z" fill="#1FA38C"/>
+  <path d="M0 197 C 77 184, 159 194, 256 184 L 256 256 L 0 256 Z" fill="#D9772B"/>
+  <path d="M96 146 L96 82 L128 118 L160 82 L160 146" fill="none" stroke="#26264F"
+    stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

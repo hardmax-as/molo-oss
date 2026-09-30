@@ -1,0 +1,39 @@
+{
+  "name": "molo",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "infra"
+  ],
+  "type": "module",
+  "scripts": {
+    "lint": "oxlint --deny-warnings . && oxfmt --check .",
+    "format": "oxfmt .",
+    "typecheck": "bun run --filter '*' typecheck",
+    "test": "vitest run --project unit",
+    "test:integrity": "vitest run --project integrity",
+    "test:all": "bun run test && cargo test",
+    "db:migrate": "bun run --filter @molo/db migrate",
+    "db:seed": "bun run --filter @molo/db seed",
+    "dev": "bun run --filter './apps/*' dev",
+    "up": "bun scripts/dev-up.ts",
+    "down": "docker compose down",
+    "molo": "bun packages/cli/src/main.ts",
+    "test:e2e": "cd apps/web && bunx playwright test -c e2e/playwright.config.ts",
+    "licences:generate": "bun scripts/generate-licences.ts --live",
+    "licences:check": "bun scripts/generate-licences.ts --check"
+  },
+  "devDependencies": {
+    "@types/bun": "1.4.0",
+    "license-checker-rseidelsohn": "5.0.1",
+    "oxfmt": "0.66.0",
+    "oxlint": "1.81.0",
+    "typescript": "7.0.2",
+    "vitest": "5.0.0"
+  },
+  "engines": {
+    "bun": ">=1.3.14"
+  },
+  "packageManager": "bun@1.3.14"
+}

@@ -1,0 +1,56 @@
+# Maestro flow: the sign-up sheet opened from the last onboarding step is the
+# only screen on the stack, so "Close" has no back to go to. It must still
+# lead somewhere (the path) rather than sit dead. Reaches the intro through
+# Settings → "Show the intro again"; labels rather than ids for the tab bar,
+# as the README says.
+appId: com.hardmax.molo
+---
+- launchApp:
+    stopApp: false
+- runFlow:
+    when:
+      visible:
+        id: "onboarding-skip"
+    commands:
+      - tapOn:
+          id: "onboarding-skip"
+          retryTapIfNoChange: false
+- tapOn:
+    text: "Innstillinger|Settings"
+- extendedWaitUntil:
+    visible:
+      id: "sound-toggle"
+    timeout: 20000
+- scrollUntilVisible:
+    element:
+      id: "replay-onboarding"
+    direction: DOWN
+- tapOn:
+    id: "replay-onboarding"
+    retryTapIfNoChange: false
+- extendedWaitUntil:
+    visible:
+      id: "onboarding-next"
+    timeout: 30000
+- repeat:
+    times: 5
+    commands:
+      - tapOn:
+          id: "onboarding-next"
+          retryTapIfNoChange: false
+      - waitForAnimationToEnd
+- tapOn:
+    id: "onboarding-account"
+    retryTapIfNoChange: false
+- waitForAnimationToEnd
+- assertVisible:
+    id: "modal-close"
+- tapOn:
+    id: "modal-close"
+    retryTapIfNoChange: false
+- waitForAnimationToEnd
+- assertNotVisible:
+    id: "modal-close"
+- assertVisible:
+    text: "Lær|Learn"
+- takeScreenshot: p4-27-close-from-onboarding-signup

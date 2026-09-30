@@ -1,0 +1,13 @@
+# hellomolo.com
+User-agent: *
+Allow: /
+# Signed-in and editorial surfaces carry noindex as well; this keeps crawlers from fetching them at all.
+Disallow: /edit
+Disallow: /dev
+Disallow: /auth
+Disallow: /settings
+Disallow: /review
+Disallow: /mistakes
+Disallow: /leagues
+
+Sitemap: https://hellomolo.com/sitemap.xml

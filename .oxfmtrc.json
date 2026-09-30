@@ -1,0 +1,32 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "printWidth": 100,
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": false,
+  "trailingComma": "all",
+  "arrowParens": "always",
+  "endOfLine": "lf",
+  "sortImports": true,
+  "sortPackageJson": true,
+  "ignorePatterns": [
+    "node_modules",
+    "dist",
+    ".output",
+    ".vinxi",
+    ".wrangler",
+    ".alchemy",
+    "target",
+    "spike/**",
+    "docs/**",
+    "prompts/**",
+    "**/*.md",
+    "**/*.gen.ts",
+    "**/routeTree.gen.ts",
+    "**/drizzle/**",
+    "bun.lock",
+    "Cargo.lock",
+    "crates/**/pkg"
+  ]
+}

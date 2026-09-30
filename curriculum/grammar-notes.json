@@ -1,0 +1,475 @@
+{
+  "header": [
+    "AI DRAFT — NOT APPROVED MATERIAL. An isiXhosa editor is expected to correct or reject every note in this file.",
+    "",
+    "These are the explicit grammar notes docs/GRAMMAR.md section 1 decided on: a",
+    "worked example, then the rule in a sentence or two, then the drill. The English",
+    "and Norwegian in `bodies` was written by an agent. `molo content grammar` loads",
+    "it as `ai_draft`, which is the status the machine already has for exactly this:",
+    "content a model wrote, which no learner surface can query and which has no code",
+    "path to `published` that does not pass a human editor.",
+    "",
+    "NO isiXhosa IS WRITTEN HERE. Look at `cells`: not one of them contains an",
+    "isiXhosa string. A cell names a lemma, the class it should be in, and which form",
+    "is wanted, and `packages/content/src/grammar.ts` resolves it against two sources",
+    "and no others — the lexicon, for a citation form that must match verbatim, and",
+    "`xh-morph`, for anything inflected. A lemma that is not in the lexicon, a class",
+    "that does not match, or a form the generator refuses drops the cell and is",
+    "reported. Nothing is composed, approximated or filled in.",
+    "",
+    "WHAT THE EDITOR IS BEING ASKED. Two things at once, and `caveat` on every note",
+    "says which. First, does the explanation read well and teach? Second, is the",
+    "claim true? The second question is the serious one:",
+    "`crates/xh-morph/rules/noun_classes.toml` is `validated = false` on every class,",
+    "so every prefix, pairing and concord below is a claim from a grammatical",
+    "description that no native speaker has checked. Our finite-state guarantee",
+    "protects the form the generator produces, not the rule behind it",
+    "(docs/GRAMMAR.md section 4).",
+    "",
+    "WHAT IS DELIBERATELY ABSENT. GRAMMAR.md lists four things an A1 learner must be",
+    "told; only three of them are here. The fourth — the present tense with `-ya-`,",
+    "which drops before an object — is not written, because the rule table contains",
+    "no verb morphology at all and there is nothing to build it on. The same goes for",
+    "classes 11, 14 and 15, for the locative classes 16 to 18, and for where in a",
+    "word a concord attaches: the table gives the concord morpheme and not its",
+    "position, so no note says. Object and possessive concords are in the table and",
+    "are left for a later pass; they are A2 material and four unvalidated notes is",
+    "already a lot to ask one reviewer to check.",
+    "",
+    "Learner-facing chrome — the buttons, the column headings, the table caption —",
+    "is in packages/i18n. Everything in this file is content."
+  ],
+  "version": 1,
+  "notes": [
+    {
+      "slug": "noun-classes",
+      "unitSlug": "people",
+      "skillSlug": "talk-about-more-than-one",
+      "order": 1,
+      "rowHeaderKey": "class",
+      "caveat": "Every class label and every word in the table comes from the lexicon, but the claim that the class shows in the prefix — and the warning that the prefix alone does not identify it — comes from crates/xh-morph/rules/noun_classes.toml, which is validated = false on every class. Check: (1) that each word really is in the class the table puts it in; (2) that umntu and umzi are a fair illustration of one prefix serving two classes, which is the rule file's own header claim; (3) that 'learn the class with the word' is the right advice for a beginner in Cape Town speech, where class 3 is reported to be merging into class 1.",
+      "bodies": {
+        "en": {
+          "title": "Nouns come in classes",
+          "rule": "Every noun belongs to a class, and the class usually shows as a prefix at the front of the word. The prefix on its own will not tell you which class, though, because two classes can share one. So the class is something you learn along with the word, not something you read off it.",
+          "correction": "Look at the front of the word rather than the end. That is where the class sits."
+        },
+        "nb": {
+          "title": "Substantiv har klasser",
+          "rule": "Hvert substantiv hører til en klasse, og klassen viser seg som regel som et prefiks foran ordet. Prefikset alene sier likevel ikke hvilken klasse det er, for to klasser kan dele det samme. Klassen er altså noe du lærer sammen med ordet, ikke noe du leser deg til.",
+          "correction": "Se på forstavelsen, ikke på enden av ordet. Det er der klassen sitter."
+        }
+      },
+      "cells": [
+        {
+          "role": "example",
+          "order": 1,
+          "colKey": "word",
+          "lemma": "umntu",
+          "nounClass": "1",
+          "form": "lemma"
+        },
+        {
+          "role": "paradigm",
+          "order": 2,
+          "rowLabel": "1",
+          "colKey": "word",
+          "lemma": "umntu",
+          "nounClass": "1",
+          "form": "lemma"
+        },
+        {
+          "role": "paradigm",
+          "order": 3,
+          "rowLabel": "1a",
+          "colKey": "word",
+          "lemma": "utata",
+          "nounClass": "1a",
+          "form": "lemma"
+        },
+        {
+          "role": "paradigm",
+          "order": 4,
+          "rowLabel": "3",
+          "colKey": "word",
+          "lemma": "umzi",
+          "nounClass": "3",
+          "form": "lemma"
+        },
+        {
+          "role": "paradigm",
+          "order": 5,
+          "rowLabel": "5",
+          "colKey": "word",
+          "lemma": "igama",
+          "nounClass": "5",
+          "form": "lemma"
+        },
+        {
+          "role": "paradigm",
+          "order": 6,
+          "rowLabel": "7",
+          "colKey": "word",
+          "lemma": "isikolo",
+          "nounClass": "7",
+          "form": "lemma"
+        },
+        {
+          "role": "paradigm",
+          "order": 7,
+          "rowLabel": "9",
+          "colKey": "word",
+          "lemma": "inja",
+          "nounClass": "9",
+          "form": "lemma"
+        }
+      ]
+    },
+    {
+      "slug": "class-pairs",
+      "unitSlug": "things",
+      "skillSlug": "point-at-one-or-many",
+      "order": 1,
+      "rowHeaderKey": "class",
+      "caveat": "Every plural in this table was generated by xh-morph from an unvalidated rule table; none has been heard from a speaker. Check each one. Two modelling choices in particular: the rule file treats the class 9 and 10 nasal as part of the stem rather than of the prefix, which is a generator convenience and not a linguistic claim, and it joins a vowel-initial stem to a vowel-final prefix with a hyphen after isixhosa.click's own loanword spelling. Also check the claim itself — that a plural is a prefix change and never a suffix — which is stated here as a rule and is only as good as the pairings in the table. Our own files disagree here: the spine teaches the -ni of molweni as the learner's first plural, while this note says a plural is never a suffix. Ask whether the rule should be limited to nouns, with -ni described separately as plural address (tutor-questions.md Y06).",
+      "bodies": {
+        "en": {
+          "title": "One and more than one",
+          "rule": "A plural is not an ending. It is a different prefix on the same stem, and each singular class is paired with one plural class. Learn the pair and you have the plural.",
+          "correction": "A plural changes the front of the word, not the end of it. Which class does this word pair with?"
+        },
+        "nb": {
+          "title": "Én og flere",
+          "rule": "Flertall er ikke en endelse. Det er et annet prefiks på den samme stammen, og hver entallsklasse hører sammen med én flertallsklasse. Lærer du paret, har du flertallet.",
+          "correction": "Flertall endrer forstavelsen, ikke enden av ordet. Hvilken klasse hører dette ordet sammen med?"
+        }
+      },
+      "cells": [
+        {
+          "role": "example",
+          "order": 1,
+          "colKey": "singular",
+          "lemma": "umntu",
+          "nounClass": "1",
+          "form": "lemma"
+        },
+        {
+          "role": "example",
+          "order": 2,
+          "colKey": "plural",
+          "lemma": "umntu",
+          "nounClass": "1",
+          "form": "plural"
+        },
+        {
+          "role": "paradigm",
+          "order": 3,
+          "rowLabel": "1 → 2",
+          "colKey": "singular",
+          "lemma": "umntu",
+          "nounClass": "1",
+          "form": "lemma"
+        },
+        {
+          "role": "paradigm",
+          "order": 4,
+          "rowLabel": "1 → 2",
+          "colKey": "plural",
+          "lemma": "umntu",
+          "nounClass": "1",
+          "form": "plural"
+        },
+        {
+          "role": "paradigm",
+          "order": 5,
+          "rowLabel": "1a → 2a",
+          "colKey": "singular",
+          "lemma": "utata",
+          "nounClass": "1a",
+          "form": "lemma"
+        },
+        {
+          "role": "paradigm",
+          "order": 6,
+          "rowLabel": "1a → 2a",
+          "colKey": "plural",
+          "lemma": "utata",
+          "nounClass": "1a",
+          "form": "plural"
+        },
+        {
+          "role": "paradigm",
+          "order": 7,
+          "rowLabel": "3 → 4",
+          "colKey": "singular",
+          "lemma": "umzi",
+          "nounClass": "3",
+          "form": "lemma"
+        },
+        {
+          "role": "paradigm",
+          "order": 8,
+          "rowLabel": "3 → 4",
+          "colKey": "plural",
+          "lemma": "umzi",
+          "nounClass": "3",
+          "form": "plural"
+        },
+        {
+          "role": "paradigm",
+          "order": 9,
+          "rowLabel": "5 → 6",
+          "colKey": "singular",
+          "lemma": "igama",
+          "nounClass": "5",
+          "form": "lemma"
+        },
+        {
+          "role": "paradigm",
+          "order": 10,
+          "rowLabel": "5 → 6",
+          "colKey": "plural",
+          "lemma": "igama",
+          "nounClass": "5",
+          "form": "plural"
+        },
+        {
+          "role": "paradigm",
+          "order": 11,
+          "rowLabel": "7 → 8",
+          "colKey": "singular",
+          "lemma": "isikolo",
+          "nounClass": "7",
+          "form": "lemma"
+        },
+        {
+          "role": "paradigm",
+          "order": 12,
+          "rowLabel": "7 → 8",
+          "colKey": "plural",
+          "lemma": "isikolo",
+          "nounClass": "7",
+          "form": "plural"
+        },
+        {
+          "role": "paradigm",
+          "order": 13,
+          "rowLabel": "9 → 10",
+          "colKey": "singular",
+          "lemma": "inja",
+          "nounClass": "9",
+          "form": "lemma"
+        },
+        {
+          "role": "paradigm",
+          "order": 14,
+          "rowLabel": "9 → 10",
+          "colKey": "plural",
+          "lemma": "inja",
+          "nounClass": "9",
+          "form": "plural"
+        }
+      ]
+    },
+    {
+      "slug": "subject-concord",
+      "unitSlug": "people",
+      "skillSlug": "talk-about-more-than-one",
+      "order": 2,
+      "rowHeaderKey": "class",
+      "caveat": "The concords come from the unvalidated rule table; check every one against a speaker. Check the wording too, for what it does NOT say: the table gives the concord morpheme but not where in a word it attaches, so the note says the verb 'carries' it rather than naming a position, and no verb form is shown anywhere on this note because the generator cannot produce one. Two open questions the table itself raises: classes 1 and 3 share a subject concord here, and Cape Town speech is reported to be replacing class 3 concords with class 1's, so which form a learner should be taught — and whether the other should be accepted — needs your answer (docs/GRAMMAR.md section 3). Classes 2a, 4 and 8 are missing from the table below only because the seed lexicon has no word in them, not because they have no concord.",
+      "bodies": {
+        "en": {
+          "title": "The verb agrees with the class",
+          "rule": "A verb does not stand on its own. It carries a small piece that agrees with the class of whatever is doing the action, and every class has its own. So the same verb looks different depending on its subject.",
+          "correction": "The agreement follows the subject's class. Work out which class the subject belongs to, then pick the form that goes with it."
+        },
+        "nb": {
+          "title": "Verbet retter seg etter klassen",
+          "rule": "Et verb står ikke alene. Det bærer en liten del som retter seg etter klassen til det som utfører handlingen, og hver klasse har sin egen. Det samme verbet ser derfor ulikt ut alt etter hva subjektet er.",
+          "correction": "Samsvaret følger klassen til subjektet. Finn ut hvilken klasse subjektet hører til, og velg formen som hører sammen med den."
+        }
+      },
+      "cells": [
+        {
+          "role": "example",
+          "order": 1,
+          "colKey": "word",
+          "lemma": "umntu",
+          "nounClass": "1",
+          "form": "lemma"
+        },
+        {
+          "role": "example",
+          "order": 2,
+          "colKey": "subjectConcord",
+          "lemma": "umntu",
+          "nounClass": "1",
+          "form": "subject_concord"
+        },
+        {
+          "role": "paradigm",
+          "order": 3,
+          "rowLabel": "1",
+          "colKey": "word",
+          "lemma": "umntu",
+          "nounClass": "1",
+          "form": "lemma"
+        },
+        {
+          "role": "paradigm",
+          "order": 4,
+          "rowLabel": "1",
+          "colKey": "subjectConcord",
+          "lemma": "umntu",
+          "nounClass": "1",
+          "form": "subject_concord"
+        },
+        {
+          "role": "paradigm",
+          "order": 5,
+          "rowLabel": "2",
+          "colKey": "word",
+          "lemma": "abantu",
+          "nounClass": "2",
+          "form": "lemma"
+        },
+        {
+          "role": "paradigm",
+          "order": 6,
+          "rowLabel": "2",
+          "colKey": "subjectConcord",
+          "lemma": "abantu",
+          "nounClass": "2",
+          "form": "subject_concord"
+        },
+        {
+          "role": "paradigm",
+          "order": 7,
+          "rowLabel": "1a",
+          "colKey": "word",
+          "lemma": "utata",
+          "nounClass": "1a",
+          "form": "lemma"
+        },
+        {
+          "role": "paradigm",
+          "order": 8,
+          "rowLabel": "1a",
+          "colKey": "subjectConcord",
+          "lemma": "utata",
+          "nounClass": "1a",
+          "form": "subject_concord"
+        },
+        {
+          "role": "paradigm",
+          "order": 9,
+          "rowLabel": "3",
+          "colKey": "word",
+          "lemma": "umzi",
+          "nounClass": "3",
+          "form": "lemma"
+        },
+        {
+          "role": "paradigm",
+          "order": 10,
+          "rowLabel": "3",
+          "colKey": "subjectConcord",
+          "lemma": "umzi",
+          "nounClass": "3",
+          "form": "subject_concord"
+        },
+        {
+          "role": "paradigm",
+          "order": 11,
+          "rowLabel": "5",
+          "colKey": "word",
+          "lemma": "igama",
+          "nounClass": "5",
+          "form": "lemma"
+        },
+        {
+          "role": "paradigm",
+          "order": 12,
+          "rowLabel": "5",
+          "colKey": "subjectConcord",
+          "lemma": "igama",
+          "nounClass": "5",
+          "form": "subject_concord"
+        },
+        {
+          "role": "paradigm",
+          "order": 13,
+          "rowLabel": "6",
+          "colKey": "word",
+          "lemma": "amanzi",
+          "nounClass": "6",
+          "form": "lemma"
+        },
+        {
+          "role": "paradigm",
+          "order": 14,
+          "rowLabel": "6",
+          "colKey": "subjectConcord",
+          "lemma": "amanzi",
+          "nounClass": "6",
+          "form": "subject_concord"
+        },
+        {
+          "role": "paradigm",
+          "order": 15,
+          "rowLabel": "7",
+          "colKey": "word",
+          "lemma": "isikolo",
+          "nounClass": "7",
+          "form": "lemma"
+        },
+        {
+          "role": "paradigm",
+          "order": 16,
+          "rowLabel": "7",
+          "colKey": "subjectConcord",
+          "lemma": "isikolo",
+          "nounClass": "7",
+          "form": "subject_concord"
+        },
+        {
+          "role": "paradigm",
+          "order": 17,
+          "rowLabel": "9",
+          "colKey": "word",
+          "lemma": "inja",
+          "nounClass": "9",
+          "form": "lemma"
+        },
+        {
+          "role": "paradigm",
+          "order": 18,
+          "rowLabel": "9",
+          "colKey": "subjectConcord",
+          "lemma": "inja",
+          "nounClass": "9",
+          "form": "subject_concord"
+        },
+        {
+          "role": "paradigm",
+          "order": 19,
+          "rowLabel": "10",
+          "colKey": "word",
+          "lemma": "izinto",
+          "nounClass": "10",
+          "form": "lemma"
+        },
+        {
+          "role": "paradigm",
+          "order": 20,
+          "rowLabel": "10",
+          "colKey": "subjectConcord",
+          "lemma": "izinto",
+          "nounClass": "10",
+          "form": "subject_concord"
+        }
+      ]
+    }
+  ]
+}

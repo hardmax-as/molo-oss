@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96">
+  <!--
+    Android notification icon: 96x96, pure white on transparent. Android
+    throws away every colour in this file and tints the silhouette, so the
+    sunbird is drawn as one solid shape with the eye punched out. Anything
+    coloured here would come out as a white blob on the status bar.
+  -->
+  <g transform="translate(-2 -20) scale(0.5)" fill="#FFFFFF">
+    <path d="M78 132 C 52 150, 40 176, 46 190 C 60 176, 76 160, 92 148 Z"/>
+    <path d="M112 104 C 140 92, 160 100, 166 116 C 150 114, 132 120, 118 128 Z"/>
+    <ellipse cx="102" cy="122" rx="40" ry="34"/>
+    <circle cx="120" cy="86" r="26"/>
+    <path d="M142 84 C 162 84, 178 92, 190 104 C 174 100, 160 96, 142 92 Z"/>
+    <path d="M96 112 C 70 100, 46 106, 34 122 C 52 118, 74 124, 92 132 Z" transform="rotate(30 96 116)"/>
+  </g>
+</svg>

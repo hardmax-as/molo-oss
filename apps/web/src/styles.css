@@ -1,0 +1,264 @@
+@import "tailwindcss";
+@import "@fontsource-variable/fredoka";
+@import "@fontsource-variable/nunito";
+
+/*
+ * Molo look (docs/DESIGN.md). Tokens become utilities: bg-sun, text-indigo,
+ * font-display, animate-flicker ... Keep the palette here and nowhere else.
+ */
+@theme {
+  --color-sun: #f6b73c;
+  /* Colour roles (packages/brand/src/palette.ts, checked by palette.test.ts):
+     the base swatch fills and borders; `-deep` is a filled face under white
+     text and text on light surfaces; `sun-text` is the x click and any sun
+     text; `-edge` is the pressable edge under a `-deep` face. */
+  --color-sun-deep: #d99a1c;
+  --color-sun-text: #8a5a00;
+  --color-sun-soft: #fff0c9;
+  --color-ochre: #d9772b;
+  --color-ochre-deep: #9c4f14;
+  --color-ochre-edge: #733a0e;
+  --color-indigo: #26264f;
+  --color-indigo-deep: #17172f;
+  --color-indigo-soft: #3d3d78;
+  --color-sea: #1fa38c;
+  --color-sea-deep: #11705f;
+  --color-sea-edge: #0a4d41;
+  --color-sea-soft: #d7f3ec;
+  --color-coral: #e85d5d;
+  --color-coral-deep: #b53c3c;
+  --color-coral-edge: #8a2c2c;
+  --color-coral-soft: #fde2e2;
+  --color-sand: #fff7e8;
+  --color-sand-deep: #f7e9cf;
+  --color-cloud: #ffffff;
+  --color-ink: #1e1e2a;
+  --color-mist: #66667f;
+  --color-mist-deep: #6f6f8c;
+  --color-mist-soft: #e6e6ef;
+
+  --font-display: "Fredoka Variable", "Nunito Variable", ui-rounded, system-ui, sans-serif;
+  --font-sans: "Nunito Variable", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --shadow-card: 0 10px 30px -18px rgb(38 38 79 / 0.35);
+  --shadow-pop: 0 18px 40px -20px rgb(38 38 79 / 0.45);
+
+  --animate-flicker: flicker 2s ease-in-out infinite;
+  --animate-shake: shake 0.45s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  --animate-pop: pop 0.5s cubic-bezier(0.2, 0.9, 0.3, 1.4) both;
+  --animate-shimmer: shimmer 3.2s linear infinite;
+  --animate-rise: rise 0.22s ease-out both;
+  --animate-pulse-ring: pulse-ring 1.2s ease-out infinite;
+  --animate-bars: bars 0.8s ease-in-out infinite;
+
+  @keyframes flicker {
+    0%,
+    100% {
+      transform: scaleY(1) scaleX(1) rotate(-1.5deg);
+      filter: brightness(1);
+    }
+    30% {
+      transform: scaleY(1.06) scaleX(0.96) rotate(1.5deg);
+      filter: brightness(1.12);
+    }
+    60% {
+      transform: scaleY(0.97) scaleX(1.03) rotate(-0.5deg);
+      filter: brightness(0.96);
+    }
+  }
+  @keyframes shake {
+    10%,
+    90% {
+      transform: translateX(-2px);
+    }
+    20%,
+    80% {
+      transform: translateX(4px);
+    }
+    30%,
+    50%,
+    70% {
+      transform: translateX(-6px);
+    }
+    40%,
+    60% {
+      transform: translateX(6px);
+    }
+  }
+  @keyframes pop {
+    0% {
+      transform: scale(0.6);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  @keyframes shimmer {
+    0% {
+      background-position: -200% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  }
+  @keyframes rise {
+    from {
+      transform: translateY(12px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes pulse-ring {
+    0% {
+      transform: scale(0.9);
+      opacity: 0.7;
+    }
+    100% {
+      transform: scale(1.6);
+      opacity: 0;
+    }
+  }
+  @keyframes bars {
+    0%,
+    100% {
+      transform: scaleY(0.4);
+    }
+    50% {
+      transform: scaleY(1);
+    }
+  }
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  @apply bg-sand font-sans text-ink antialiased;
+  background-image:
+    radial-gradient(circle at 12% -10%, rgb(246 183 60 / 0.18), transparent 40%),
+    radial-gradient(circle at 100% 0%, rgb(31 163 140 / 0.12), transparent 35%);
+  background-attachment: fixed;
+}
+
+button {
+  @apply cursor-pointer;
+}
+
+h1,
+h2,
+h3,
+.font-display {
+  font-family: var(--font-display);
+}
+
+/*
+ * One visible focus ring (WCAG 2.4.7 / 2.4.11 / 1.4.11). Never remove it:
+ * `:focus-visible` only fires for keyboard and assistive input, so a mouse
+ * click stays quiet. Two opaque tones so one of them always reaches 3:1: a
+ * sun band against the control (7.98:1 on indigo) and an indigo outline
+ * outside it (13:1 on sand). The old translucent sun ring was 1.36:1.
+ * Skip-link targets (`tabindex="-1"` regions such as <main>) are excluded:
+ * focus moves there, but a ring around half the page reads as a bug.
+ */
+:focus-visible:not([tabindex="-1"]) {
+  @apply ring-2 ring-sun outline-3 outline-offset-2 outline-indigo;
+}
+[tabindex="-1"]:focus {
+  outline: none;
+}
+
+/* The pressable edge (DESIGN.md "Shapes"): a 3 px darker bottom border that collapses on press. */
+.pressable {
+  /* `translate` too: Tailwind 4's translate-y utilities set that property, not `transform`. */
+  @apply translate-y-0 border-b-[3px] transition-[transform,translate,border-bottom-width] duration-[90ms] ease-out;
+}
+.pressable:active:not(:disabled) {
+  @apply translate-y-[3px] border-b-0;
+}
+
+/*
+ * Hover lift: a pressable button rises 2 px and a `.lift` card 3 px under a
+ * real pointer, so the page answers before the click. `translate`, never
+ * `top` or `margin`, so nothing reflows. Only where motion is welcome: not
+ * under the OS setting (unless the learner chose full motion in settings)
+ * and never under the settings override.
+ */
+.lift {
+  transition-property: translate, box-shadow;
+  transition-duration: 160ms;
+  transition-timing-function: ease-out;
+}
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  html:not([data-motion="reduced"]) .pressable:hover:not(:disabled):not(:active) {
+    translate: 0 -2px;
+  }
+  html:not([data-motion="reduced"]) .lift:hover {
+    translate: 0 -3px;
+  }
+}
+@media (hover: hover) {
+  html[data-motion="full"] .pressable:hover:not(:disabled):not(:active) {
+    translate: 0 -2px;
+  }
+  html[data-motion="full"] .lift:hover {
+    translate: 0 -3px;
+  }
+}
+
+/*
+ * Click consonant colours, the same everywhere (DESIGN.md "Learning first"):
+ * c sea, x sun, q coral, in their text shades so a letter reaches 4.5:1 on
+ * white, sand and the soft verdict tints.
+ */
+.click-c {
+  @apply text-sea-deep;
+}
+.click-x {
+  @apply text-sun-text;
+}
+.click-q {
+  @apply text-coral-deep;
+}
+
+.shimmer-gold {
+  background: linear-gradient(
+    110deg,
+    transparent 30%,
+    rgb(246 183 60 / 0.55) 48%,
+    rgb(255 244 214 / 0.9) 52%,
+    rgb(246 183 60 / 0.55) 56%,
+    transparent 70%
+  );
+  background-size: 200% 100%;
+  @apply animate-shimmer;
+}
+
+/*
+ * Reduced motion (DESIGN.md "Motion"): the OS setting by default, and the
+ * settings toggle (`lib/motion.ts`) mirrored onto <html data-motion> so a
+ * learner can ask for less — or explicitly for more — than the device says.
+ */
+@media (prefers-reduced-motion: reduce) {
+  html:not([data-motion="full"]) *,
+  html:not([data-motion="full"]) *::before,
+  html:not([data-motion="full"]) *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+html[data-motion="reduced"] *,
+html[data-motion="reduced"] *::before,
+html[data-motion="reduced"] *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+}

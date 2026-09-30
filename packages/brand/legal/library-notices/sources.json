@@ -1,0 +1,632 @@
+{
+  "@better-auth/utils@0.4.2": {
+    "file": "272e71dca35382d5cef3deda5cb01890990b84aae5b852c43867eade9569cdc7.txt",
+    "source": "https://registry.npmjs.org/%40better-auth%2Futils/0.4.2 ; https://github.com/spdx/license-list-data/blob/v3.28.0/text/MIT.txt",
+    "sha256": "272e71dca35382d5cef3deda5cb01890990b84aae5b852c43867eade9569cdc7",
+    "explanation": "The distribution and pinned source have no full licence notice. Preserve published attribution and include standard terms, without inventing a copyright notice."
+  },
+  "@better-auth/utils@0.5.0": {
+    "file": "4a1462066ea122db61a1aaa7133a239e1a182f193d3233c47f03536196a34259.txt",
+    "source": "https://registry.npmjs.org/%40better-auth%2Futils/0.5.0 ; https://github.com/spdx/license-list-data/blob/v3.28.0/text/MIT.txt",
+    "sha256": "4a1462066ea122db61a1aaa7133a239e1a182f193d3233c47f03536196a34259",
+    "explanation": "The distribution and pinned source have no full licence notice. Preserve published attribution and include standard terms, without inventing a copyright notice."
+  },
+  "@cloudflare/workers-types@5.20260903.1": {
+    "file": "4bf96504d6e83ce5c6fc7167f1795d9ceaa68e70ab86bc5d08ab93184262bbbe.txt",
+    "source": "https://raw.githubusercontent.com/cloudflare/workerd/b73ce3ae105c35bafaaad864095079524573a465/LICENSE",
+    "sha256": "4bf96504d6e83ce5c6fc7167f1795d9ceaa68e70ab86bc5d08ab93184262bbbe"
+  },
+  "@expo/devcert@1.2.1": {
+    "file": "bb6dac7f3ffd90475ef1feccd4640b6e1f28358648be87e8dd0228465a351e79.txt",
+    "source": "https://registry.npmjs.org/%40expo%2Fdevcert/1.2.1 ; https://github.com/spdx/license-list-data/blob/v3.28.0/text/MIT.txt",
+    "sha256": "bb6dac7f3ffd90475ef1feccd4640b6e1f28358648be87e8dd0228465a351e79",
+    "explanation": "The distribution and pinned source have no full licence notice. Preserve published attribution and include standard terms, without inventing a copyright notice."
+  },
+  "@expo/sdk-runtime-versions@1.0.0": {
+    "file": "8e2e45b58cf73ddaa8d0d50e5e901653f61c4db7f39303516c989f2f4470f510.txt",
+    "source": "https://registry.npmjs.org/%40expo%2Fsdk-runtime-versions/1.0.0 ; https://github.com/spdx/license-list-data/blob/v3.28.0/text/MIT.txt",
+    "sha256": "8e2e45b58cf73ddaa8d0d50e5e901653f61c4db7f39303516c989f2f4470f510",
+    "explanation": "The distribution and pinned source have no full licence notice. Preserve published attribution and include standard terms, without inventing a copyright notice."
+  },
+  "@expo/ui@57.0.15": {
+    "file": "371567d5d8999eeffba61ddbcb60ffbe4f25c3f165f1772e2c66befd0251bffa.txt",
+    "source": "https://raw.githubusercontent.com/expo/expo/b76ecf192c5325793bcea31dd9bb8efd91f9ad7f/LICENSE",
+    "sha256": "371567d5d8999eeffba61ddbcb60ffbe4f25c3f165f1772e2c66befd0251bffa"
+  },
+  "@expo/ui@57.0.16": {
+    "file": "371567d5d8999eeffba61ddbcb60ffbe4f25c3f165f1772e2c66befd0251bffa.txt",
+    "source": "https://raw.githubusercontent.com/expo/expo/d36f125067e9c6e67689f2b75cf4fb19254c3c59/LICENSE",
+    "sha256": "371567d5d8999eeffba61ddbcb60ffbe4f25c3f165f1772e2c66befd0251bffa"
+  },
+  "@expo/ws-tunnel@2.0.0": {
+    "file": "cee22218d01cd8a4bc15d9e404af787d1ece05c65aaaac60869565f1985fff58.txt",
+    "source": "https://registry.npmjs.org/%40expo%2Fws-tunnel/2.0.0 ; https://github.com/spdx/license-list-data/blob/v3.28.0/text/MIT.txt",
+    "sha256": "cee22218d01cd8a4bc15d9e404af787d1ece05c65aaaac60869565f1985fff58",
+    "explanation": "The distribution and pinned source have no full licence notice. Preserve published attribution and include standard terms, without inventing a copyright notice."
+  },
+  "@expo/xcpretty@4.4.4": {
+    "file": "af88a7d4a9338e0efcedbd03d6627263c60f124334524f71a2d1c7884643686d.txt",
+    "source": "https://registry.npmjs.org/%40expo%2Fxcpretty/4.4.4 ; https://github.com/spdx/license-list-data/blob/v3.28.0/text/BSD-3-Clause.txt",
+    "sha256": "af88a7d4a9338e0efcedbd03d6627263c60f124334524f71a2d1c7884643686d",
+    "explanation": "The distribution and pinned source have no full licence notice. Preserve published attribution and include standard terms, without inventing a copyright notice."
+  },
+  "@open-draft/deferred-promise@2.2.0": {
+    "file": "b33e4e0333e4805b624073862ae35e136c837eca1eb5590910b25e7fd3e0f34d.txt",
+    "source": "https://registry.npmjs.org/%40open-draft%2Fdeferred-promise/2.2.0 ; https://github.com/spdx/license-list-data/blob/v3.28.0/text/MIT.txt",
+    "sha256": "b33e4e0333e4805b624073862ae35e136c837eca1eb5590910b25e7fd3e0f34d",
+    "explanation": "The distribution and pinned source have no full licence notice. Preserve published attribution and include standard terms, without inventing a copyright notice."
+  },
+  "@react-native/assets-registry@0.86.3": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/react-native/4829a675c80e64f7c170b0f30d24b3808b7663d3/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "@react-native/babel-plugin-codegen@0.86.3": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/react-native/4829a675c80e64f7c170b0f30d24b3808b7663d3/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "@react-native/babel-plugin-codegen@0.87.1": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/react-native/a59eff64fa907ed6e919fafe6cbd26d1d54c2de3/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "@react-native/babel-preset@0.87.1": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/react-native/a59eff64fa907ed6e919fafe6cbd26d1d54c2de3/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "@react-native/codegen@0.86.3": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/react-native/4829a675c80e64f7c170b0f30d24b3808b7663d3/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "@react-native/codegen@0.87.1": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/react-native/a59eff64fa907ed6e919fafe6cbd26d1d54c2de3/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "@react-native/community-cli-plugin@0.86.3": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/react-native/4829a675c80e64f7c170b0f30d24b3808b7663d3/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "@react-native/debugger-frontend@0.86.3": {
+    "file": "fb0f4ab4a5dab3cee8cb66c28c87b763dac482915b12524be3c63cd87f1feac8.txt",
+    "source": "https://registry.npmjs.org/@react-native/debugger-frontend/-/debugger-frontend-0.86.3.tgz#package/dist/third-party/LICENSE",
+    "sha256": "fb0f4ab4a5dab3cee8cb66c28c87b763dac482915b12524be3c63cd87f1feac8"
+  },
+  "@react-native/debugger-shell@0.86.3": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/react-native/4829a675c80e64f7c170b0f30d24b3808b7663d3/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "@react-native/dev-middleware@0.86.3": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/react-native/4829a675c80e64f7c170b0f30d24b3808b7663d3/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "@react-native/gradle-plugin@0.86.3": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/react-native/4829a675c80e64f7c170b0f30d24b3808b7663d3/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "@react-native/jest-preset@0.86.3": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/react-native/4829a675c80e64f7c170b0f30d24b3808b7663d3/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "@react-native/js-polyfills@0.86.3": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/react-native/4829a675c80e64f7c170b0f30d24b3808b7663d3/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "@react-native/js-polyfills@0.87.1": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/react-native/a59eff64fa907ed6e919fafe6cbd26d1d54c2de3/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "@react-native/metro-babel-transformer@0.87.1": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/react-native/a59eff64fa907ed6e919fafe6cbd26d1d54c2de3/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "@react-native/metro-config@0.87.1": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/react-native/a59eff64fa907ed6e919fafe6cbd26d1d54c2de3/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "@react-native/normalize-colors@0.86.3": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/react-native/4829a675c80e64f7c170b0f30d24b3808b7663d3/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "@react-native/virtualized-lists@0.86.3": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/react-native/4829a675c80e64f7c170b0f30d24b3808b7663d3/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "@revenuecat/purchases-js-hybrid-mappings@18.33.1": {
+    "file": "70991dd0f2f075f20f21ed765bf6123913b4802248f1b66cab9c4570b1e32870.txt",
+    "source": "https://raw.githubusercontent.com/RevenueCat/purchases-hybrid-common/1ddfae809003768d49bbfd30b008b29181ce4cb1/LICENSE",
+    "sha256": "70991dd0f2f075f20f21ed765bf6123913b4802248f1b66cab9c4570b1e32870"
+  },
+  "@revenuecat/purchases-typescript-internal@18.33.1": {
+    "file": "70991dd0f2f075f20f21ed765bf6123913b4802248f1b66cab9c4570b1e32870.txt",
+    "source": "https://raw.githubusercontent.com/RevenueCat/purchases-hybrid-common/1ddfae809003768d49bbfd30b008b29181ce4cb1/LICENSE",
+    "sha256": "70991dd0f2f075f20f21ed765bf6123913b4802248f1b66cab9c4570b1e32870"
+  },
+  "@rolldown/binding-android-arm-eabi@1.2.7": {
+    "file": "93a675c915fd5846a0d9956bfc10cea9b2deeacf59074abf398f0fdcce10a19b.txt",
+    "source": "https://raw.githubusercontent.com/rolldown/rolldown/v1.2.7/LICENSE",
+    "sha256": "93a675c915fd5846a0d9956bfc10cea9b2deeacf59074abf398f0fdcce10a19b",
+    "explanation": "Platform-specific bindings of this same Rolldown release share its upstream MIT licence."
+  },
+  "@rolldown/binding-android-arm64@1.2.7": {
+    "file": "93a675c915fd5846a0d9956bfc10cea9b2deeacf59074abf398f0fdcce10a19b.txt",
+    "source": "https://raw.githubusercontent.com/rolldown/rolldown/v1.2.7/LICENSE",
+    "sha256": "93a675c915fd5846a0d9956bfc10cea9b2deeacf59074abf398f0fdcce10a19b",
+    "explanation": "Platform-specific bindings of this same Rolldown release share its upstream MIT licence."
+  },
+  "@rolldown/binding-darwin-arm64@1.2.7": {
+    "file": "93a675c915fd5846a0d9956bfc10cea9b2deeacf59074abf398f0fdcce10a19b.txt",
+    "source": "https://raw.githubusercontent.com/rolldown/rolldown/v1.2.7/LICENSE",
+    "sha256": "93a675c915fd5846a0d9956bfc10cea9b2deeacf59074abf398f0fdcce10a19b",
+    "explanation": "Platform-specific bindings of this same Rolldown release share its upstream MIT licence."
+  },
+  "@rolldown/binding-darwin-x64@1.2.7": {
+    "file": "93a675c915fd5846a0d9956bfc10cea9b2deeacf59074abf398f0fdcce10a19b.txt",
+    "source": "https://raw.githubusercontent.com/rolldown/rolldown/v1.2.7/LICENSE",
+    "sha256": "93a675c915fd5846a0d9956bfc10cea9b2deeacf59074abf398f0fdcce10a19b",
+    "explanation": "Platform-specific bindings of this same Rolldown release share its upstream MIT licence."
+  },
+  "@rolldown/binding-freebsd-x64@1.2.7": {
+    "file": "93a675c915fd5846a0d9956bfc10cea9b2deeacf59074abf398f0fdcce10a19b.txt",
+    "source": "https://raw.githubusercontent.com/rolldown/rolldown/v1.2.7/LICENSE",
+    "sha256": "93a675c915fd5846a0d9956bfc10cea9b2deeacf59074abf398f0fdcce10a19b",
+    "explanation": "Platform-specific bindings of this same Rolldown release share its upstream MIT licence."
+  },
+  "@rolldown/binding-linux-arm-gnueabihf@1.2.7": {
+    "file": "93a675c915fd5846a0d9956bfc10cea9b2deeacf59074abf398f0fdcce10a19b.txt",
+    "source": "https://raw.githubusercontent.com/rolldown/rolldown/v1.2.7/LICENSE",
+    "sha256": "93a675c915fd5846a0d9956bfc10cea9b2deeacf59074abf398f0fdcce10a19b",
+    "explanation": "Platform-specific bindings of this same Rolldown release share its upstream MIT licence."
+  },
+  "@rolldown/binding-linux-arm64-gnu@1.2.7": {
+    "file": "93a675c915fd5846a0d9956bfc10cea9b2deeacf59074abf398f0fdcce10a19b.txt",
+    "source": "https://raw.githubusercontent.com/rolldown/rolldown/v1.2.7/LICENSE",
+    "sha256": "93a675c915fd5846a0d9956bfc10cea9b2deeacf59074abf398f0fdcce10a19b",
+    "explanation": "Platform-specific bindings of this same Rolldown release share its upstream MIT licence."
+  },
+  "@rolldown/binding-linux-arm64-musl@1.2.7": {
+    "file": "93a675c915fd5846a0d9956bfc10cea9b2deeacf59074abf398f0fdcce10a19b.txt",
+    "source": "https://raw.githubusercontent.com/rolldown/rolldown/v1.2.7/LICENSE",
+    "sha256": "93a675c915fd5846a0d9956bfc10cea9b2deeacf59074abf398f0fdcce10a19b",
+    "explanation": "Platform-specific bindings of this same Rolldown release share its upstream MIT licence."
+  },
+  "@rolldown/binding-linux-ppc64-gnu@1.2.7": {
+    "file": "93a675c915fd5846a0d9956bfc10cea9b2deeacf59074abf398f0fdcce10a19b.txt",
+    "source": "https://raw.githubusercontent.com/rolldown/rolldown/v1.2.7/LICENSE",
+    "sha256": "93a675c915fd5846a0d9956bfc10cea9b2deeacf59074abf398f0fdcce10a19b",
+    "explanation": "Platform-specific bindings of this same Rolldown release share its upstream MIT licence."
+  },
+  "@rolldown/binding-linux-s390x-gnu@1.2.7": {
+    "file": "93a675c915fd5846a0d9956bfc10cea9b2deeacf59074abf398f0fdcce10a19b.txt",
+    "source": "https://raw.githubusercontent.com/rolldown/rolldown/v1.2.7/LICENSE",
+    "sha256": "93a675c915fd5846a0d9956bfc10cea9b2deeacf59074abf398f0fdcce10a19b",
+    "explanation": "Platform-specific bindings of this same Rolldown release share its upstream MIT licence."
+  },
+  "@rolldown/binding-linux-x64-gnu@1.2.7": {
+    "file": "93a675c915fd5846a0d9956bfc10cea9b2deeacf59074abf398f0fdcce10a19b.txt",
+    "source": "https://raw.githubusercontent.com/rolldown/rolldown/v1.2.7/LICENSE",
+    "sha256": "93a675c915fd5846a0d9956bfc10cea9b2deeacf59074abf398f0fdcce10a19b",
+    "explanation": "Platform-specific bindings of this same Rolldown release share its upstream MIT licence."
+  },
+  "@rolldown/binding-linux-x64-musl@1.2.7": {
+    "file": "93a675c915fd5846a0d9956bfc10cea9b2deeacf59074abf398f0fdcce10a19b.txt",
+    "source": "https://raw.githubusercontent.com/rolldown/rolldown/v1.2.7/LICENSE",
+    "sha256": "93a675c915fd5846a0d9956bfc10cea9b2deeacf59074abf398f0fdcce10a19b",
+    "explanation": "Platform-specific bindings of this same Rolldown release share its upstream MIT licence."
+  },
+  "@rolldown/binding-openharmony-arm64@1.2.7": {
+    "file": "93a675c915fd5846a0d9956bfc10cea9b2deeacf59074abf398f0fdcce10a19b.txt",
+    "source": "https://raw.githubusercontent.com/rolldown/rolldown/v1.2.7/LICENSE",
+    "sha256": "93a675c915fd5846a0d9956bfc10cea9b2deeacf59074abf398f0fdcce10a19b",
+    "explanation": "Platform-specific bindings of this same Rolldown release share its upstream MIT licence."
+  },
+  "@rolldown/binding-win32-arm64-msvc@1.2.7": {
+    "file": "93a675c915fd5846a0d9956bfc10cea9b2deeacf59074abf398f0fdcce10a19b.txt",
+    "source": "https://raw.githubusercontent.com/rolldown/rolldown/v1.2.7/LICENSE",
+    "sha256": "93a675c915fd5846a0d9956bfc10cea9b2deeacf59074abf398f0fdcce10a19b",
+    "explanation": "Platform-specific bindings of this same Rolldown release share its upstream MIT licence."
+  },
+  "@rolldown/binding-win32-x64-msvc@1.2.7": {
+    "file": "93a675c915fd5846a0d9956bfc10cea9b2deeacf59074abf398f0fdcce10a19b.txt",
+    "source": "https://raw.githubusercontent.com/rolldown/rolldown/v1.2.7/LICENSE",
+    "sha256": "93a675c915fd5846a0d9956bfc10cea9b2deeacf59074abf398f0fdcce10a19b",
+    "explanation": "Platform-specific bindings of this same Rolldown release share its upstream MIT licence."
+  },
+  "@sentry/server-utils@10.73.0": {
+    "file": "1c41214e8450df6304ddf47aba9761fc41d835261c8eec47cbbfb0e56a4b0433.txt",
+    "source": "https://raw.githubusercontent.com/getsentry/sentry-javascript/10.73.0/LICENSE",
+    "sha256": "1c41214e8450df6304ddf47aba9761fc41d835261c8eec47cbbfb0e56a4b0433"
+  },
+  "babel-plugin-react-compiler@1.0.0": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/facebook/react/5c15c1cd3442f28044217703b5625f98c40042ee/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "badgin@1.2.3": {
+    "file": "db2069dc6c428ca73e74e25e5cbd09d17080317eb64c7e3aa1b732644b8dfa0e.txt",
+    "source": "https://registry.npmjs.org/badgin/1.2.3 ; https://github.com/spdx/license-list-data/blob/v3.28.0/text/MIT.txt",
+    "sha256": "db2069dc6c428ca73e74e25e5cbd09d17080317eb64c7e3aa1b732644b8dfa0e",
+    "explanation": "The distribution and pinned source have no full licence notice. Preserve published attribution and include standard terms, without inventing a copyright notice."
+  },
+  "boolbase@1.0.0": {
+    "file": "3b923ac017de8fd00d4909963013789b3b21b94524c3384a35bfe802dfd234f5.txt",
+    "source": "https://registry.npmjs.org/boolbase/1.0.0 ; https://github.com/spdx/license-list-data/blob/v3.28.0/text/ISC.txt",
+    "sha256": "3b923ac017de8fd00d4909963013789b3b21b94524c3384a35bfe802dfd234f5",
+    "explanation": "The distribution and pinned source have no full licence notice. Preserve published attribution and include standard terms, without inventing a copyright notice."
+  },
+  "bser@2.1.1": {
+    "file": "68d6c3c5897daac44a632dc2d4ce6a65459f19b7940bc70cfbe4235f3edb62fc.txt",
+    "source": "https://registry.npmjs.org/bser/2.1.1 ; https://github.com/spdx/license-list-data/blob/v3.28.0/text/Apache-2.0.txt",
+    "sha256": "68d6c3c5897daac44a632dc2d4ce6a65459f19b7940bc70cfbe4235f3edb62fc",
+    "explanation": "The distribution and pinned source have no full licence notice. Preserve published attribution and include standard terms, without inventing a copyright notice."
+  },
+  "bun-types@1.4.0": {
+    "file": "b9caf52728691b4057e371232c221a132883198be2f3d2ddf92c90404c984b1a.txt",
+    "source": "https://raw.githubusercontent.com/oven-sh/bun/34cbb9a40b4bd1bd767d134a7065e66c2432a676/LICENSE.md",
+    "sha256": "b9caf52728691b4057e371232c221a132883198be2f3d2ddf92c90404c984b1a"
+  },
+  "client-only@0.0.1": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/facebook/react/v19.2.3/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "dlv@1.1.3": {
+    "file": "73cf5aa391aae820c74b94a4a77bfb757df08cc6a7a8425b1c4b3c30ef972f6a.txt",
+    "source": "https://registry.npmjs.org/dlv/1.1.3 ; https://github.com/spdx/license-list-data/blob/v3.28.0/text/MIT.txt",
+    "sha256": "73cf5aa391aae820c74b94a4a77bfb757df08cc6a7a8425b1c4b3c30ef972f6a",
+    "explanation": "The distribution and pinned source have no full licence notice. Preserve published attribution and include standard terms, without inventing a copyright notice."
+  },
+  "drizzle-orm@0.45.2": {
+    "file": "283ea6cc2997a1a70da0049e09adf9317bb60ca1b51279b65196b83a69e1996b.txt",
+    "source": "https://raw.githubusercontent.com/drizzle-team/drizzle-orm/0.45.2/LICENSE",
+    "sha256": "283ea6cc2997a1a70da0049e09adf9317bb60ca1b51279b65196b83a69e1996b"
+  },
+  "expo-router@57.0.18": {
+    "file": "371567d5d8999eeffba61ddbcb60ffbe4f25c3f165f1772e2c66befd0251bffa.txt",
+    "source": "https://raw.githubusercontent.com/expo/expo/b76ecf192c5325793bcea31dd9bb8efd91f9ad7f/LICENSE",
+    "sha256": "371567d5d8999eeffba61ddbcb60ffbe4f25c3f165f1772e2c66befd0251bffa"
+  },
+  "expo-structured-headers@57.0.1": {
+    "file": "371567d5d8999eeffba61ddbcb60ffbe4f25c3f165f1772e2c66befd0251bffa.txt",
+    "source": "https://raw.githubusercontent.com/expo/expo/9e5319c0f821a27b7924841903abae50e2b41790/LICENSE",
+    "sha256": "371567d5d8999eeffba61ddbcb60ffbe4f25c3f165f1772e2c66befd0251bffa"
+  },
+  "expo-updates@57.0.23": {
+    "file": "371567d5d8999eeffba61ddbcb60ffbe4f25c3f165f1772e2c66befd0251bffa.txt",
+    "source": "https://raw.githubusercontent.com/expo/expo/7687b07947a5c866adeb11abbceae72403ccb188/LICENSE",
+    "sha256": "371567d5d8999eeffba61ddbcb60ffbe4f25c3f165f1772e2c66befd0251bffa"
+  },
+  "fb-dotslash@0.5.8": {
+    "file": "ed55f4c2168472b509719e2c66619faf956b37d606c233c1bcebe9a1c2f6cfa7.txt",
+    "source": "https://raw.githubusercontent.com/facebook/dotslash/8060e2dec764bceba5809cf6a15906644aad0078/LICENSE-APACHE ; https://raw.githubusercontent.com/facebook/dotslash/8060e2dec764bceba5809cf6a15906644aad0078/LICENSE-MIT",
+    "sha256": "ed55f4c2168472b509719e2c66619faf956b37d606c233c1bcebe9a1c2f6cfa7"
+  },
+  "fb-watchman@2.0.2": {
+    "file": "ab72b468d80e6d42ded135e87d0c9f4a116f7896e3f55d9b40baf03cbb90d686.txt",
+    "source": "https://registry.npmjs.org/fb-watchman/2.0.2 ; https://github.com/spdx/license-list-data/blob/v3.28.0/text/Apache-2.0.txt",
+    "sha256": "ab72b468d80e6d42ded135e87d0c9f4a116f7896e3f55d9b40baf03cbb90d686",
+    "explanation": "The distribution and pinned source have no full licence notice. Preserve published attribution and include standard terms, without inventing a copyright notice."
+  },
+  "hermes-compiler@250829098.0.17": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/facebook/hermes/3477757eb2475555cf8d8df24bfb1deb0613880d/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "is-node-process@1.2.0": {
+    "file": "3e202dddc8984e462b8acfacf4b42f75902b4efc2d20ca8be5525a479f0bcb8a.txt",
+    "source": "https://registry.npmjs.org/is-node-process/1.2.0 ; https://github.com/spdx/license-list-data/blob/v3.28.0/text/MIT.txt",
+    "sha256": "3e202dddc8984e462b8acfacf4b42f75902b4efc2d20ca8be5525a479f0bcb8a",
+    "explanation": "The distribution and pinned source have no full licence notice. Preserve published attribution and include standard terms, without inventing a copyright notice."
+  },
+  "jimp-compact@0.16.1": {
+    "file": "4ba1512335583df3b5eee14727ef9129c3f20793001eb9bbbb7f711393360922.txt",
+    "source": "https://registry.npmjs.org/jimp-compact/0.16.1 ; https://github.com/spdx/license-list-data/blob/v3.28.0/text/MIT.txt",
+    "sha256": "4ba1512335583df3b5eee14727ef9129c3f20793001eb9bbbb7f711393360922",
+    "explanation": "The distribution and pinned source have no full licence notice. Preserve published attribution and include standard terms, without inventing a copyright notice."
+  },
+  "metro-babel-transformer@0.84.5": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/b71015ef83904e7086342ddb72205b7242dcd129/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-babel-transformer@0.84.6": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/118de9fdd60fde6a7aa9c0961e65f22492afffcc/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-babel-transformer@0.87.0": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/4ac5f345c9964db6110eda9250f1a657d0f11cfd/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-cache-key@0.84.5": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/b71015ef83904e7086342ddb72205b7242dcd129/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-cache-key@0.84.6": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/118de9fdd60fde6a7aa9c0961e65f22492afffcc/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-cache-key@0.87.0": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/4ac5f345c9964db6110eda9250f1a657d0f11cfd/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-cache@0.84.5": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/b71015ef83904e7086342ddb72205b7242dcd129/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-cache@0.84.6": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/118de9fdd60fde6a7aa9c0961e65f22492afffcc/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-cache@0.87.0": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/4ac5f345c9964db6110eda9250f1a657d0f11cfd/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-config@0.84.5": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/b71015ef83904e7086342ddb72205b7242dcd129/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-config@0.84.6": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/118de9fdd60fde6a7aa9c0961e65f22492afffcc/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-config@0.87.0": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/4ac5f345c9964db6110eda9250f1a657d0f11cfd/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-core@0.84.5": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/b71015ef83904e7086342ddb72205b7242dcd129/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-core@0.84.6": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/118de9fdd60fde6a7aa9c0961e65f22492afffcc/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-core@0.87.0": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/4ac5f345c9964db6110eda9250f1a657d0f11cfd/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-file-map@0.84.5": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/b71015ef83904e7086342ddb72205b7242dcd129/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-file-map@0.84.6": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/118de9fdd60fde6a7aa9c0961e65f22492afffcc/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-file-map@0.87.0": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/4ac5f345c9964db6110eda9250f1a657d0f11cfd/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-minify-terser@0.84.5": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/b71015ef83904e7086342ddb72205b7242dcd129/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-minify-terser@0.84.6": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/118de9fdd60fde6a7aa9c0961e65f22492afffcc/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-minify-terser@0.87.0": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/4ac5f345c9964db6110eda9250f1a657d0f11cfd/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-resolver@0.84.5": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/b71015ef83904e7086342ddb72205b7242dcd129/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-resolver@0.84.6": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/118de9fdd60fde6a7aa9c0961e65f22492afffcc/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-resolver@0.87.0": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/4ac5f345c9964db6110eda9250f1a657d0f11cfd/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-runtime@0.84.5": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/b71015ef83904e7086342ddb72205b7242dcd129/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-runtime@0.84.6": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/118de9fdd60fde6a7aa9c0961e65f22492afffcc/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-runtime@0.87.0": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/4ac5f345c9964db6110eda9250f1a657d0f11cfd/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-source-map@0.84.5": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/b71015ef83904e7086342ddb72205b7242dcd129/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-source-map@0.84.6": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/118de9fdd60fde6a7aa9c0961e65f22492afffcc/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-source-map@0.87.0": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/4ac5f345c9964db6110eda9250f1a657d0f11cfd/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-symbolicate@0.84.5": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/b71015ef83904e7086342ddb72205b7242dcd129/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-symbolicate@0.84.6": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/118de9fdd60fde6a7aa9c0961e65f22492afffcc/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-symbolicate@0.87.0": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/4ac5f345c9964db6110eda9250f1a657d0f11cfd/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-transform-plugins@0.84.5": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/b71015ef83904e7086342ddb72205b7242dcd129/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-transform-plugins@0.84.6": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/118de9fdd60fde6a7aa9c0961e65f22492afffcc/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-transform-plugins@0.87.0": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/4ac5f345c9964db6110eda9250f1a657d0f11cfd/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-transform-worker@0.84.5": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/b71015ef83904e7086342ddb72205b7242dcd129/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-transform-worker@0.84.6": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/118de9fdd60fde6a7aa9c0961e65f22492afffcc/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro-transform-worker@0.87.0": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/4ac5f345c9964db6110eda9250f1a657d0f11cfd/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro@0.84.5": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/b71015ef83904e7086342ddb72205b7242dcd129/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro@0.84.6": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/118de9fdd60fde6a7aa9c0961e65f22492afffcc/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "metro@0.87.0": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/4ac5f345c9964db6110eda9250f1a657d0f11cfd/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "ob1@0.84.5": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/b71015ef83904e7086342ddb72205b7242dcd129/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "ob1@0.84.6": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/118de9fdd60fde6a7aa9c0961e65f22492afffcc/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "ob1@0.87.0": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/react/metro/4ac5f345c9964db6110eda9250f1a657d0f11cfd/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "postgres@3.4.9": {
+    "file": "6f9a2fb009225de5cca1c2a24dfed7a68bc22657e455b4a3d63f065258b455d1.txt",
+    "source": "https://raw.githubusercontent.com/porsager/postgres/e7dfa14519f363229ccc3ead7b1b2f2051937efb/UNLICENSE",
+    "sha256": "6f9a2fb009225de5cca1c2a24dfed7a68bc22657e455b4a3d63f065258b455d1"
+  },
+  "react-devtools-core@6.1.5": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/facebook/react/5d87cd224452c68d09bef99656b6261e9772a210/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "react-remove-scroll-bar@2.3.8": {
+    "file": "bd1e08de18df8e223564411c6272d691b22f1643b2455d0ad4eea2a6e2d0402a.txt",
+    "source": "https://registry.npmjs.org/react-remove-scroll-bar/2.3.8 ; https://github.com/spdx/license-list-data/blob/v3.28.0/text/MIT.txt",
+    "sha256": "bd1e08de18df8e223564411c6272d691b22f1643b2455d0ad4eea2a6e2d0402a",
+    "explanation": "The distribution and pinned source have no full licence notice. Preserve published attribution and include standard terms, without inventing a copyright notice."
+  },
+  "saxes@6.0.0": {
+    "file": "29f03bc214f25a56e480a01a6c54e227e5327904f000944ada35e5f361a389ce.txt",
+    "source": "https://raw.githubusercontent.com/lddubeau/saxes/211fa0ebec9b628affc09219199639887174bfc3/LICENSE",
+    "sha256": "29f03bc214f25a56e480a01a6c54e227e5327904f000944ada35e5f361a389ce"
+  },
+  "server-only@0.0.1": {
+    "file": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173.txt",
+    "source": "https://raw.githubusercontent.com/facebook/react/v19.2.3/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  "stackback@0.0.2": {
+    "file": "19499fb2d4db90bf83ba8321c37070ce014b75b89042d444c0ecda20d5ffe22d.txt",
+    "source": "https://registry.npmjs.org/stackback/0.0.2 ; https://github.com/spdx/license-list-data/blob/v3.28.0/text/MIT.txt",
+    "sha256": "19499fb2d4db90bf83ba8321c37070ce014b75b89042d444c0ecda20d5ffe22d",
+    "explanation": "The distribution and pinned source have no full licence notice. Preserve published attribution and include standard terms, without inventing a copyright notice."
+  },
+  "standard-navigation@0.0.5": {
+    "file": "747949916971e9e3446b987322dc5075d897c9c0379a2a9deec822340b198e0f.txt",
+    "source": "https://registry.npmjs.org/standard-navigation/0.0.5 ; https://github.com/spdx/license-list-data/blob/v3.28.0/text/MIT.txt",
+    "sha256": "747949916971e9e3446b987322dc5075d897c9c0379a2a9deec822340b198e0f",
+    "explanation": "The distribution and pinned source have no full licence notice. Preserve published attribution and include standard terms, without inventing a copyright notice."
+  },
+  "standardwebhooks@1.1.1": {
+    "file": "283ea6cc2997a1a70da0049e09adf9317bb60ca1b51279b65196b83a69e1996b.txt",
+    "source": "https://raw.githubusercontent.com/standard-webhooks/standard-webhooks/b4d2c14fc5b4ccff3ff271e3b087dff812254c59/LICENSE",
+    "sha256": "283ea6cc2997a1a70da0049e09adf9317bb60ca1b51279b65196b83a69e1996b"
+  },
+  "stream-buffers@2.2.0": {
+    "file": "ca2abdf695884c77ea4b4a5b64ca7b732d9d9dbade4eebc1c2e76c53e9e3bc83.txt",
+    "source": "https://raw.githubusercontent.com/samcday/node-stream-buffer/17024f70e0107175ede0ebcfbe9de7102d8be25f/UNLICENSE",
+    "sha256": "ca2abdf695884c77ea4b4a5b64ca7b732d9d9dbade4eebc1c2e76c53e9e3bc83"
+  },
+  "strict-event-emitter@0.5.1": {
+    "file": "62ab7a8f119aa529e8d21bc62816a648f91253fdc57af99af384edb2fb599ee0.txt",
+    "source": "https://registry.npmjs.org/strict-event-emitter/0.5.1 ; https://github.com/spdx/license-list-data/blob/v3.28.0/text/MIT.txt",
+    "sha256": "62ab7a8f119aa529e8d21bc62816a648f91253fdc57af99af384edb2fb599ee0",
+    "explanation": "The distribution and pinned source have no full licence notice. Preserve published attribution and include standard terms, without inventing a copyright notice."
+  },
+  "structured-headers@0.4.1": {
+    "file": "469bd36b803275b3a14306b0b146d8663129e10e8e3acea1ecef16f7a48651b1.txt",
+    "source": "https://registry.npmjs.org/structured-headers/0.4.1 ; https://github.com/spdx/license-list-data/blob/v3.28.0/text/MIT.txt",
+    "sha256": "469bd36b803275b3a14306b0b146d8663129e10e8e3acea1ecef16f7a48651b1",
+    "explanation": "The distribution and pinned source have no full licence notice. Preserve published attribution and include standard terms, without inventing a copyright notice."
+  },
+  "tr46@0.0.3": {
+    "file": "e4e26f64645b26e430b2a1f49acb791046d4fc0eba0e5e5194ef7e3f8662b8aa.txt",
+    "source": "https://registry.npmjs.org/tr46/0.0.3 ; https://github.com/spdx/license-list-data/blob/v3.28.0/text/MIT.txt",
+    "sha256": "e4e26f64645b26e430b2a1f49acb791046d4fc0eba0e5e5194ef7e3f8662b8aa",
+    "explanation": "The distribution and pinned source have no full licence notice. Preserve published attribution and include standard terms, without inventing a copyright notice."
+  }
+}

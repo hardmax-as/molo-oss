@@ -1,0 +1,1 @@
+ALTER TABLE "user" ADD COLUMN "age_ok" boolean DEFAULT false NOT NULL;

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- Full-bleed square: Apple and Android round the corners themselves. -->
+  <rect width="1024" height="1024" fill="#26264F"/>
+  <circle cx="512" cy="451" r="317" fill="#F6B73C"/>
+  <path d="M0 655 C 225 583, 471 624, 696 655 C 819 672, 942 643, 1024 614 L 1024 1024 L 0 1024 Z" fill="#1FA38C"/>
+  <path d="M0 788 C 307 737, 635 778, 1024 737 L 1024 1024 L 0 1024 Z" fill="#D9772B"/>
+  <path d="M384 583 L384 328 L512 472 L640 328 L640 583" fill="none" stroke="#26264F"
+    stroke-width="88" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

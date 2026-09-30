@@ -1,0 +1,20 @@
+{
+  "data": {
+    "app": {
+      "byFullName": {
+        "iosAppCredentials": [
+          {
+            "appleAppIdentifier": { "bundleIdentifier": "com.hardmax.molo" },
+            "iosAppBuildCredentialsList": [
+              {
+                "iosDistributionType": "APP_STORE",
+                "distributionCertificate": { "validityNotAfter": "2027-09-21T12:00:00.000Z" },
+                "provisioningProfile": { "expiration": "2026-10-21T12:00:00.000Z" }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

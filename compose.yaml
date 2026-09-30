@@ -1,0 +1,4 @@
+# `docker compose up -d` from the repo root. The real definition lives in
+# infra/docker/compose.yaml so infra/ stays the home of everything runtime.
+include:
+  - infra/docker/compose.yaml

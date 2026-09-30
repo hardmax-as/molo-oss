@@ -1,0 +1,52 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["typescript", "unicorn", "oxc", "import", "promise"],
+  "categories": {
+    "correctness": "error",
+    "suspicious": "warn",
+    "perf": "warn"
+  },
+  "env": {
+    "builtin": true,
+    "es2024": true
+  },
+  "ignorePatterns": [
+    "node_modules",
+    "dist",
+    ".output",
+    ".vinxi",
+    ".wrangler",
+    ".alchemy",
+    "target",
+    "spike/*.jsonl",
+    "**/*.gen.ts",
+    "**/routeTree.gen.ts",
+    "**/drizzle/**",
+    "crates/**/pkg"
+  ],
+  "rules": {
+    "no-console": "off",
+    "import/no-cycle": "error",
+    "unicorn/filename-case": "off",
+    "unicorn/no-null": "off",
+    "unicorn/prefer-top-level-await": "off",
+    "typescript/no-explicit-any": "error",
+    "typescript/consistent-type-imports": "error",
+    "no-await-in-loop": "off",
+    "unicorn/consistent-function-scoping": "off",
+    "unicorn/no-array-sort": "off",
+    "unicorn/no-array-for-each": "off",
+    "unicorn/no-nested-ternary": "off",
+    "no-underscore-dangle": "off",
+    "oxc/no-map-spread": "off",
+    "oxc/no-accumulating-spread": "off"
+  },
+  "overrides": [
+    {
+      "files": ["**/*.test.ts", "**/*.spec.ts", "packages/testkit/**"],
+      "rules": {
+        "typescript/no-non-null-assertion": "off"
+      }
+    }
+  ]
+}

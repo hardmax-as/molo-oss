@@ -1,0 +1,1909 @@
+{
+  "app": {
+    "name": "Molo",
+    "tagline": "isiXhosa, click by click.",
+    "description": "Learn isiXhosa the way it sounds: a real voice on every word, the clicks drilled from day one, lessons that fit in ten minutes. For English and Norwegian speakers."
+  },
+  "nav": {
+    "learn": "Learn",
+    "review": "Review",
+    "edit": "Editor",
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "profile": "Profile",
+    "leagues": "Leagues",
+    "grammar": "Grammar",
+    "menu": "Menu",
+    "account": "Account"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "name": "Name",
+    "signIn": "Sign in",
+    "signUp": "Create account",
+    "magicLink": "Email me a sign-in link",
+    "magicLinkSent": "Check your inbox for the sign-in link.",
+    "sourceLanguage": "I am learning from",
+    "errors": {
+      "invalid": "That email or password is not right.",
+      "generic": "Something went wrong. Try again.",
+      "unverified": "Confirm your email first: we have just sent you a new link.",
+      "notLinked": "This email already has a Molo account. Sign in with your email, then connect {{provider}} in Settings."
+    },
+    "welcome": "Molo! Let's learn isiXhosa.",
+    "welcomeBody": "Sign in to keep your streak, XP and reviews on every device.",
+    "switchToSignUp": "New here? Create an account",
+    "switchToSignIn": "Have an account? Sign in",
+    "passwordHint": "At least 10 characters",
+    "signUpBody": "Create an account to keep your streak, XP and reviews on every device.",
+    "withApple": "Continue with Apple",
+    "withGoogle": "Continue with Google",
+    "or": "or with email",
+    "providerOff": "Sign in with {{provider}} is not set up yet.",
+    "verifySent": "We sent a verification link to {{email}}. Open it, then you are signed in.",
+    "checkInbox": "Check your inbox",
+    "resend": "Send the link again",
+    "resent": "Sent. Give it a minute.",
+    "verified": "Your email is confirmed. Welcome to Molo!",
+    "backToSignIn": "Back to sign in"
+  },
+  "units": {
+    "title": "Units",
+    "empty": "No published units yet. Content appears here once an editor publishes it.",
+    "start": "Start",
+    "continue": "Continue",
+    "unit1": {
+      "title": "Molo! Greetings and clicks",
+      "skills": {
+        "greetings": {
+          "title": "Greetings"
+        },
+        "clicks": {
+          "title": "The clicks"
+        },
+        "names": {
+          "title": "Names and people"
+        },
+        "numbers": {
+          "title": "Numbers 1 to 10"
+        },
+        "classes": {
+          "title": "Nouns and their classes"
+        }
+      }
+    },
+    "crown": "{{mature}} of {{total}} words mastered",
+    "lessons": "{{count}} lessons",
+    "minutes": "{{count}} min",
+    "lesson": "Lesson {{order}}",
+    "words": "{{count}} words",
+    "crowned": "Crowned! Every word is mastered.",
+    "mastered": "Mastered",
+    "offline": "Offline copy",
+    "exercises_one": "{{count}} exercise",
+    "exercises_other": "{{count}} exercises",
+    "sample": "Sample unit",
+    "exercises": "{{count}} exercises",
+    "locked": "Locked",
+    "lockedHint": "Finish {{unit}} first",
+    "downloaded": "Downloaded",
+    "download": {
+      "title": "Take this unit offline",
+      "hint": "Every exercise and every recording, kept on this phone.",
+      "size": "About {{size}} to download",
+      "start": "Download",
+      "working": "Downloading",
+      "progress": "{{done}} of {{total}} recordings",
+      "ready": "Ready offline",
+      "readyHint": "{{size}} on this phone. Works with no signal at all.",
+      "remove": "Remove download",
+      "errorOffline": "The connection went before it finished, so nothing was kept. Try again on wifi.",
+      "errorNoSpace": "There is not enough room on this phone. Free some space and try again.",
+      "errorMissingAudio": "A recording this unit needs could not be fetched, so nothing was kept.",
+      "errorFailed": "The download did not finish, so nothing was kept.",
+      "plusOnly": "Offline units come with Molo Plus. Keep every exercise and recording on this phone for places with no signal.",
+      "getPlus": "Get Molo Plus",
+      "pillPlus": "Offline · Plus",
+      "pillPlusLabel": "Offline with Molo Plus",
+      "failedShort": "Download failed",
+      "percent": "{{percent}}%",
+      "progressHint": "Shows the progress and lets you stop it."
+    },
+    "loadError": "The course could not be loaded. Check your connection and try again."
+  },
+  "lesson": {
+    "check": "Check",
+    "continue": "Continue",
+    "correct": "Correct!",
+    "incorrect": "Not quite.",
+    "correctAnswerWas": "The answer was",
+    "skip": "Skip",
+    "progress": "{{done}} of {{total}}",
+    "listen": "Listen",
+    "listenAgain": "Listen again",
+    "slow": "Slowly",
+    "chooseGloss": "What does this mean?",
+    "chooseAudio": "Which one says",
+    "assemble": "Build the sentence",
+    "matchPairs": "Match the pairs",
+    "sortClasses": "Sort the nouns into their classes",
+    "clickIdentify": "Which click did you hear?",
+    "record": "Record",
+    "stop": "Stop",
+    "compare": "Compare with the speaker",
+    "xpEarned": "+{{xp}} XP",
+    "perfect": "Perfect lesson!",
+    "attribution": {
+      "forvo": "Pronunciation by Forvo"
+    },
+    "typeTheXhosa": "Type it in isiXhosa",
+    "typePlaceholder": "Type here…",
+    "clickHint": "Listen for the click: {{letters}}",
+    "typoHint": "Accepted, but mind the spelling:",
+    "fillBlanks": "Fill the gaps",
+    "speakTitle": "Say it",
+    "reference": "Speaker",
+    "yourTake": "You",
+    "soundedRight": "Sounded right",
+    "tryAgain": "Try again",
+    "noMic": "No microphone available, skipping this one.",
+    "recordHint": "Listen, then press and say it.",
+    "summaryTitle": "Lesson done",
+    "summaryCorrect": "{{correct}} of {{total}} right",
+    "exit": "Leave lesson",
+    "rightAnswer": "Right answer",
+    "keepGoing": "Keep going",
+    "leaveTitle": "Leave this lesson?",
+    "leaveBody": "Your answers in this lesson will be lost.",
+    "leaveConfirm": "Leave",
+    "clickTeach": {
+      "c": "c is the dental click: tongue tip behind the top teeth, like a soft tut.",
+      "x": "x is the lateral click: tongue at the side, like clucking to a horse.",
+      "q": "q is the post-alveolar click: tongue tip pulled sharply from the roof of the mouth, like a cork."
+    },
+    "chooseGlossQuiet": "What does this word mean?",
+    "chooseWordQuiet": "Which word means this?",
+    "quietOn": "Quiet mode is on",
+    "quietOff": "Quiet mode",
+    "quietToggle": "Turn listening exercises off or on",
+    "nothingInModes": "Every exercise in this lesson needs listening or speaking. Turn them on to continue.",
+    "turnOnListening": "Turn listening on",
+    "skippedForModes": "{{count}} exercises skipped for quiet mode",
+    "skippedForModes_one": "{{count}} exercise skipped for quiet mode",
+    "skippedForModes_other": "{{count}} exercises skipped for quiet mode",
+    "noAudio": "No audio yet",
+    "typeAnswer": "Type it in isiXhosa",
+    "fillBlank": "Fill the missing form",
+    "blank": "blank",
+    "speak": {
+      "title": "Say it like the speaker",
+      "record": "Hold to record",
+      "recording": "Recording…",
+      "yours": "Yours",
+      "theirs": "Speaker",
+      "compare": "How did it sound?",
+      "soundedRight": "Sounded right",
+      "notYet": "Not yet",
+      "micDenied": "Microphone access is off. You can allow it in Settings; the exercise is skipped for now.",
+      "noReference": "No reference recording yet"
+    },
+    "quietMode": "Quiet mode",
+    "emptyModes": "Nothing to do here with listening and speaking off. Turn them on in Settings.",
+    "openSettings": "Open settings",
+    "readInstead": "Read the word",
+    "otherVoice": "Another voice",
+    "voiceBy": "Voice: {{name}}",
+    "clickNoAudio": "No click recordings in this lesson yet.",
+    "clickReplay": "Play the click again",
+    "clickVariant": {
+      "aspirated": "{{letters}} is the same click with a puff of air straight after it.",
+      "nasal": "{{letters}} is the same click with the air going out through the nose.",
+      "voiced": "{{letters}} is the same click with your voice already humming as it is made.",
+      "voiced_nasal": "{{letters}} is the same click through the nose, with the voice on."
+    },
+    "answerArea": "Your answer",
+    "addWord": "Add {{word}}",
+    "removeWord": "Remove {{word}}",
+    "blankAt": "Gap {{n}}",
+    "voiceOf": "Voice {{index}} of {{total}}. Hear another voice.",
+    "bucketFor": "Put the chosen word in {{label}}",
+    "moment": {
+      "newWord": "New word",
+      "tricky": "Tricky one",
+      "newWordHint": "You have not met this word before.",
+      "trickyHint": "You have missed this one before."
+    },
+    "run": {
+      "inARow": "{{count}} in a row",
+      "inARow_one": "{{count}} in a row",
+      "inARow_other": "{{count}} in a row",
+      "onFire": "{{count}} in a row — on fire"
+    },
+    "speaker": {
+      "listening": "The sunbird plays it",
+      "teaching": "The crane shows it",
+      "producing": "The penguin listens for it"
+    },
+    "wordHint": {
+      "open": "What does {{word}} mean?",
+      "none": "No hint for this word yet."
+    },
+    "report": {
+      "action": "Report this exercise",
+      "title": "What is wrong here?",
+      "note": "Anything to add? (optional)",
+      "send": "Send to an editor",
+      "cancel": "Cancel",
+      "thanks": "Thank you. An editor will look at this.",
+      "already": "You have already reported this. It is with an editor.",
+      "failed": "That did not send. Try again later.",
+      "tooMany": "That is a lot of reports at once. Wait a minute, then send the rest.",
+      "guestTitle": "Tell an editor?",
+      "guestBody": "A report goes to a person who will fix it, so it needs a name on it. Creating an account takes a moment, and your lessons come with you.",
+      "reason": {
+        "wrong_gloss": "The translation looks wrong",
+        "wrong_answer": "My answer should have been accepted",
+        "audio_problem": "The audio is missing or unclear",
+        "typo": "There is a spelling mistake",
+        "other": "Something else"
+      }
+    },
+    "audioFailed": "Could not play this recording",
+    "intro": {
+      "one": "New word",
+      "many": "New words",
+      "listen": "Listen to {{word}}"
+    }
+  },
+  "review": {
+    "title": "Review",
+    "due": "{{count}} due",
+    "nothingDue": "Nothing due. Come back later, or start a new lesson.",
+    "again": "Again",
+    "hard": "Hard",
+    "good": "Good",
+    "easy": "Easy",
+    "reveal": "Show answer",
+    "done": "All reviewed",
+    "sessionXp": "+{{xp}} XP this session",
+    "hearIt": "Hear it, recall the meaning, then rate yourself.",
+    "start": "Start review",
+    "sessionDone": "Session done",
+    "queued": "Saved offline; will sync",
+    "newCards": "{{count}} new",
+    "signInFirst": "Sign in to review the words you have learned.",
+    "emptyCta": "Open a lesson"
+  },
+  "gamification": {
+    "streak": "{{count}} day streak",
+    "streak_one": "{{count}} day streak",
+    "streak_other": "{{count}} day streak",
+    "level": "Level {{level}}",
+    "dailyGoal": "Daily goal",
+    "xpToday": "{{xp}} / {{goal}} XP today",
+    "levelUp": "Level up!",
+    "newLevel": "You reached level {{level}}",
+    "goalReached": "Daily goal reached",
+    "toGoal": "{{xp}} XP to today's goal",
+    "levelUpBody": "You reached level {{level}}. Keep the streak alive.",
+    "streakAtRisk": "Your streak is waiting for today's lesson",
+    "xp": "XP",
+    "freezeReady": "freeze ready",
+    "frozen": "Your streak was saved by a freeze",
+    "levelRing": "Level {{level}}, {{xp}} of {{goal}} XP today"
+  },
+  "celebration": {
+    "a11y": {
+      "sequence": "End of lesson",
+      "week": "Days practised this week",
+      "medal": "Medal for {{words}} words",
+      "crown": "Crown for a finished unit"
+    },
+    "skipAll": "Skip",
+    "continue": "Continue",
+    "back": "Back to the path",
+    "lesson": {
+      "title": "Lesson done",
+      "perfect": "Not one slip",
+      "xpLabel": "XP earned",
+      "accuracy": "{{correct}} of {{total}} right · {{percent}}% accuracy"
+    },
+    "streak": {
+      "title": "Streak extended",
+      "titleFrozen": "Streak saved",
+      "dayLabel": "days in a row",
+      "dayLabel_one": "day in a row",
+      "dayLabel_other": "days in a row",
+      "body": "Come back tomorrow and it keeps burning.",
+      "bodyFrozen": "A freeze covered the day you missed, so the run is still yours.",
+      "week": "This week"
+    },
+    "milestone": {
+      "title": "{{words}} words",
+      "subtitle": "Words learned",
+      "body": "That many isiXhosa words have passed your ears. Say a few of them out loud today."
+    },
+    "unit": {
+      "title": "Unit finished",
+      "titleFlawless": "Unit finished, not one wrong",
+      "body": "{{unit}} is behind you.",
+      "bodyFlawless": "{{unit}} is behind you, and you never slipped once."
+    },
+    "weekday": {
+      "mon": "M",
+      "tue": "T",
+      "wed": "W",
+      "thu": "T",
+      "fri": "F",
+      "sat": "S",
+      "sun": "S"
+    }
+  },
+  "nounClass": {
+    "label": "Class {{label}}",
+    "1": {
+      "label": "Class 1"
+    },
+    "1a": {
+      "label": "Class 1a"
+    },
+    "2": {
+      "label": "Class 2"
+    },
+    "2a": {
+      "label": "Class 2a"
+    },
+    "3": {
+      "label": "Class 3"
+    },
+    "4": {
+      "label": "Class 4"
+    },
+    "5": {
+      "label": "Class 5"
+    },
+    "6": {
+      "label": "Class 6"
+    },
+    "7": {
+      "label": "Class 7"
+    },
+    "8": {
+      "label": "Class 8"
+    },
+    "9": {
+      "label": "Class 9"
+    },
+    "10": {
+      "label": "Class 10"
+    }
+  },
+  "edit": {
+    "title": "Editor",
+    "deniedTitle": "Editors only",
+    "deniedBody": "This part of Molo needs an editor or admin role. Ask an admin if you should have one.",
+    "deniedSignIn": "Sign in with an editor account to use this part of Molo.",
+    "backToLearning": "Back to learning",
+    "content": "Content",
+    "reviewQueue": "Review queue",
+    "audioBacklog": {
+      "waiting": "{{count}} recordings waiting to be processed",
+      "waiting_one": "{{count}} recording waiting to be processed",
+      "waiting_other": "{{count}} recordings waiting to be processed",
+      "hint": "Processing runs every few minutes; a recording reaches the review queue once it is done."
+    },
+    "recorder": {
+      "title": "Batch recorder",
+      "speaker": "Speaker",
+      "queue": "Words to record",
+      "record": "Record",
+      "stop": "Stop",
+      "retake": "Retake",
+      "upload": "Upload",
+      "uploaded": "Uploaded, processing",
+      "consentMissing": "This speaker has no recorded consent. Record consent first.",
+      "levelHint": "Speak at normal volume; peaks should sit around the middle of the meter.",
+      "gender": "Voice",
+      "ageGroup": "Age group",
+      "genderAny": "unspecified",
+      "female": "female",
+      "male": "male",
+      "child": "child",
+      "teen": "teen",
+      "adult": "adult",
+      "elder": "elder",
+      "missingForSpeaker": "Only what this speaker has not recorded",
+      "displayName": "Display name",
+      "region": "Region or dialect",
+      "consentLabel": "Consent",
+      "noConsent": "no consent",
+      "consent": {
+        "internal": "internal only",
+        "published": "may be published",
+        "commercial": "commercial use"
+      },
+      "consentHelp": "Choose only what the signed consent form says. Audio is served in the paid app only with commercial use."
+    },
+    "goldens": {
+      "title": "Tutor-validated forms",
+      "lemma": "Lemma",
+      "form": "Form",
+      "expected": "Your answer (isiXhosa)",
+      "validatedBy": "Your name",
+      "validatedOn": "Date",
+      "irregular": "Irregular",
+      "export": "Download TOML for crates/xh-morph/golden",
+      "sessionCount": "{{count}} session cases · {{ready}} ready to export",
+      "exportHelp": "Only cases with the tutor’s form, name and a valid date are exported. Incomplete cases stay on this sheet.",
+      "sessionTitle": "This session",
+      "sessionHelp": "Enter these once. Every card starts with them, and each card can still be changed on its own.",
+      "tutorAll": "Your name, for every card",
+      "dateAll": "Today’s date, for every card",
+      "jump": "Jump to a class pair",
+      "progress": "{{ready}} ready · {{remaining}} to go",
+      "nextUnfinished": "Next unfinished",
+      "allDone": "Every case is ready",
+      "exportNone": "Nothing ready to export yet",
+      "note": "Source and session notes",
+      "check": "Compare with xh-morph",
+      "agrees": "xh-morph agrees with the form you entered. This does not approve a class or publish content.",
+      "differs": "xh-morph disagrees. Keep the tutor’s form and record the decision in the note.",
+      "unavailable": "xh-morph cannot compare this case. Keep the tutor’s form and record the question.",
+      "error": "The check failed. Keep the tutor’s form and try again.",
+      "forms": {
+        "plural": "Plural",
+        "singular": "Singular",
+        "subject_concord": "Subject concord",
+        "object_concord": "Object concord",
+        "possessive": "Possessive concord",
+        "locative": "Locative"
+      },
+      "howTitle": "How this page works",
+      "how1": "Each card asks for one form of a word — for example the plural. Type the form you would say.",
+      "how2": "“Your name” is filled in from the box at the top, and so is the date. Leave the answer empty if you are unsure.",
+      "how3": "Every card saves itself when you leave a field, and says “Saved” when it has. You can close the page and carry on later, on any device.",
+      "state": {
+        "saving": "Saving…",
+        "saved": "Saved",
+        "error": "Not saved yet. It is kept in this browser; press Try again.",
+        "retry": "Try again"
+      },
+      "savedServer": "All cards are saved.",
+      "unsavedCount": "{{count}} cards not saved yet",
+      "loadFailed": "The saved answers could not be loaded. What you type is kept in this browser until the connection is back.",
+      "lastSavedBy": "Saved by {{name}}, {{time}}",
+      "exportTitle": "For the operator: export",
+      "termsTitle": "What the grammar words mean",
+      "termClass": "Noun class",
+      "formHelp": {
+        "class": "isiXhosa sorts nouns into numbered classes by how they begin. The class decides the plural and every small piece in a sentence that agrees with the noun. Each card names its word’s class.",
+        "plural": "The whole word for more than one. In isiXhosa the beginning of the word changes, not the end. Write the full word.",
+        "singular": "The whole word for one. The card shows a word that is already plural; write its singular, the other half of the pair. In isiXhosa the beginning of the word changes, not the end.",
+        "subject_concord": "The small part at the start of a verb that changes with the noun doing it: “The tree is falling” and “The trees are falling” differ there. Write only that part, with a hyphen after it: xx-.",
+        "object_concord": "The small part inside a verb that changes with the noun it is done to, as in “I see the tree” and “I see the trees”. Write only that part, with a hyphen on both sides: -xx-.",
+        "possessive": "The small linking part in “the child’s tree” that changes with the thing owned (the tree), not with the owner. Write only that part, with a hyphen after it: xx-.",
+        "locative": "The word for “at, in, on, to or from” the place, thing or person: one whole word, as you would say it. Many nouns change at the start and take an ending; words like umama take a different beginning instead."
+      },
+      "pairTitle": "Class {{singular}} and class {{plural}}",
+      "pairIntro": "A noun in class {{singular}} makes its plural in class {{plural}}, and a noun in class {{plural}} is the plural of one in class {{singular}}. Each card shows one side of the pair and asks for the other.",
+      "pairLink": "{{singular}}/{{plural}} · {{ready}}/{{count}}",
+      "locativeTitle": "Locatives: at, in, on, to or from",
+      "locativeIntro": "Each card shows a noun. Write the one word that means at, in, to or from it, as you would say it.",
+      "locativeLink": "Locatives · {{ready}}/{{count}}",
+      "pairAsk": "Class {{cls}} → class {{other}}",
+      "oldCard": "On the old card, which asked for the plural of this plural, you wrote: {{form}}",
+      "earlierTitle": "Earlier answers to cards no longer asked",
+      "earlierHelp": "These cards asked for the plural of a word that is already plural, or of isiXhosa, which has none. They are kept here and on the server; nothing you wrote is lost, and nothing here is used.",
+      "earlierRow": "{{lemma}} · class {{cls}} · {{form}}",
+      "earlierUnsaved": "not saved yet",
+      "frames": {
+        "preview": "Preview for admins: the sentence frames below are switched off for editors until the operator turns them on.",
+        "parkedTitle": "Agreement between words: coming soon, in a session together",
+        "parkedBody": "The questions about agreement (the small parts of a sentence that change with the noun) are being rebuilt as whole sentences to say, for a session together with the tutor. Until then they are switched off, and nothing here needs doing.",
+        "exampleTitle": "What agreement means, by example",
+        "example": "In English, “The tree is falling” becomes “The trees are falling”: the verb changes with the noun. In isiXhosa the beginning of the verb changes with the noun’s class, and so do other small parts of the sentence: in “I see the tree”, and in “the child’s tree”. A card will show a sentence like that in English. You say it in isiXhosa, write the whole sentence, and mark the part that changed with the noun.",
+        "earlierTitle": "Your earlier answers to the agreement cards",
+        "earlierHelp": "Kept on the server, as you wrote them; nothing is lost, and nothing here is used until the new cards are on.",
+        "intro": "Say this in isiXhosa, as you would say it:",
+        "noFrame": "Write a short sentence with this word, as you would say it.",
+        "anyVerb": "If “falling” does not fit this word, use any verb that does. What matters is the part that changes with the noun.",
+        "sentenceLabel": "The whole sentence, in isiXhosa",
+        "mark": "Mark the part that agrees with the noun",
+        "markHint": "Select that part in the sentence above, then press the button.",
+        "markEmpty": "Select the part in the sentence first.",
+        "markSpace": "Mark one part of one word, without spaces.",
+        "marked": {
+          "before": "You marked ",
+          "middle": ". It will be saved as ",
+          "after": "."
+        },
+        "use": "Use this",
+        "savedBefore": "Saved answer: ",
+        "sentence": {
+          "subject_concord": {
+            "singular": "The {{noun}} is falling.",
+            "plural": "The {{noun}} are falling."
+          },
+          "object_concord": {
+            "singular": "I see the {{noun}}.",
+            "plural": "I see the {{noun}}."
+          },
+          "possessive": {
+            "otherOwner": "the woman’s {{noun}}",
+            "singular": "the child’s {{noun}}",
+            "plural": "the child’s {{noun}}"
+          }
+        }
+      }
+    },
+    "speakers": "Speakers",
+    "search": "Search lemmas",
+    "filters": {
+      "status": "Status",
+      "pos": "Part of speech",
+      "class": "Class",
+      "missingGloss": "Missing gloss",
+      "any": "Any",
+      "pending": "Not published yet",
+      "missingGlossAll": "Neither",
+      "missingGlossAny": "Any of them"
+    },
+    "status": {
+      "draft": "Draft",
+      "ai_draft": "AI draft",
+      "in_review": "In review",
+      "published": "Published",
+      "retired": "Retired"
+    },
+    "lexeme": {
+      "lemma": "Lemma",
+      "pos": "Part of speech",
+      "nounClass": "Noun class",
+      "register": "Register",
+      "cefrBand": "CEFR band",
+      "frequencyRank": "Frequency rank",
+      "source": "Source",
+      "licence": "Licence",
+      "attribution": "Attribution",
+      "glosses": "Glosses",
+      "audio": "Audio",
+      "revisions": "History",
+      "save": "Save",
+      "saved": "Saved",
+      "promote": "Send to review",
+      "approve": "Approve and publish",
+      "reject": "Reject",
+      "rejectNote": "Why? (required)",
+      "publishCheck": "What is missing",
+      "gateOk": "Ready to publish",
+      "aiDraftBadge": "AI draft: not yet reviewed by a human",
+      "assist": "Draft glosses with AI",
+      "assistHint": "Saves only languages without a human gloss, always as an AI draft. Never writes isiXhosa.",
+      "assistDone": "AI draft saved for: {{langs}}",
+      "assistNothing": "Suggestions returned; every language already has a human gloss",
+      "assistUnavailable": "AI assist is not configured on this server",
+      "assistSuggestion": "AI suggestion",
+      "morph": "Generated forms (xh-morph)",
+      "morphUnvalidated": "Rules for this class are not yet tutor-validated. Forms are shown for comparison only and do not count for publishing.",
+      "morphNotNoun": "Only nouns with a class have generated forms"
+    },
+    "gloss": {
+      "gloss": "Gloss",
+      "usageNote": "Usage note",
+      "contrastiveNote": "Contrastive note",
+      "en": "English",
+      "nb": "Norwegian",
+      "googleSuggestion": "Also suggested by Google Translate: {{gloss}}",
+      "agree": "Agree",
+      "differs": "Differs"
+    },
+    "gate": {
+      "pos_missing": "Part of speech is missing",
+      "noun_class_missing": "Noun class is missing",
+      "plural_not_generable": "xh-morph cannot generate the plural and no plural link is set",
+      "gloss_missing": "Gloss missing: {{detail}}",
+      "audio_missing": "No published tier-1 or tier-2 audio",
+      "licence_missing": "Licence is missing",
+      "source_missing": "Source is missing",
+      "approver_not_editorial": "Approver has no editorial role",
+      "four_eyes": "The creator cannot approve their own content",
+      "lexeme_not_published": "Lexeme not published: {{detail}}",
+      "surface_form_unverified": "Surface form unverified: {{detail}}",
+      "referenced_entity_not_published": "Not published: {{detail}}",
+      "no_morphology_generator": "This course's language has no morphology generator, so no form can be verified",
+      "option_labels_collide": "Two options read the same ({{detail}}). Change a gloss or swap a distractor so each tile is different.",
+      "click_audio_missing": "No published studio recording of the bare click {{detail}}",
+      "no_published_children": "Nothing in it is published yet"
+    },
+    "tabs": {
+      "overview": "Today",
+      "content": "Content",
+      "review": "Review queue",
+      "recorder": "Recorder",
+      "goldens": "Goldens",
+      "curriculum": "Curriculum",
+      "sentences": "Sentences",
+      "studio": "Studio",
+      "grammar": "Grammar",
+      "write": "Write sentences",
+      "culture": "Culture cards"
+    },
+    "curriculum": {
+      "title": "Curriculum",
+      "empty": "No units yet. Create the first one below.",
+      "newUnit": "New unit",
+      "newSkill": "New skill",
+      "newLesson": "New lesson",
+      "newExercise": "New exercise",
+      "slug": "Slug",
+      "titleKey": "Title key (i18n)",
+      "order": "Order",
+      "cefrBand": "CEFR band",
+      "kind": "Kind",
+      "estimatedMinutes": "Minutes",
+      "exercises": "{{count}} exercises",
+      "lexemes": "{{count}} lexemes",
+      "create": "Create",
+      "delete": "Delete draft",
+      "deleteConfirm": "Delete this draft and everything under it?",
+      "deleted": "Deleted",
+      "created": "Created",
+      "unit": "Unit",
+      "skill": "Skill",
+      "lesson": "Lesson",
+      "exercise": "Exercise",
+      "prerequisite": "Requires unit",
+      "none": "none",
+      "course": "Course",
+      "courseHint": "New units are created in this course."
+    },
+    "exercise": {
+      "title": "Exercise",
+      "type": "Type",
+      "note": "Editor note",
+      "payload": "Payload (JSON)",
+      "payloadValid": "Payload is valid",
+      "payloadInvalid": "Payload is not valid: {{error}}",
+      "structured": "Form",
+      "json": "JSON",
+      "prompt": "Prompt lexeme",
+      "options": "Options",
+      "correct": "Correct",
+      "addOption": "Add option",
+      "removeOption": "Remove",
+      "pickLexeme": "Search lexemes by lemma",
+      "noResults": "No lexemes match",
+      "references": "Referenced content",
+      "unpublishedRef": "not published: blocks publishing this exercise",
+      "save": "Save",
+      "saved": "Saved",
+      "new": "New exercise",
+      "context": "{{unit}} › {{skill}} › lesson {{lesson}}"
+    },
+    "newLexeme": {
+      "title": "New lexeme",
+      "lemma": "Lemma (as the source spells it)",
+      "pos": "Part of speech",
+      "nounClass": "Noun class",
+      "source": "Source",
+      "licence": "Licence",
+      "create": "Create draft",
+      "hint": "Creates a draft. Glosses, audio and review come next; nothing here reaches a learner."
+    },
+    "sentence": {
+      "title": "Sentences",
+      "new": "New sentence",
+      "create": "Create",
+      "text": "isiXhosa text",
+      "textHint": "Stored exactly as you type it. Build the word list below from the lexicon; nothing here is generated.",
+      "register": "Register",
+      "cefrBand": "CEFR band",
+      "sourceRef": "Source reference",
+      "tokens": "Words",
+      "tokensHint": "Each word is a lexeme from the lexicon with the form it takes here. xh-morph checks the form; a form it cannot check must be marked irregular with a note before publishing.",
+      "search": "Find a lexeme",
+      "add": "Add",
+      "surfaceForm": "Form in this sentence",
+      "irregular": "Irregular",
+      "irregularNote": "Why this form is right (required for irregular)",
+      "moveUp": "Up",
+      "moveDown": "Down",
+      "remove": "Remove",
+      "verify": "Check with xh-morph",
+      "saveTokens": "Save words",
+      "tokensSaved": "Words saved",
+      "expectedPlural": "xh-morph plural",
+      "verified": "verified",
+      "unverified": "unverified",
+      "mismatch": "mismatch",
+      "matchedLemma": "lemma",
+      "matchedPlural": "plural",
+      "glosses": "Translations",
+      "gloss": "Translation",
+      "literalGloss": "Word-by-word",
+      "audio": "Audio",
+      "revisions": "History",
+      "cols": {
+        "text": "Sentence",
+        "tokens": "Words",
+        "glosses": "Translations",
+        "audio": "Audio",
+        "updated": "Updated"
+      },
+      "empty": "No sentences yet.",
+      "created": "Sentence created",
+      "saved": "Saved",
+      "lexemeDraft": "lexeme not published"
+    },
+    "studio": {
+      "title": "Recording studio",
+      "queue": "To record",
+      "queueList": "Queue ({{count}})",
+      "position": "{{index}} of {{total}}",
+      "kind": {
+        "all": "All",
+        "lexeme": "Words",
+        "sentence": "Phrases",
+        "click": "Clicks"
+      },
+      "onlyMissing": "Only missing audio",
+      "unit": "Unit",
+      "anyUnit": "Any unit",
+      "record": "Record",
+      "stop": "Stop",
+      "retake": "Retake",
+      "upload": "Save and next",
+      "play": "Play take",
+      "existing": "Existing audio",
+      "processing": "Processing",
+      "hint": "Space: record / stop · P: play · Enter: save · ← →: previous / next",
+      "nothing": "Nothing left to record.",
+      "speakerFirst": "Choose a speaker with consent on file to start.",
+      "done": "Recorded this session: {{count}}",
+      "skip": "Skip",
+      "recording": "Recording…",
+      "take": "Your take",
+      "clickMeaning": "The {{base}} click, {{variant}}",
+      "clickVariant": {
+        "plain": "plain",
+        "aspirated": "aspirated",
+        "nasal": "nasal",
+        "voiced": "voiced",
+        "voiced_nasal": "voiced nasal"
+      },
+      "clickHint": "Say the click on its own, then once more after a short pause.",
+      "clickApproved": "Click recording approved",
+      "previous": "Previous item",
+      "next": "Next item",
+      "loadFailed": "The list could not be loaded. Nothing has been lost.",
+      "takeMismatch": "This take belongs to another item. Record it again.",
+      "unitNumbered": "{{number}}. {{title}}",
+      "unitOld": "{{title}} (old)",
+      "useFile": "Use a file",
+      "useFileHint": "A recording from another app: WAV, M4A, MP3, FLAC or OGG.",
+      "fileTake": "From the file {{name}}",
+      "fileUnreadable": "This file is not audio this browser can read. Try WAV, M4A, MP3, FLAC or OGG.",
+      "replace": "Replace",
+      "replacing": "Replacing the take by {{speaker}}. Record a new one, use a file, or trim this one below. When you save, the old take is sent back as replaced.",
+      "replacingPublished": "Replacing the published take by {{speaker}}. It stays live until an editor approves the new one.",
+      "cancelReplace": "Keep the old take",
+      "trimExisting": "Trim this take",
+      "loadTakeFailed": "This take could not be opened. Record it again instead.",
+      "replacedNote": "Replaced by a new take in the studio.",
+      "replaced": "The old take was sent back as replaced.",
+      "unknownSpeaker": "an unnamed speaker",
+      "bulk": {
+        "open": "Upload files",
+        "title": "Upload several recordings",
+        "help": "Name each file after the word or letter it says, for example the word followed by .m4a. Capitals and accents do not matter. Check the matches below before anything is uploaded.",
+        "choose": "Choose files",
+        "matched": "Matched ({{count}})",
+        "unmatched": "Not matched ({{count}})",
+        "unmatchedHelp": "No item in this list has that name. Rename the file to the word it says, or open the item and use “Use a file”.",
+        "ambiguous": "More than one item has this name; use “Use a file” on the right one.",
+        "upload": "Upload {{count}} recordings",
+        "cancel": "Cancel",
+        "progress": "Uploading {{done}} of {{total}}…",
+        "done": "{{count}} recordings uploaded",
+        "failed": "{{name}} was not uploaded: {{error}}",
+        "none": "Choose one or more audio files to begin.",
+        "duplicate": "Another file already matches this item."
+      },
+      "skipped": "Skipped",
+      "listDone": {
+        "skipped": "Done with this list. The {{count}} skipped items stay at the bottom until an editor fixes them.",
+        "empty": "Nothing left to record in this list.",
+        "clicks": "Record the clicks"
+      },
+      "editWord": "Edit this word",
+      "editSentence": "Edit this sentence",
+      "note": {
+        "open": "Note",
+        "label": "A note for the editors",
+        "hint": "The editors see it on Today, next to this item. It does not skip or change anything.",
+        "send": "Send note"
+      },
+      "skipNote": {
+        "label": "What is wrong with it? (optional)",
+        "hint": "The editor sees this note next to the word. Skipped items move to the end of the list.",
+        "sendAndSkip": "Send note and skip",
+        "skipOnly": "Skip without a note",
+        "cancel": "Cancel",
+        "sent": "Note sent to the editor",
+        "failed": "The note was not sent. Check your connection and try again."
+      },
+      "discard": {
+        "button": "Delete take",
+        "confirm": "Delete this take for good?",
+        "yes": "Yes, delete",
+        "cancel": "Keep it",
+        "done": "Take deleted"
+      }
+    },
+    "bulk": {
+      "selected": "{{count}} selected",
+      "selectRow": "Select {{lemma}}",
+      "selectAll": "Select every row on this page",
+      "clear": "Clear selection",
+      "promote": "Send to review",
+      "sendBack": "Send back to draft",
+      "retire": "Retire",
+      "publish": "Approve and publish",
+      "noteRequired": "A note is required. Say what to change.",
+      "notePlaceholder": "Why? (required)",
+      "confirmPublish": "Publish {{count}} rows? Each is checked on its own; anything not ready is left where it is.",
+      "cancel": "Cancel",
+      "running": "Working…",
+      "done": "{{applied}} moved, {{blocked}} blocked",
+      "allBlocked": "Nothing moved: {{blocked}} blocked",
+      "results": "What happened",
+      "resultsHint": "Each row was checked on its own. Blocked rows are unchanged.",
+      "moved": "Moved to {{status}}",
+      "blocked": "Blocked",
+      "close": "Close",
+      "hint": "Shift-click a checkbox to select a range."
+    },
+    "assign": {
+      "assignee": "Assignee",
+      "unassigned": "Unassigned",
+      "takeIt": "Assign to me",
+      "release": "Unassign",
+      "assignTo": "Assign to",
+      "assigned": "Assigned",
+      "released": "Unassigned",
+      "assignedBy": "Assigned by {{name}}",
+      "since": "since {{date}}",
+      "filter": "Show",
+      "filterAll": "All",
+      "filterMine": "Mine",
+      "filterUnassigned": "Unassigned",
+      "empty": "Nothing waiting for review."
+    },
+    "audioQa": {
+      "title": "Check the take",
+      "duration": "{{seconds}} s",
+      "peak": "Peak {{db}} dBFS",
+      "clipping": "The take clips. Move back from the microphone and record again.",
+      "quiet": "Very quiet. Move closer to the microphone and record again.",
+      "trimStart": "Trim from the start",
+      "trimEnd": "Trim to the end",
+      "trimHint": "Drag the handles, or use the arrow keys. The server still trims silence and normalises loudness; this only decides what it gets.",
+      "reset": "Undo trim",
+      "preview": "Play trimmed",
+      "waveform": "Waveform of the take, {{seconds}} seconds long",
+      "trimmedLength": "Keeping {{seconds}} s",
+      "decoding": "Reading the take…",
+      "undecodable": "This take cannot be shown as a waveform; it can still be uploaded."
+    },
+    "page": {
+      "previous": "Previous page",
+      "next": "Next page"
+    },
+    "reports": {
+      "title": "Reported by learners",
+      "empty": "Nothing reported.",
+      "open": "{{count}} open",
+      "resolve": "Mark looked at",
+      "reopen": "Reopen",
+      "resolved": "Looked at",
+      "openTab": "Open",
+      "allTab": "All",
+      "exercise": "Exercise",
+      "reason": {
+        "wrong_gloss": "Wrong translation",
+        "wrong_answer": "Answer rejected",
+        "audio_problem": "Audio problem",
+        "typo": "Spelling",
+        "other": "Other"
+      }
+    },
+    "overview": {
+      "title": "What needs doing",
+      "intro": "Everything below is work you can pick up: click a number to open the rows it counted.",
+      "refresh": "Refresh",
+      "asOf": "Counted on {{date}}",
+      "empty": "Nothing outstanding in this column.",
+      "write": {
+        "title": "To write",
+        "hint": "Content that does not exist yet.",
+        "skills": "Skills with no sentence yet",
+        "skillsMore": "and {{count}} more",
+        "skillLessons": "{{count}} lessons",
+        "skillLessons_one": "{{count}} lesson",
+        "skillLessons_other": "{{count}} lessons",
+        "skillLessonsNone": "no lessons yet",
+        "missingNb": "Words with an English gloss but no Norwegian one",
+        "missingEn": "Words with a Norwegian gloss but no English one",
+        "missingBoth": "Words with neither gloss",
+        "exercisesUnpublished": "Exercises that use a word or sentence that is not published",
+        "sentencesUntranslated": "Sentences short of a translation"
+      },
+      "record": {
+        "title": "To record",
+        "hint": "Words a session would give a voice to, most first.",
+        "byUnit": "Words with no native recording, by unit",
+        "notInAnyUnit": "Words no unit teaches yet",
+        "takes": "Takes recorded and waiting for a second editor",
+        "speakers": "Speakers with consent on file",
+        "speakersNone": "No speaker has consent on file: a session cannot start.",
+        "unitMissing": "{{count}} words",
+        "unitMissing_one": "{{count}} word",
+        "unitMissing_other": "{{count}} words"
+      },
+      "blocked": {
+        "title": "Blocked from publishing",
+        "hint": "What the publish gate would refuse today, across {{lexemes}} words and {{sentences}} sentences that are not published yet.",
+        "none": "Nothing is blocked: every pending row would pass the gate.",
+        "words": "words",
+        "sentences": "sentences",
+        "reason": {
+          "pos_missing": "have no part of speech",
+          "noun_class_missing": "are a noun with no class",
+          "plural_not_generable": "sit in a noun class xh-morph cannot yet inflect",
+          "no_morphology_generator": "are in a language with no morphology generator",
+          "gloss_missing": "need a gloss in {{lang}}",
+          "audio_missing": "need a native recording",
+          "licence_missing": "have no licence",
+          "source_missing": "have no source",
+          "lexeme_not_published": "use a word that is not published",
+          "surface_form_unverified": "have a form xh-morph has not verified",
+          "referenced_entity_not_published": "reference something unpublished",
+          "approver_not_editorial": "need an editor to approve them",
+          "four_eyes": "need a second pair of eyes",
+          "body_missing": "have no note text in {{lang}}",
+          "worked_example_missing": "state a rule with no worked example",
+          "option_labels_collide": "offer two options that read the same",
+          "click_audio_missing": "play a bare click nobody has recorded",
+          "no_published_children": "have nothing published in them yet"
+        }
+      },
+      "notes": {
+        "title": "Notes on words and sentences",
+        "hint": "Mostly why a speaker skipped something in the studio. Open one to fix it.",
+        "by": "{{name}} · {{date}}"
+      }
+    },
+    "grammar": {
+      "title": "Grammar notes",
+      "hint": "The rule a learner is shown before the drill. A note reaches a learner only when it and its body are published, and publishing asks you two questions at once: does the explanation read well, and is the claim true? The caveat says which claim.",
+      "none": "No grammar notes yet.",
+      "newNote": "New note",
+      "slug": "Slug",
+      "skill": "Skill",
+      "order": "Order",
+      "caveat": "What a reviewer must check",
+      "caveatEmpty": "Nothing recorded",
+      "language": "Language",
+      "noteTitle": "Title",
+      "rule": "The rule",
+      "correction": "After a wrong answer",
+      "correctionHint": "Named in the check bar when the learner gets it wrong. Left empty, the bar shows the title alone.",
+      "save": "Save",
+      "saved": "Saved",
+      "cells": "Forms",
+      "cellsHint": "The worked example and the paradigm, one form per cell. Written by `molo content grammar` from the lexicon and xh-morph; edit them here only if you know the form is right.",
+      "cellsNone": "No forms yet. A note with no worked example cannot publish.",
+      "noAudio": "no recording",
+      "roleExample": "Worked example",
+      "roleParadigm": "Paradigm",
+      "bodyMissing": "Not written in {{lang}} yet",
+      "open": "Open",
+      "back": "Back to the list"
+    },
+    "write": {
+      "title": "Write sentences",
+      "hint": "Each card is a sentence a beginner needs, in English, with the words it should be built around. Write how you would say it in isiXhosa. If the English does not say what your sentence says, change the English. If it does not work in isiXhosa at all, set it aside and say why.",
+      "unit": "Unit",
+      "allUnits": "All units",
+      "show": "Show",
+      "filter": {
+        "open": "To write",
+        "fulfilled": "Written",
+        "dismissed": "Set aside"
+      },
+      "progress": "{{done}} of {{total}} written",
+      "none": "Nothing here. `molo content sentence-requests` loads the requests.",
+      "note": "Context",
+      "words": "Build it around",
+      "noWords": "No particular words",
+      "xhosa": "isiXhosa",
+      "xhosaHint": "Exactly as you would say it. It is saved as a draft: it still needs its words marked, a recording and a second editor before a learner sees it.",
+      "editTranslation": "Change the translation",
+      "english": "English",
+      "norwegian": "Norwegian",
+      "norwegianHint": "Drafted by a model. Leave it unless you read Norwegian; an editor who does will check it.",
+      "save": "Save sentence",
+      "saved": "Saved as a draft sentence",
+      "dismiss": "Set aside",
+      "dismissReason": "Why does this not work in isiXhosa? The next person will read this.",
+      "reopen": "Put back",
+      "openSentence": "Translation and words",
+      "sendToReview": "Send to review",
+      "sentToReview": "Sent to review",
+      "recordIt": "Record it",
+      "takeBack": {
+        "button": "Take back and rewrite",
+        "confirm": "Delete this draft and write the card again?",
+        "yes": "Yes, take it back",
+        "cancel": "Keep it"
+      }
+    },
+    "culture": {
+      "title": "Culture cards",
+      "hint": "Short notes on how isiXhosa is used, drafted by a model. Each lists the claims you are asked to confirm. Correct the text or strike a claim you cannot confirm, then send the card to review.",
+      "caveat": "Confirm before approving",
+      "words": "Words it shows",
+      "wordsHint": "The isiXhosa in a card comes from the lexicon. Each word must be published, with a recording, before the card can be.",
+      "cardTitle": "Title",
+      "body": "Text",
+      "save": "Save",
+      "saved": "Saved",
+      "none": "No culture cards yet. `molo content culture` loads them.",
+      "preview": "Preview",
+      "previewTitle": "As a learner sees it",
+      "closePreview": "Close preview",
+      "addWord": "Add a word from the lexicon",
+      "searchWords": "Search the lexicon",
+      "noMatches": "No word in the lexicon matches. Only words already in the lexicon can be added.",
+      "removeWord": "Remove {{lemma}}",
+      "noWords": "No words yet.",
+      "unsaved": "Unsaved changes",
+      "needsBoth": "Fill in the title and the text in both languages to save.",
+      "publishedLocked": "A published card cannot be changed here. Retire it first.",
+      "lastEdit": {
+        "edit": "Last edited by {{name}}, {{time}}",
+        "status": "Status last changed by {{name}}, {{time}}",
+        "created": "Loaded by {{name}}, {{time}}"
+      },
+      "someone": "someone",
+      "caveatNone": "No claims to confirm on this card."
+    },
+    "mobile": {
+      "detail": "Review item",
+      "empty": "No words or glosses are waiting for review.",
+      "lexeme": "Word",
+      "gloss": "Gloss",
+      "refresh": "Refresh queue",
+      "needsConnection": "You need an internet connection to review content. Connect and try again.",
+      "notRecorded": "Not recorded",
+      "noNote": "No revision note.",
+      "note": "Revision note (required to send back)",
+      "rejected": "The server could not approve this change. Check your connection and the review requirements, then refresh before trying again.",
+      "noLongerInReview": "This item is no longer waiting for review.",
+      "playAudio": "Play recording",
+      "origin": {
+        "human": "Origin: human editor",
+        "llm": "Origin: machine draft",
+        "unknown": "Origin: not recorded"
+      },
+      "reviewingGloss": "Reviewing the {{language}} gloss"
+    },
+    "phoneStudio": {
+      "title": "Studio",
+      "intro": "Choose a consenting speaker and record the missing words and sentences.",
+      "noSpeakers": "No speakers have consent on file. Add consent in the web studio first.",
+      "unit": "Unit",
+      "allUnits": "All units",
+      "startSession": "Start recording session",
+      "endSession": "End session",
+      "queued": "Queued job {{id}} — processing on the server; this audio is not live yet.",
+      "microphone": "Allow microphone access to record course audio for the selected speaker.",
+      "micDenied": "Microphone access is needed. Allow it in your phone settings, then try recording again.",
+      "failed": "The recording or upload failed. Check your connection and try again.",
+      "record": "Record",
+      "rerecord": "Record again",
+      "stop": "Stop recording",
+      "play": "Play recording",
+      "pause": "Pause playback",
+      "upload": "Upload and continue",
+      "kept": "Your place in the session is saved. Recording picks up there when you are back online."
+    },
+    "review": {
+      "clickAudio": "Click: {{letter}}",
+      "clickAudioHint": "Play and approve it in the studio, under Clicks.",
+      "by": "by {{name}}",
+      "recordingOf": "Recording: {{text}}",
+      "spokenBy": "spoken by {{name}}",
+      "cultureCard": "Culture card: {{title}}",
+      "exercise": "Exercise: {{type}}",
+      "sentence": "Sentence",
+      "approve": "Approve and publish",
+      "sendBack": "Send back",
+      "ownItem": "You made this. Another editor approves it.",
+      "approved": "Approved and published",
+      "sentBack": "Sent back to draft",
+      "play": "Play the recording",
+      "ownItemAdmin": "You made this. As an admin you may approve it; the history records that no second editor did.",
+      "bulk": {
+        "selectAll": "Select everything you can approve ({{count}})",
+        "approve": "Approve and publish selected ({{count}})",
+        "progress": "Publishing {{done}} of {{total}}…",
+        "hint": "Recordings and glosses go first, then words, exercises, lessons and units. Each row still has to pass the publish check.",
+        "done": "{{count}} published",
+        "partly": "{{count}} published, {{blocked}} could not be yet (see the rows)",
+        "blocked": "Not published: {{reason}}",
+        "selectRow": "Select {{label}}"
+      }
+    },
+    "newVersion": {
+      "text": "A new version of Molo is out. Refresh the page to get it; save what you are working on first.",
+      "refresh": "Refresh"
+    }
+  },
+  "common": {
+    "loading": "Loading",
+    "error": "Something went wrong",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No",
+    "language": "Language",
+    "en": "English",
+    "nb": "Norsk",
+    "apply": "Use suggestion",
+    "notFoundTitle": "Page not found",
+    "notFoundBody": "There is nothing at this address.",
+    "backHome": "Back to the start",
+    "switchLanguage": "Switch to {{language}}"
+  },
+  "hearts": {
+    "count": "{{hearts}} of {{max}} hearts",
+    "unlimited": "Unlimited hearts",
+    "outTitle": "Out of hearts",
+    "outBody": "Practise to earn one back, or get Molo Plus.",
+    "nextIn": "Next heart in {{time}}. Practise to earn one now.",
+    "practise": "Practise ({{count}} to go)",
+    "getPlus": "Get Molo Plus",
+    "later": "Continue later",
+    "why": "Why hearts?",
+    "earned": "Heart back!",
+    "lost": "Heart lost. {{hearts}} of {{max}} left."
+  },
+  "plus": {
+    "title": "Molo Plus",
+    "body": "Learn without limits and keep the real voices coming.",
+    "cta": "Get Plus",
+    "soon": "Available in the app soon",
+    "active": "Plus is active",
+    "renews": "Renews {{date}}",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "price": "NOK {{nok}}",
+    "yearlyNote": "Two months free",
+    "thanks": "Welcome to Plus!",
+    "noOffer": "No offer available right now",
+    "fine": "Cancel any time. Prices shown are list prices; your store shows the exact amount.",
+    "perks": {
+      "hearts": {
+        "title": "Unlimited hearts",
+        "body": "Mistakes never stop a lesson."
+      },
+      "freeze": {
+        "title": "Streak freeze",
+        "body": "One missed day does not end your streak."
+      },
+      "offline": {
+        "title": "Offline lessons",
+        "body": "Download units in the app and learn anywhere."
+      },
+      "support": {
+        "title": "Pay the speakers",
+        "body": "Plus funds recordings by isiXhosa speakers and the editors who check every word."
+      }
+    },
+    "restore": "Restore purchases",
+    "nothingToRestore": "No earlier purchase found for this account",
+    "appStoresOnly": "To get Molo Plus outside Norway or if your account has no recorded country, use the App Store or Google Play.",
+    "noCountry": "Your account has no country on record, so web checkout is not available. You can get Molo Plus through the App Store or Google Play.",
+    "guestNote": "Sign in to see how you can get Plus. On the web, Plus is sold to accounts registered in Norway; elsewhere it comes through the App Store and Google Play.",
+    "perMonth": "{{price}} / month",
+    "perYear": "{{price}} / year",
+    "trial": "Free for {{period}}, then {{price}}",
+    "intro": "{{intro}} for {{period}}, then {{price}}",
+    "period": {
+      "day": "{{count}} days",
+      "day_one": "{{count}} day",
+      "day_other": "{{count}} days",
+      "week": "{{count}} weeks",
+      "week_one": "{{count}} week",
+      "week_other": "{{count}} weeks",
+      "month": "{{count}} months",
+      "month_one": "{{count}} month",
+      "month_other": "{{count}} months",
+      "year": "{{count}} years",
+      "year_one": "{{count}} year",
+      "year_other": "{{count}} years"
+    },
+    "unavailable": "Molo Plus cannot be bought right now. Check your connection and try again.",
+    "disclosureIos": "Payment is charged to your Apple Account when you confirm the purchase. The subscription renews automatically at the same price and length unless you cancel it at least 24 hours before the end of the current period; your account is charged for the renewal within the 24 hours before the period ends. Manage or cancel it in your App Store account settings.",
+    "disclosureAndroid": "Payment is charged to your Google Play account when you confirm the purchase. The subscription renews automatically at the same price and length until you cancel it. Cancel any time in Google Play under Payments and subscriptions, then Subscriptions; you keep Plus to the end of the paid period.",
+    "manage": "Manage subscription",
+    "included": "What Plus includes"
+  },
+  "settings": {
+    "title": "Settings",
+    "dailyGoal": "Daily goal (XP)",
+    "sourceLang": "I learn from",
+    "reminders": "Email reminders",
+    "save": "Save",
+    "saved": "Saved",
+    "signInFirst": "Sign in to change your goal and language.",
+    "sound": "Sound effects",
+    "soundHint": "Chimes for right answers, streaks and new levels. This device only.",
+    "modes": "Listening and speaking",
+    "modesHint": "Turn these off where you cannot listen or speak. Listening exercises switch to reading; speaking exercises are skipped.",
+    "listening": "Listening exercises",
+    "speaking": "Speaking exercises",
+    "about": "About",
+    "version": "Version {{version}}",
+    "offline": "Offline data",
+    "offlineHint": "Units you open are kept on this phone, encrypted.",
+    "syncPending": "{{count}} reviews waiting to sync",
+    "downloadsNone": "No units downloaded yet. Open a unit to download it.",
+    "downloads_one": "{{count}} unit downloaded, {{size}}",
+    "downloads_other": "{{count}} units downloaded, {{size}}",
+    "downloads": "{{count}} units downloaded, {{size}}",
+    "downloadsRemoveAll": "Remove all downloads",
+    "signedInAs": "Signed in as {{name}}",
+    "account": "Account",
+    "learning": "Learning",
+    "replayOnboarding": "Show the intro again",
+    "voice": "Preferred voice",
+    "voiceHint": "When a word has several recordings, this one plays first.",
+    "voiceAny": "Any voice",
+    "voiceFemale": "A woman",
+    "voiceMale": "A man",
+    "voiceChild": "A child",
+    "pushReminders": "Push reminders",
+    "pushRemindersHint": "A nudge on this phone in the evening, only when your streak is at risk.",
+    "pushSimulator": "Push notifications need a real device. The simulator cannot be registered.",
+    "pushDenied": "Notifications are off for Molo. Turn them on in your phone's settings.",
+    "pushFailed": "Could not turn push reminders on. Try again.",
+    "motion": "Reduce motion",
+    "motionHint": "Shorter animations and no confetti. This device only; your system setting still applies.",
+    "course": "Course",
+    "courseHint": "More languages later. isiXhosa is the only course for now.",
+    "connected": {
+      "title": "Connected accounts",
+      "body": "Ways to sign in to this account. Connect Apple or Google to sign in with them next time.",
+      "email": "Email and password",
+      "connectedBadge": "Connected",
+      "connect": "Connect {{provider}}",
+      "disconnect": "Disconnect {{provider}}",
+      "disconnectConfirm": "Disconnect {{provider}}? You can connect it again later.",
+      "linked": "{{provider}} is connected.",
+      "unlinked": "{{provider}} is disconnected.",
+      "lastMethod": "This is your only way to sign in, so it cannot be disconnected.",
+      "errors": {
+        "taken": "This {{provider}} account is already connected to another Molo account.",
+        "reauth": "For your security, sign out and sign in again, then try once more.",
+        "unverified": "This {{provider}} account has no confirmed email address, so it cannot be connected."
+      }
+    },
+    "support": "Contact support",
+    "profile": {
+      "title": "Account",
+      "body": "Your name, email, password and the ways you sign in.",
+      "email": "Email",
+      "name": "Name",
+      "nameHint": "Only you see your full name. Leagues show your display name, or else your first name.",
+      "nameSave": "Save name",
+      "nameSaved": "Name saved.",
+      "nameInvalid": "Enter a name of 1 to 80 characters.",
+      "changeEmail": "Change email",
+      "newEmail": "New email",
+      "emailHint": "We send a link to the new address. Your email changes when you open it, and we tell the old address.",
+      "emailSend": "Send confirmation link",
+      "emailSent": "Check {{email}} for the link. Your email changes when you open it.",
+      "emailSame": "That is already your email.",
+      "emailInvalid": "Enter a valid email address.",
+      "emailChanged": "Your email has been changed.",
+      "password": "Password",
+      "currentPassword": "Current password",
+      "newPassword": "New password",
+      "signOutOthers": "Sign out on other devices",
+      "passwordSave": "Change password",
+      "passwordChanged": "Password changed.",
+      "passwordWrong": "Your current password is not right.",
+      "passwordShort": "The new password needs at least {{min}} characters.",
+      "setPassword": "Set a password",
+      "setPasswordHint": "You sign in with {{providers}}. Set a password to sign in with your email too.",
+      "setPasswordSave": "Set password",
+      "passwordSet": "Password set. You can now sign in with your email and password."
+    }
+  },
+  "notifications": {
+    "streakReminder": {
+      "title": "Molo, {{name}}!",
+      "body": "Your {{count}}-day streak ends tonight. One short lesson keeps it.",
+      "body_one": "Your {{count}}-day streak ends tonight. One short lesson keeps it.",
+      "body_other": "Your {{count}}-day streak ends tonight. One short lesson keeps it."
+    }
+  },
+  "leagues": {
+    "title": "Leagues",
+    "tier": {
+      "bronze": "Bronze",
+      "silver": "Silver",
+      "gold": "Gold",
+      "sapphire": "Sapphire",
+      "ruby": "Ruby"
+    },
+    "daysLeft": "{{count}} days left",
+    "promote": "Promotion zone",
+    "demote": "Demotion zone",
+    "stay": "Safe zone",
+    "empty": "Earn XP this week to join a league.",
+    "you": "You",
+    "history": "Past weeks",
+    "outcome": {
+      "promoted": "Promoted",
+      "stayed": "Stayed",
+      "demoted": "Demoted"
+    },
+    "rules": "Top {{promote}} move up, bottom {{demote}} move down. {{size}} learners per league.",
+    "signInFirst": "Sign in to compete.",
+    "week": "Week of {{date}}",
+    "rank": "#{{rank}}",
+    "notJoined": "Earn XP this week to join a league",
+    "hiddenName": "Hidden learner",
+    "anonymous": "A learner",
+    "actions": "Options for {{name}}",
+    "report": "Report name",
+    "reportTitle": "Report this name?",
+    "reportBody": "Report it if the name is offensive or pretends to be someone else. It is hidden for you straight away, and we review every report within 24 hours.",
+    "reported": "Thanks. The name is hidden for you, and we will review it.",
+    "hide": "Hide this learner",
+    "show": "Show this learner again",
+    "actionFailed": "That did not work. Try again."
+  },
+  "onboarding": {
+    "hello": {
+      "title": "Molo!",
+      "body": "Learn isiXhosa the way it sounds. Every word has a real voice, and the clicks come first.",
+      "listen": "Hear a real greeting"
+    },
+    "language": {
+      "title": "I learn from",
+      "body": "Glosses and notes come in this language. You can switch later."
+    },
+    "goal": {
+      "title": "How much each day?",
+      "casual": "Casual",
+      "regular": "Regular",
+      "serious": "Serious",
+      "perDay": "{{xp}} XP a day",
+      "minutes": "about {{min}} min"
+    },
+    "where": {
+      "title": "Where will you learn?",
+      "body": "Turn these off for the bus or the library. You can change them any time.",
+      "sound": "Sound effects"
+    },
+    "clicks": {
+      "title": "Meet the clicks",
+      "body": "isiXhosa has 15 click sounds, all built on three basic clicks: c, x and q. Tap each one to see how it is made.",
+      "c": "Tongue tip behind the top teeth, pull it down sharply, like a soft 'tsk'.",
+      "x": "Tongue against the side teeth, pull it away: the sound you make to a horse.",
+      "q": "Tongue tip on the roof of the mouth, drop it: a hollow 'pop'.",
+      "tapHint": "Tap a click",
+      "listenHint": "Tap to hear it",
+      "play": "Hear the {{click}} click",
+      "label": "The {{click}} click"
+    },
+    "ready": {
+      "title": "You are ready",
+      "body": "Your first lesson is short. Say the words out loud.",
+      "start": "Start your first lesson",
+      "browse": "See the units",
+      "account": "Create an account to keep your streak",
+      "guest": "Continue as guest"
+    },
+    "skip": "Skip",
+    "next": "Next",
+    "back": "Back",
+    "step": "Step {{n}} of {{total}}"
+  },
+  "landing": {
+    "hero": {
+      "title": "Molo!",
+      "body": "Learn isiXhosa the way it sounds: every word with a real voice, the clicks first, short lessons that stick.",
+      "cta": "Get started"
+    },
+    "why": {
+      "title": "Why isiXhosa?",
+      "body": "A language ten million people wake up to.",
+      "speakers": {
+        "stat": "10 million",
+        "title": "first-language speakers",
+        "body": "The second most spoken home language in South Africa, and the voice of the Eastern Cape."
+      },
+      "official": {
+        "stat": "1 of 12",
+        "title": "official languages",
+        "body": "Official across South Africa, and one of the three official languages of the Western Cape, Cape Town included."
+      },
+      "clicks": {
+        "stat": "c · x · q",
+        "title": "three basic clicks, 15 click sounds",
+        "body": "About one in ten everyday words has a click, a sound isiXhosa took on from its Khoekhoe and San neighbours centuries ago."
+      },
+      "famous": {
+        "stat": "Wakanda",
+        "title": "you have heard it already",
+        "body": "Miriam Makeba's Click Song, the language of Wakanda in Black Panther, the home language of Nelson Mandela and Desmond Tutu."
+      },
+      "source": "Speaker numbers: Statistics South Africa, Census 2022."
+    },
+    "how": {
+      "title": "How Molo teaches",
+      "voices": {
+        "title": "A real voice on every word",
+        "body": "No synthetic speech. Every word and phrase you learn was recorded by an isiXhosa speaker or comes from a licensed recording."
+      },
+      "clicks": {
+        "title": "Clicks first, not as a footnote",
+        "body": "Dedicated click drills: listen, tell them apart, record yourself and compare with the speaker."
+      },
+      "human": {
+        "title": "Checked by people who speak it",
+        "body": "Nothing reaches you before an isiXhosa editor has approved it. Grammar forms come from rules, not guesses."
+      },
+      "play": {
+        "title": "Short, playful, daily",
+        "body": "Five-minute lessons, spaced review that remembers for you, streaks, leagues and a small bird who cheers."
+      }
+    },
+    "end": {
+      "title": "Say your first word today",
+      "body": "It takes two minutes to set up, and the first lesson is free of jargon.",
+      "editors": "Editor sign-in"
+    }
+  },
+  "home": {
+    "greeting": "Molo!",
+    "welcomeBack": "Welcome back, {{name}}",
+    "continueLearning": "Keep going",
+    "reviewCard": "Review",
+    "reviewDue": "{{count}} words due",
+    "reviewNone": "Nothing due yet",
+    "leaguesCard": "League",
+    "path": "Your path",
+    "lockedHint": "Finish the lesson before to unlock",
+    "signInHint": "Sign in to keep your streak and XP"
+  },
+  "legal": {
+    "privacy": "Privacy policy",
+    "terms": "Terms of use",
+    "accept": "By continuing you accept the",
+    "and": "and the",
+    "licences": "Licences and attributions",
+    "contact": "Contact",
+    "support": "Support"
+  },
+  "account": {
+    "title": "Your data",
+    "body": "Download everything Molo holds about you, or delete the account and all of it.",
+    "export": "Download my data",
+    "deleteTitle": "Delete account",
+    "deleteBody": "This removes your account, progress and streak for good. Type {{word}} to confirm.",
+    "delete": "Delete my account",
+    "deleteConfirm": "Delete the account now? This cannot be undone.",
+    "deleted": "Your account has been deleted.",
+    "confirmWord": "DELETE",
+    "confirmLabel": "Type {{word}} to confirm",
+    "deleteStoreNote": "Deleting the account does not cancel a Molo Plus subscription from the App Store or Google Play. Cancel it there first, or it renews."
+  },
+  "guest": {
+    "wallTitle": "Save your progress",
+    "wallBody": "You finished {{count}} lesson as a guest. Create an account to keep the XP, start a streak and join a league.",
+    "wallBody_one": "You finished {{count}} lesson as a guest. Create an account to keep the XP, start a streak and join a league.",
+    "wallBody_other": "You finished {{count}} lessons as a guest. Create an account to keep the XP, start a streak and join a league.",
+    "create": "Create a free account",
+    "haveAccount": "I already have an account",
+    "keep": "Nothing is lost: your lessons come with you.",
+    "banner": "{{xp}} XP earned as a guest. Save it?",
+    "synced": "{{count}} lesson saved to your account",
+    "synced_one": "{{count}} lesson saved to your account",
+    "synced_other": "{{count}} lessons saved to your account",
+    "locked": "Save your progress to unlock"
+  },
+  "a11y": {
+    "skipToContent": "Skip to content",
+    "mainNav": "Main",
+    "editorNav": "Editor",
+    "lessonProgress": "Lesson progress",
+    "reviewProgress": "Review progress",
+    "onboardingProgress": "Onboarding progress",
+    "answerFeedback": "Answer feedback",
+    "options": "Answers",
+    "wordBank": "Word bank",
+    "mascots": "Molo's mascots: a malachite sunbird and an African penguin",
+    "wordsXh": "isiXhosa words",
+    "meanings": "Meanings",
+    "wordsToSort": "Words to sort",
+    "momentBadge": "About this exercise",
+    "runCounter": "Right answers in a row",
+    "launch": "Molo is starting",
+    "grammarNote": "Grammar note"
+  },
+  "mistakes": {
+    "title": "Practise mistakes",
+    "subtitle": "Words you got wrong. Get one right and it leaves the list.",
+    "open": "{{count}} to fix",
+    "open_one": "{{count}} word to fix",
+    "open_other": "{{count}} words to fix",
+    "none": "No mistakes waiting. Nicely done.",
+    "noneCta": "Open a lesson",
+    "start": "Practise",
+    "knewIt": "I knew it",
+    "stillLearning": "Still learning",
+    "timesWrong": "missed {{count}} times",
+    "timesWrong_one": "missed once",
+    "timesWrong_other": "missed {{count}} times",
+    "cleared": "Cleared",
+    "sessionDone": "Mistakes practised",
+    "signInFirst": "Sign in to practise the words you got wrong."
+  },
+  "courses": {
+    "xhosa": {
+      "title": "isiXhosa"
+    }
+  },
+  "path": {
+    "unit": "Unit {{number}}",
+    "unitProgress": "{{done}} of {{total}} lessons",
+    "wordList": "Words",
+    "wordListTitle": "Words in {{unit}}",
+    "wordListEmpty": "This unit has no words yet.",
+    "sectionNav": "Learning path",
+    "kind": {
+      "listen": "Listening lesson",
+      "speak": "Speaking lesson",
+      "culture": "Culture card",
+      "test": "Unit test",
+      "mixed": "Practice lesson"
+    },
+    "state": {
+      "current": "Start here",
+      "open": "Not started",
+      "done": "Finished",
+      "crown": "Crown level {{level}}",
+      "locked": "Locked"
+    },
+    "node": "{{kind}} {{order}}: {{state}}",
+    "chest": {
+      "title": "Chest",
+      "locked": "Chest: finish every lesson in {{skill}} to open it",
+      "ready": "Open the chest and take {{xp}} XP",
+      "claimed": "Chest opened: {{xp}} XP taken",
+      "reward": "+{{xp}} XP",
+      "opening": "Opening…"
+    },
+    "guide": {
+      "name": "Your guide",
+      "dismiss": "Got it"
+    }
+  },
+  "curriculum": {
+    "units": {
+      "greet-and-introduce": {
+        "title": "Say hello and say who you are",
+        "skills": {
+          "greet-someone": {
+            "title": "Greet someone and say goodbye"
+          },
+          "hear-the-three-clicks": {
+            "title": "Hear the difference between c, x and q"
+          },
+          "say-yes-no-thanks": {
+            "title": "Say yes, no and thank you"
+          },
+          "say-who-you-are": {
+            "title": "Say your name and where you are from"
+          }
+        }
+      },
+      "people": {
+        "title": "Talk about people and family",
+        "skills": {
+          "name-your-family": {
+            "title": "Name the people in your family"
+          },
+          "say-who-someone-is": {
+            "title": "Say who someone is"
+          },
+          "talk-about-more-than-one": {
+            "title": "Talk about more than one person"
+          }
+        }
+      },
+      "things": {
+        "title": "Name the things around you",
+        "skills": {
+          "name-things-at-home": {
+            "title": "Name the things in a home"
+          },
+          "name-animals-and-plants": {
+            "title": "Name animals and plants"
+          },
+          "point-at-one-or-many": {
+            "title": "Say one thing or many"
+          },
+          "name-parts-of-the-body": {
+            "title": "Name the parts of the body"
+          }
+        }
+      },
+      "food-and-drink": {
+        "title": "Order food and drink",
+        "skills": {
+          "name-food-and-drink": {
+            "title": "Name food and drink"
+          },
+          "say-what-you-want": {
+            "title": "Say what you want and what you like"
+          },
+          "count-what-you-order": {
+            "title": "Count what you order"
+          },
+          "talk-about-cooking": {
+            "title": "Talk about cooking and eating"
+          }
+        }
+      },
+      "getting-around": {
+        "title": "Find your way",
+        "skills": {
+          "ask-for-directions": {
+            "title": "Ask for directions"
+          },
+          "name-places-in-town": {
+            "title": "Name places in a town"
+          },
+          "take-a-taxi": {
+            "title": "Take a taxi and travel"
+          },
+          "say-where-something-is": {
+            "title": "Say where something is"
+          }
+        }
+      },
+      "time": {
+        "title": "Talk about when",
+        "skills": {
+          "name-the-days": {
+            "title": "Name the days and months"
+          },
+          "tell-the-time": {
+            "title": "Say what time of day it is"
+          },
+          "talk-about-yesterday": {
+            "title": "Talk about what happened"
+          },
+          "talk-about-tomorrow": {
+            "title": "Talk about what will happen"
+          }
+        }
+      },
+      "describing": {
+        "title": "Describe things and people",
+        "skills": {
+          "name-the-colours": {
+            "title": "Name the colours"
+          },
+          "say-how-big": {
+            "title": "Say how big or small something is"
+          },
+          "describe-a-person": {
+            "title": "Describe what someone is like"
+          },
+          "join-a-describing-word": {
+            "title": "Join a describing word to a noun"
+          }
+        }
+      },
+      "shopping": {
+        "title": "Shop and pay",
+        "skills": {
+          "go-to-the-market": {
+            "title": "Shop at a market and a shop"
+          },
+          "talk-about-money": {
+            "title": "Talk about money and prices"
+          },
+          "ask-how-much": {
+            "title": "Ask how much and how many"
+          }
+        }
+      },
+      "work-and-study": {
+        "title": "Talk about work and study",
+        "skills": {
+          "talk-about-your-job": {
+            "title": "Say what work you do"
+          },
+          "talk-about-school": {
+            "title": "Talk about school and learning"
+          },
+          "describe-your-day": {
+            "title": "Describe your day"
+          }
+        }
+      },
+      "asking-for-help": {
+        "title": "Ask for help",
+        "skills": {
+          "say-you-are-unwell": {
+            "title": "Say that you are unwell"
+          },
+          "ask-someone-for-help": {
+            "title": "Ask someone for help"
+          },
+          "be-polite-about-it": {
+            "title": "Be polite and apologise"
+          }
+        }
+      }
+    }
+  },
+  "grammar": {
+    "title": "Grammar",
+    "subtitle": "The rules you have unlocked. Every form carries a recording, because the writing does not carry the tone.",
+    "noteHeading": "Before you start",
+    "example": "For example",
+    "rule": "The rule",
+    "forms": "The forms",
+    "gotIt": "Got it",
+    "skip": "Skip",
+    "showRule": "Show the rule",
+    "hideRule": "Hide the rule",
+    "patternLabel": "The pattern",
+    "tableCaption": "{{title}}: every form, with its recording",
+    "noRecording": "No recording yet",
+    "morphemes": "{{word}}, in its parts: {{parts}}",
+    "openReference": "All the rules",
+    "columns": {
+      "class": "Class",
+      "word": "Word",
+      "gloss": "Meaning",
+      "singular": "Singular",
+      "plural": "Plural",
+      "subjectConcord": "Subject concord",
+      "objectConcord": "Object concord",
+      "possessive": "Possessive concord"
+    },
+    "reference": {
+      "empty": "No rules here yet. They appear as you unlock them.",
+      "locked": "Not unlocked yet",
+      "lockedHint": "Finish a lesson in this skill and it opens.",
+      "lockedCount": "{{count}} rules you have not reached yet",
+      "lockedCount_one": "{{count}} rule you have not reached yet",
+      "lockedCount_other": "{{count}} rules you have not reached yet",
+      "showLocked": "Show the ones I have not reached",
+      "hideLocked": "Hide them again",
+      "inSkill": "{{unit}} — {{skill}}"
+    }
+  },
+  "lexicon": {
+    "title": "Lexicon data package",
+    "intro": "Download the published isiXhosa lexicon behind Molo, with its English and Norwegian glosses.",
+    "attribution": "Adapted from IsiXhosa.click, a student-led dictionary supported by the University of Cape Town and SADiLaR.",
+    "source": "Visit IsiXhosa.click",
+    "changes": "Our adaptations include learner-focused glosses, Norwegian translations, usage and contrastive notes, and editorial corrections. Each entry keeps its source and attribution.",
+    "scope": "The archive includes published headwords, glosses and example sentences, source information, attribution and licence files. Audio, exercises, curriculum, artwork and app code are excluded.",
+    "licence": "Creative Commons Attribution-ShareAlike 4.0",
+    "headwords_one": "{{count}} published headword",
+    "headwords_other": "{{count}} published headwords",
+    "exported": "Exported {{date}}",
+    "empty": "No headwords have been published yet. The download includes the licence and attribution files.",
+    "download": "Download lexicon (.tgz)",
+    "unavailable": "The lexicon package is temporarily unavailable. Please try again later."
+  },
+  "age": {
+    "title": "Age requirement",
+    "privacy": "We keep whether you meet the age requirement and your country selection to determine whether web purchases are available. Your birth year and birthday confirmation are not stored.",
+    "birthYear": "Birth year",
+    "country": "Country of residence",
+    "chooseCountry": "Choose your country",
+    "southAfrica": "South Africa",
+    "norway": "Norway",
+    "otherCountry": "Another country",
+    "confirmAge": "I have already turned {{age}}.",
+    "errors": {
+      "invalid": "Enter your birth year and choose your country to create an account.",
+      "under13": "You must be at least 13 to create a Molo account.",
+      "under18ZA": "You must be at least 18 to create a Molo account in South Africa.",
+      "confirm": "Confirm that you have already reached the required age."
+    },
+    "stepTitle": "Your birth year and country",
+    "stepBody": "One more step before you start. Molo is for learners aged 13 and over, and 18 and over in South Africa.",
+    "stepContinue": "Continue",
+    "deleted": "We have deleted the account and everything in it."
+  },
+  "leagueSettings": {
+    "title": "League privacy",
+    "displayName": "League display name",
+    "nameHint": "Shown to other learners. Leave blank to use only your first name. Maximum 40 characters.",
+    "optOut": "Stay out of leagues",
+    "optOutHint": "Saving removes you from this week’s league immediately. Your lessons, XP and streak stay. Turn this off and earn XP to join again.",
+    "save": "Save league settings",
+    "disabled": "You have chosen to stay out of leagues. You can change this in Settings.",
+    "nameNotAllowed": "Choose another name. This one is not allowed in leagues."
+  },
+  "withdrawal": {
+    "title": "Right of withdrawal",
+    "expressStart": "I expressly request that Molo Plus starts immediately, before the 14-day withdrawal period ends. If I withdraw, I will pay the proportion of the paid period already supplied.",
+    "form": "Standard withdrawal form",
+    "downloadForm": "Download the form",
+    "how": "Web purchases have a 14-day right of withdrawal. Open Settings → Molo Plus to submit a notice, or email support@hellomolo.com. Apple and Google purchases are handled by the store.",
+    "purchase": "Web purchase on {{date}}",
+    "deadline": "Submit your notice by {{date}}.",
+    "estimate": "Estimated refund if you withdraw now: {{amount}}. We verify the payment before refunding.",
+    "estimateUnknown": "We will calculate the refund from your payment and the period already supplied.",
+    "start": "Withdraw from purchase",
+    "confirm": "Confirm withdrawal",
+    "confirmBody": "Submitting stops Plus access for this purchase immediately and registers your request to end the contract and refund the unused period.",
+    "received": "Withdrawal notice received",
+    "pending": "Your notice is registered and Plus access for this purchase is stopped. We will cancel renewal and process the refund manually within 14 days of your notice.",
+    "refunded": "Your withdrawal has been processed and the refund recorded.",
+    "receipt": "Download confirmation",
+    "receiptDetails": "Reference: {{id}}\nProduct: {{product}}\nPurchased: {{purchasedAt}}\nNotice received: {{requestedAt}}",
+    "expired": "The ordinary withdrawal period has ended. Contact support if your rights or purchase details need checking.",
+    "missing": "Purchase missing, or need help? Contact",
+    "error": "We could not register your withdrawal. Refresh the page or email support@hellomolo.com."
+  },
+  "preview": {
+    "switch": "Preview drafts",
+    "banner": "Preview — unpublished content; nothing here counts",
+    "exit": "Leave preview",
+    "open": "Open preview",
+    "lesson": "Lesson {{number}}",
+    "exercise": "Exercise {{number}}",
+    "next": "Next exercise",
+    "finished": "Preview complete. Nothing was saved.",
+    "missingAudio": "Missing audio: {{content}}",
+    "missingContent": "This exercise is missing referenced content.",
+    "empty": "No content to preview yet.",
+    "path": "Back to preview path",
+    "unit": "Back to unit",
+    "connection": "Preview needs an internet connection."
+  },
+  "licences": {
+    "libraries": "Open-source libraries",
+    "search": "Find a library",
+    "noResults": "No matching libraries."
+  },
+  "email": {
+    "changeVerify": {
+      "subject": "Confirm your new email for Molo",
+      "body": "Open this link to use {{email}} for your Molo account: {{url}}\n\nThe link expires in an hour. Until you open it, your account keeps the old address. If you did not ask for this, ignore this email."
+    },
+    "changeNotice": {
+      "subject": "Your Molo email is being changed",
+      "body": "Someone signed in to your Molo account asked to change its email to {{email}}. It changes only when the link sent to that address is opened.\n\nIf this was you, there is nothing to do. If it was not, sign in, change your password, and write to support@hellomolo.com."
+    }
+  }
+}

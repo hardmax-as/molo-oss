@@ -1,0 +1,1 @@
+ALTER TYPE "public"."audio_target_kind" ADD VALUE 'click';

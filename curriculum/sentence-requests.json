@@ -1,0 +1,906 @@
+{
+  "header": [
+    "SENTENCE REQUESTS — ENGLISH AND NORWEGIAN ONLY. No isiXhosa is written in this file.",
+    "",
+    "Each request is a sentence a beginner needs, drafted by a model (Claude) in English",
+    "and Norwegian around the words its skill already teaches. `words` names those words",
+    "by their lexicon lemma, verbatim; `molo content sentence-requests` resolves each one",
+    "against the lexicon and reports any it cannot find, rather than guessing. Write",
+    "`lemma:pos` when the lexicon has one lemma under two parts of speech (hayi, uxolo, nye).",
+    "",
+    "The isiXhosa is typed by the tutor in the dashboard (/edit/write) and by nobody",
+    "else. Her answer becomes a `draft` sentence with provenance 'tutor, <name>, <date>',",
+    "and runs the ordinary sentence gate: tokens checked against xh-morph or marked",
+    "irregular with a note, native audio, and a second editor to publish.",
+    "",
+    "THE ENGLISH IS A PROMPT, NOT A TRANSLATION TO MATCH. If the natural isiXhosa says",
+    "something slightly different, the tutor edits the English to say what her sentence",
+    "says. If a request does not work in isiXhosa at all, she sets it aside with a reason.",
+    "`note` tells her who says it to whom; it is model-written too and may be wrong.",
+    "",
+    "NORWEGIAN IS UNREVIEWED. Every `nb` string here was drafted by Claude and needs a",
+    "Codex review pass (the project rules, 'Norwegian goes to Codex'). It is stored as an",
+    "ai_draft gloss when a request is answered, so an editor who reads Norwegian must",
+    "approve it before the sentence can publish.",
+    "",
+    "Four to nine requests per skill for greet-and-introduce; one or two for later skills."
+  ],
+  "version": 1,
+  "requests": [
+    {
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "greet-someone",
+      "slug": "hello-one-person",
+      "order": 1,
+      "en": "Hello!",
+      "nb": "Hei!",
+      "note": "Said to one person.",
+      "words": ["molo"]
+    },
+    {
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "greet-someone",
+      "slug": "hello-everyone",
+      "order": 2,
+      "en": "Hello, everyone!",
+      "nb": "Hei, alle sammen!",
+      "note": "Said to a group of people.",
+      "words": ["molweni"]
+    },
+    {
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "greet-someone",
+      "slug": "hello-how-are-you",
+      "order": 3,
+      "en": "Hello, how are you?",
+      "nb": "Hei, hvordan har du det?",
+      "note": "To one friend, or someone your own age.",
+      "words": ["molo"]
+    },
+    {
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "greet-someone",
+      "slug": "welcome-to-our-home",
+      "order": 4,
+      "en": "Welcome to our home.",
+      "nb": "Velkommen hjem til oss.",
+      "note": "A host to one guest at the door.",
+      "words": ["amkela", "ikhaya"]
+    },
+    {
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "greet-someone",
+      "slug": "goodbye-to-one-who-stays",
+      "order": 5,
+      "en": "Goodbye! (said by the one leaving, to the one who stays)",
+      "nb": "Ha det! (sagt av den som går, til den som blir)",
+      "note": "We assume isiXhosa has two goodbyes, depending on who leaves. If it does not work this way, set this and the next request aside with a note.",
+      "words": ["sala", "kakuhle"]
+    },
+    {
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "greet-someone",
+      "slug": "goodbye-to-one-who-leaves",
+      "order": 6,
+      "en": "Goodbye! (said by the one staying, to the one who leaves)",
+      "nb": "Ha det! (sagt av den som blir, til den som går)",
+      "note": "The other half of the pair above.",
+      "words": ["hamba", "kakuhle"]
+    },
+    {
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "greet-someone",
+      "slug": "greet-your-mother",
+      "order": 7,
+      "en": "Say hello to your mother for me.",
+      "nb": "Hils moren din fra meg.",
+      "note": "To a friend, at the end of a visit.",
+      "words": ["bulisa", "umama"]
+    },
+    {
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "greet-someone",
+      "slug": "hello-brother",
+      "order": 8,
+      "en": "Hello, brother! (to a young man you do not know)",
+      "nb": "Hei, bror! (til en ung mann du ikke kjenner)",
+      "note": "Greeting a young man you do not know. If you would greet an older man differently, please say how.",
+      "words": ["molo", "ubhuti"]
+    },
+    {
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "greet-someone",
+      "slug": "hello-sister",
+      "order": 9,
+      "en": "Hello, sister! (to a young woman you do not know)",
+      "nb": "Hei, søster! (til en ung kvinne du ikke kjenner)",
+      "note": "Greeting a young woman you do not know, politely and kindly.",
+      "words": ["molo", "usisi"]
+    },
+    {
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "hear-the-three-clicks",
+      "slug": "lets-chat",
+      "order": 1,
+      "en": "Let's chat.",
+      "nb": "La oss prate.",
+      "note": "Friendly, to one or more people.",
+      "words": ["ncokola"]
+    },
+    {
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "hear-the-three-clicks",
+      "slug": "please-carry-on",
+      "order": 2,
+      "en": "Please carry on.",
+      "nb": "Bare fortsett.",
+      "note": "To someone who stopped talking to let you in.",
+      "words": ["qhubeka"]
+    },
+    {
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "hear-the-three-clicks",
+      "slug": "no-problem",
+      "order": 3,
+      "en": "No problem.",
+      "nb": "Ikke noe problem.",
+      "note": "The everyday reply to an apology or a thank-you.",
+      "words": ["ingxaki"]
+    },
+    {
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "hear-the-three-clicks",
+      "slug": "pick-up-the-spoons",
+      "order": 4,
+      "en": "Pick up the spoons.",
+      "nb": "Plukk opp skjeene.",
+      "note": "To one person, at the table.",
+      "words": ["chola", "amacephe"]
+    },
+    {
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "hear-the-three-clicks",
+      "slug": "where-is-the-bag",
+      "order": 5,
+      "en": "Where is the bag?",
+      "nb": "Hvor er sekken?",
+      "note": "A plain question to anyone.",
+      "words": ["ingxowa"]
+    },
+    {
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "say-yes-no-thanks",
+      "slug": "yes-thank-you",
+      "order": 1,
+      "en": "Yes, thank you.",
+      "nb": "Ja takk.",
+      "note": "Accepting something offered.",
+      "words": ["ewe", "enkosi"]
+    },
+    {
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "say-yes-no-thanks",
+      "slug": "no-thank-you",
+      "order": 2,
+      "en": "No, thank you.",
+      "nb": "Nei takk.",
+      "note": "Politely refusing something offered.",
+      "words": ["hayi:interj", "enkosi"]
+    },
+    {
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "say-yes-no-thanks",
+      "slug": "thank-you-very-much",
+      "order": 3,
+      "en": "Thank you very much.",
+      "nb": "Tusen takk.",
+      "words": ["enkosi", "kakhulu"]
+    },
+    {
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "say-yes-no-thanks",
+      "slug": "we-thank-you-for-your-help",
+      "order": 4,
+      "en": "We thank you for your help.",
+      "nb": "Vi takker deg for hjelpen.",
+      "note": "More formal: a family thanking a visitor.",
+      "words": ["bulela", "uncedo"]
+    },
+    {
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "say-yes-no-thanks",
+      "slug": "yes-i-understand",
+      "order": 5,
+      "en": "Yes, I understand.",
+      "nb": "Ja, jeg forstår.",
+      "words": ["ewe", "qonda"]
+    },
+    {
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "say-yes-no-thanks",
+      "slug": "no-i-do-not-understand",
+      "order": 6,
+      "en": "No, I don't understand.",
+      "nb": "Nei, jeg forstår ikke.",
+      "note": "A learner's most useful sentence; please say it the way you would want a visitor to.",
+      "words": ["hayi:interj", "qonda"]
+    },
+    {
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "say-yes-no-thanks",
+      "slug": "i-am-fine-thanks",
+      "order": 7,
+      "en": "I am fine, thank you. And you?",
+      "nb": "Jeg har det bra, takk. Og du?",
+      "note": "The answer to \"How are you?\". If the answer changes when several people ask, please say how.",
+      "words": ["enkosi"]
+    },
+    {
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "say-yes-no-thanks",
+      "slug": "please-say-that-again",
+      "order": 8,
+      "en": "Please say that again.",
+      "nb": "Kan du si det en gang til?",
+      "note": "A learner who did not catch what was said.",
+      "words": ["nceda"]
+    },
+    {
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "say-yes-no-thanks",
+      "slug": "please-speak-slowly",
+      "order": 9,
+      "en": "Please speak slowly.",
+      "nb": "Kan du snakke saktere?",
+      "note": "A learner asking someone who speaks fast to slow down.",
+      "words": ["nceda", "thetha"]
+    },
+    {
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "say-who-you-are",
+      "slug": "my-name-is",
+      "order": 1,
+      "en": "My name is Anna.",
+      "nb": "Jeg heter Anna.",
+      "note": "Anna stands for the learner's own name. Use whichever pattern people actually say.",
+      "words": ["igama"]
+    },
+    {
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "say-who-you-are",
+      "slug": "what-is-your-name",
+      "order": 2,
+      "en": "What is your name?",
+      "nb": "Hva heter du?",
+      "note": "To one person your own age.",
+      "words": ["igama"]
+    },
+    {
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "say-who-you-are",
+      "slug": "i-come-from-norway",
+      "order": 3,
+      "en": "I come from Norway.",
+      "nb": "Jeg kommer fra Norge.",
+      "note": "If Norway has an isiXhosa name, please use it; otherwise say it the way you would.",
+      "words": ["vela"]
+    },
+    {
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "say-who-you-are",
+      "slug": "i-live-in-cape-town",
+      "order": 4,
+      "en": "I live in Cape Town.",
+      "nb": "Jeg bor i Cape Town.",
+      "words": ["hlala", "iKapa"]
+    },
+    {
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "say-who-you-are",
+      "slug": "i-am-learning-isixhosa",
+      "order": 5,
+      "en": "I am learning isiXhosa.",
+      "nb": "Jeg lærer meg isiXhosa.",
+      "words": ["funda", "isiXhosa"]
+    },
+    {
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "say-who-you-are",
+      "slug": "i-speak-a-little-isixhosa",
+      "order": 6,
+      "en": "I speak a little isiXhosa.",
+      "nb": "Jeg snakker litt isiXhosa.",
+      "words": ["thetha", "isiXhosa"]
+    },
+    {
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "say-who-you-are",
+      "slug": "do-you-speak-english",
+      "order": 7,
+      "en": "Do you speak English?",
+      "nb": "Snakker du engelsk?",
+      "note": "To one person, politely.",
+      "words": ["thetha", "isiNgesi"]
+    },
+    {
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "say-who-you-are",
+      "slug": "where-is-your-home",
+      "order": 8,
+      "en": "Where is your home?",
+      "nb": "Hvor er hjemmet ditt?",
+      "note": "Asking where someone is from, in the sense of their family home.",
+      "words": ["ikhaya"]
+    },
+    {
+      "unitSlug": "greet-and-introduce",
+      "skillSlug": "say-who-you-are",
+      "slug": "happy-to-meet-you",
+      "order": 9,
+      "en": "I am happy to meet you.",
+      "nb": "Hyggelig å treffe deg.",
+      "note": "At the end of an introduction.",
+      "words": ["vuya"]
+    },
+    {
+      "unitSlug": "people",
+      "skillSlug": "name-your-family",
+      "slug": "this-is-my-mother",
+      "order": 1,
+      "en": "This is my mother.",
+      "nb": "Dette er moren min.",
+      "words": ["umama"]
+    },
+    {
+      "unitSlug": "people",
+      "skillSlug": "name-your-family",
+      "slug": "i-have-two-children",
+      "order": 2,
+      "en": "I have two children.",
+      "nb": "Jeg har to barn.",
+      "words": ["abantwana", "bini"]
+    },
+    {
+      "unitSlug": "people",
+      "skillSlug": "say-who-someone-is",
+      "slug": "he-is-my-friend",
+      "order": 1,
+      "en": "He is my friend.",
+      "nb": "Han er vennen min.",
+      "words": ["umhlobo"]
+    },
+    {
+      "unitSlug": "people",
+      "skillSlug": "say-who-someone-is",
+      "slug": "who-is-that-man",
+      "order": 2,
+      "en": "Who is that man?",
+      "nb": "Hvem er den mannen?",
+      "words": ["indoda"]
+    },
+    {
+      "unitSlug": "people",
+      "skillSlug": "talk-about-more-than-one",
+      "slug": "my-friends-are-here",
+      "order": 1,
+      "en": "My friends are here.",
+      "nb": "Vennene mine er her.",
+      "words": ["abahlobo", "apha"]
+    },
+    {
+      "unitSlug": "things",
+      "skillSlug": "name-things-at-home",
+      "slug": "water-on-the-table",
+      "order": 1,
+      "en": "The water is on the table.",
+      "nb": "Vannet står på bordet.",
+      "words": ["amanzi", "itafile"]
+    },
+    {
+      "unitSlug": "things",
+      "skillSlug": "name-things-at-home",
+      "slug": "close-the-window",
+      "order": 2,
+      "en": "Please close the window.",
+      "nb": "Kan du lukke vinduet?",
+      "words": ["ifestile"]
+    },
+    {
+      "unitSlug": "things",
+      "skillSlug": "name-animals-and-plants",
+      "slug": "cows-in-the-garden",
+      "order": 1,
+      "en": "The cows are in the garden.",
+      "nb": "Kyrne er i hagen.",
+      "words": ["iinkomo", "igadi"]
+    },
+    {
+      "unitSlug": "things",
+      "skillSlug": "name-animals-and-plants",
+      "slug": "i-like-fish",
+      "order": 2,
+      "en": "I like fish.",
+      "nb": "Jeg liker fisk.",
+      "words": ["thanda", "intlanzi"]
+    },
+    {
+      "unitSlug": "things",
+      "skillSlug": "point-at-one-or-many",
+      "slug": "what-is-this-thing",
+      "order": 1,
+      "en": "What is this thing?",
+      "nb": "Hva er denne tingen?",
+      "words": ["into"]
+    },
+    {
+      "unitSlug": "things",
+      "skillSlug": "point-at-one-or-many",
+      "slug": "these-things-are-mine",
+      "order": 2,
+      "en": "These things are mine.",
+      "nb": "Disse tingene er mine.",
+      "words": ["izinto"]
+    },
+    {
+      "unitSlug": "things",
+      "skillSlug": "name-parts-of-the-body",
+      "slug": "wash-your-hands",
+      "order": 1,
+      "en": "Wash your hands.",
+      "nb": "Vask hendene.",
+      "words": ["izandla"]
+    },
+    {
+      "unitSlug": "things",
+      "skillSlug": "name-parts-of-the-body",
+      "slug": "my-foot-hurts",
+      "order": 2,
+      "en": "My foot hurts.",
+      "nb": "Foten min gjør vondt.",
+      "words": ["unyawo", "ubuhlungu"]
+    },
+    {
+      "unitSlug": "food-and-drink",
+      "skillSlug": "name-food-and-drink",
+      "slug": "meat-and-rice",
+      "order": 1,
+      "en": "I would like meat and rice.",
+      "nb": "Jeg vil gjerne ha kjøtt og ris.",
+      "words": ["inyama", "irayisi"]
+    },
+    {
+      "unitSlug": "food-and-drink",
+      "skillSlug": "name-food-and-drink",
+      "slug": "do-you-drink-milk",
+      "order": 2,
+      "en": "Do you drink milk?",
+      "nb": "Drikker du melk?",
+      "words": ["ubisi", "sela"]
+    },
+    {
+      "unitSlug": "food-and-drink",
+      "skillSlug": "say-what-you-want",
+      "slug": "i-want-water",
+      "order": 1,
+      "en": "I want water.",
+      "nb": "Jeg vil ha vann.",
+      "words": ["funa", "amanzi"]
+    },
+    {
+      "unitSlug": "food-and-drink",
+      "skillSlug": "say-what-you-want",
+      "slug": "please-bring-the-food",
+      "order": 2,
+      "en": "Please bring the food.",
+      "nb": "Kan du ta med maten?",
+      "words": ["zisa", "ukutya"]
+    },
+    {
+      "unitSlug": "food-and-drink",
+      "skillSlug": "count-what-you-order",
+      "slug": "two-eggs-please",
+      "order": 1,
+      "en": "Two eggs, please.",
+      "nb": "To egg, takk.",
+      "words": ["bini", "iqanda"]
+    },
+    {
+      "unitSlug": "food-and-drink",
+      "skillSlug": "count-what-you-order",
+      "slug": "i-will-take-three",
+      "order": 2,
+      "en": "I will take three.",
+      "nb": "Jeg tar tre.",
+      "words": ["thathu", "thatha"]
+    },
+    {
+      "unitSlug": "food-and-drink",
+      "skillSlug": "talk-about-cooking",
+      "slug": "she-is-cooking-samp",
+      "order": 1,
+      "en": "She is cooking samp.",
+      "nb": "Hun koker samp.",
+      "words": ["pheka", "umngqusho"]
+    },
+    {
+      "unitSlug": "food-and-drink",
+      "skillSlug": "talk-about-cooking",
+      "slug": "boil-the-water",
+      "order": 2,
+      "en": "Boil the water.",
+      "nb": "Kok opp vannet.",
+      "words": ["bilisa", "amanzi"]
+    },
+    {
+      "unitSlug": "getting-around",
+      "skillSlug": "ask-for-directions",
+      "slug": "where-is-the-road-to-town",
+      "order": 1,
+      "en": "Where is the road to town?",
+      "nb": "Hvor er veien til byen?",
+      "words": ["indlela", "idolophu"]
+    },
+    {
+      "unitSlug": "getting-around",
+      "skillSlug": "ask-for-directions",
+      "slug": "go-straight-ahead",
+      "order": 2,
+      "en": "Go straight ahead.",
+      "nb": "Gå rett fram.",
+      "words": ["phambili"]
+    },
+    {
+      "unitSlug": "getting-around",
+      "skillSlug": "name-places-in-town",
+      "slug": "where-is-the-hospital",
+      "order": 1,
+      "en": "Where is the hospital?",
+      "nb": "Hvor er sykehuset?",
+      "words": ["isibhedlele"]
+    },
+    {
+      "unitSlug": "getting-around",
+      "skillSlug": "name-places-in-town",
+      "slug": "i-am-going-to-the-shop",
+      "order": 2,
+      "en": "I am going to the shop.",
+      "nb": "Jeg går på butikken.",
+      "words": ["hamba", "ivenkile"]
+    },
+    {
+      "unitSlug": "getting-around",
+      "skillSlug": "take-a-taxi",
+      "slug": "when-does-the-car-arrive",
+      "order": 1,
+      "en": "When does the car arrive?",
+      "nb": "Når kommer bilen?",
+      "words": ["imoto", "fika"]
+    },
+    {
+      "unitSlug": "getting-around",
+      "skillSlug": "take-a-taxi",
+      "slug": "i-am-going-back-home",
+      "order": 2,
+      "en": "I am going back home.",
+      "nb": "Jeg drar hjem igjen.",
+      "words": ["buya", "ikhaya"]
+    },
+    {
+      "unitSlug": "getting-around",
+      "skillSlug": "say-where-something-is",
+      "slug": "see-you-in-the-evening",
+      "order": 1,
+      "en": "See you in the evening.",
+      "nb": "Vi ses i kveld.",
+      "words": ["ngorhatya"]
+    },
+    {
+      "unitSlug": "time",
+      "skillSlug": "name-the-days",
+      "slug": "see-you-on-saturday",
+      "order": 1,
+      "en": "See you on Saturday.",
+      "nb": "Vi ses på lørdag.",
+      "words": ["uMgqibelo"]
+    },
+    {
+      "unitSlug": "time",
+      "skillSlug": "name-the-days",
+      "slug": "it-is-winter-now",
+      "order": 2,
+      "en": "It is winter now.",
+      "nb": "Nå er det vinter.",
+      "words": ["ubusika", "ngoku"]
+    },
+    {
+      "unitSlug": "time",
+      "skillSlug": "tell-the-time",
+      "slug": "what-time-is-it",
+      "order": 1,
+      "en": "What time is it now?",
+      "nb": "Hva er klokka nå?",
+      "words": ["ixesha", "ngoku"]
+    },
+    {
+      "unitSlug": "time",
+      "skillSlug": "tell-the-time",
+      "slug": "tomorrow-morning",
+      "order": 2,
+      "en": "I will come tomorrow morning.",
+      "nb": "Jeg kommer i morgen tidlig.",
+      "words": ["ngomso", "kusasa"]
+    },
+    {
+      "unitSlug": "time",
+      "skillSlug": "talk-about-yesterday",
+      "slug": "it-started-yesterday",
+      "order": 1,
+      "en": "It started yesterday.",
+      "nb": "Det begynte i går.",
+      "words": ["qala", "izolo"]
+    },
+    {
+      "unitSlug": "time",
+      "skillSlug": "talk-about-yesterday",
+      "slug": "what-happened",
+      "order": 2,
+      "en": "What happened?",
+      "nb": "Hva skjedde?",
+      "words": ["enzeka"]
+    },
+    {
+      "unitSlug": "time",
+      "skillSlug": "talk-about-tomorrow",
+      "slug": "wait-for-me",
+      "order": 1,
+      "en": "Please wait for me.",
+      "nb": "Vent på meg, er du snill.",
+      "words": ["linda"]
+    },
+    {
+      "unitSlug": "time",
+      "skillSlug": "talk-about-tomorrow",
+      "slug": "i-promise-to-come",
+      "order": 2,
+      "en": "I promise to come.",
+      "nb": "Jeg lover å komme.",
+      "words": ["thembisa"]
+    },
+    {
+      "unitSlug": "describing",
+      "skillSlug": "name-the-colours",
+      "slug": "my-car-is-red",
+      "order": 1,
+      "en": "My car is red.",
+      "nb": "Bilen min er rød.",
+      "words": ["imoto", "bomvu"]
+    },
+    {
+      "unitSlug": "describing",
+      "skillSlug": "name-the-colours",
+      "slug": "what-colour-is-it",
+      "order": 2,
+      "en": "What colour is it?",
+      "nb": "Hvilken farge har den?",
+      "words": ["umbala"]
+    },
+    {
+      "unitSlug": "describing",
+      "skillSlug": "say-how-big",
+      "slug": "the-house-is-big",
+      "order": 1,
+      "en": "The house is big.",
+      "nb": "Huset er stort.",
+      "words": ["indlu", "khulu"]
+    },
+    {
+      "unitSlug": "describing",
+      "skillSlug": "say-how-big",
+      "slug": "it-is-very-small",
+      "order": 2,
+      "en": "It is very small.",
+      "nb": "Den er veldig liten.",
+      "words": ["ncinci", "kakhulu"]
+    },
+    {
+      "unitSlug": "describing",
+      "skillSlug": "describe-a-person",
+      "slug": "she-is-clever",
+      "order": 1,
+      "en": "She is clever.",
+      "nb": "Hun er flink.",
+      "words": ["krelekrele"]
+    },
+    {
+      "unitSlug": "describing",
+      "skillSlug": "describe-a-person",
+      "slug": "he-is-strong",
+      "order": 2,
+      "en": "He is strong.",
+      "nb": "Han er sterk.",
+      "words": ["omelele"]
+    },
+    {
+      "unitSlug": "describing",
+      "skillSlug": "join-a-describing-word",
+      "slug": "the-tea-is-hot",
+      "order": 1,
+      "en": "The tea is hot.",
+      "nb": "Teen er varm.",
+      "note": "If tea has no word in the lexicon yet, say it the way you would.",
+      "words": ["shushu"]
+    },
+    {
+      "unitSlug": "describing",
+      "skillSlug": "join-a-describing-word",
+      "slug": "this-one-is-better",
+      "order": 2,
+      "en": "This one is better.",
+      "nb": "Denne er bedre.",
+      "words": ["ngcono"]
+    },
+    {
+      "unitSlug": "shopping",
+      "skillSlug": "go-to-the-market",
+      "slug": "i-want-to-buy-bread",
+      "order": 1,
+      "en": "I want to buy bread.",
+      "nb": "Jeg vil kjøpe brød.",
+      "words": ["thenga", "isonka"]
+    },
+    {
+      "unitSlug": "shopping",
+      "skillSlug": "go-to-the-market",
+      "slug": "it-is-too-expensive",
+      "order": 2,
+      "en": "It is too expensive.",
+      "nb": "Det er for dyrt.",
+      "words": ["duru"]
+    },
+    {
+      "unitSlug": "shopping",
+      "skillSlug": "talk-about-money",
+      "slug": "i-have-no-money",
+      "order": 1,
+      "en": "I have no money.",
+      "nb": "Jeg har ikke penger.",
+      "words": ["imali"]
+    },
+    {
+      "unitSlug": "shopping",
+      "skillSlug": "talk-about-money",
+      "slug": "what-is-the-price",
+      "order": 2,
+      "en": "What is the price?",
+      "nb": "Hva er prisen?",
+      "words": ["ixabiso"]
+    },
+    {
+      "unitSlug": "shopping",
+      "skillSlug": "ask-how-much",
+      "slug": "how-much-is-it",
+      "order": 1,
+      "en": "How much is it?",
+      "nb": "Hvor mye koster det?",
+      "words": ["ngakanani"]
+    },
+    {
+      "unitSlug": "shopping",
+      "skillSlug": "ask-how-much",
+      "slug": "only-one-please",
+      "order": 2,
+      "en": "Only one, please.",
+      "nb": "Bare én, takk.",
+      "words": ["kuphela", "nye:relative"]
+    },
+    {
+      "unitSlug": "work-and-study",
+      "skillSlug": "talk-about-your-job",
+      "slug": "i-am-a-teacher",
+      "order": 1,
+      "en": "I am a teacher.",
+      "nb": "Jeg er lærer.",
+      "words": ["utitshala"]
+    },
+    {
+      "unitSlug": "work-and-study",
+      "skillSlug": "talk-about-your-job",
+      "slug": "where-do-you-work",
+      "order": 2,
+      "en": "Where do you work?",
+      "nb": "Hvor jobber du?",
+      "words": ["sebenza"]
+    },
+    {
+      "unitSlug": "work-and-study",
+      "skillSlug": "talk-about-school",
+      "slug": "i-am-reading-a-book",
+      "order": 1,
+      "en": "I am reading a book.",
+      "nb": "Jeg leser en bok.",
+      "words": ["funda", "incwadi"]
+    },
+    {
+      "unitSlug": "work-and-study",
+      "skillSlug": "talk-about-school",
+      "slug": "i-forgot-my-book",
+      "order": 2,
+      "en": "I forgot my book.",
+      "nb": "Jeg glemte boka mi.",
+      "words": ["libala", "incwadi"]
+    },
+    {
+      "unitSlug": "work-and-study",
+      "skillSlug": "describe-your-day",
+      "slug": "listen-to-me",
+      "order": 1,
+      "en": "Listen to me.",
+      "nb": "Hør på meg.",
+      "words": ["mamela"]
+    },
+    {
+      "unitSlug": "work-and-study",
+      "skillSlug": "describe-your-day",
+      "slug": "what-are-you-doing",
+      "order": 2,
+      "en": "What are you doing?",
+      "nb": "Hva gjør du?",
+      "words": ["enza"]
+    },
+    {
+      "unitSlug": "asking-for-help",
+      "skillSlug": "say-you-are-unwell",
+      "slug": "i-am-sick",
+      "order": 1,
+      "en": "I am sick.",
+      "nb": "Jeg er syk.",
+      "words": ["gula"]
+    },
+    {
+      "unitSlug": "asking-for-help",
+      "skillSlug": "say-you-are-unwell",
+      "slug": "i-need-a-doctor",
+      "order": 2,
+      "en": "I need a doctor.",
+      "nb": "Jeg trenger en lege.",
+      "words": ["funa", "ugqirha"]
+    },
+    {
+      "unitSlug": "asking-for-help",
+      "skillSlug": "ask-someone-for-help",
+      "slug": "help-me-please",
+      "order": 1,
+      "en": "Help me, please!",
+      "nb": "Hjelp meg!",
+      "words": ["nceda"]
+    },
+    {
+      "unitSlug": "asking-for-help",
+      "skillSlug": "ask-someone-for-help",
+      "slug": "there-is-a-problem",
+      "order": 2,
+      "en": "There is a problem.",
+      "nb": "Det er et problem.",
+      "words": ["ingxaki"]
+    },
+    {
+      "unitSlug": "asking-for-help",
+      "skillSlug": "be-polite-about-it",
+      "slug": "excuse-me",
+      "order": 1,
+      "en": "Excuse me.",
+      "nb": "Unnskyld.",
+      "note": "To get a stranger's attention, politely.",
+      "words": ["uxolo:interj"]
+    },
+    {
+      "unitSlug": "asking-for-help",
+      "skillSlug": "be-polite-about-it",
+      "slug": "please-forgive-me",
+      "order": 2,
+      "en": "Please forgive me.",
+      "nb": "Tilgi meg.",
+      "words": ["xolela"]
+    }
+  ]
+}

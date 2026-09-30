@@ -1,0 +1,1909 @@
+{
+  "app": {
+    "name": "Molo",
+    "tagline": "isiXhosa, klikk for klikk.",
+    "description": "Lær isiXhosa slik det høres ut: en ekte stemme på hvert ord, klikkelyder fra første dag og leksjoner på ti minutter. For norsk- og engelsktalende."
+  },
+  "nav": {
+    "learn": "Lær",
+    "review": "Repeter",
+    "edit": "Redaktør",
+    "signIn": "Logg inn",
+    "signOut": "Logg ut",
+    "profile": "Profil",
+    "leagues": "Ligaer",
+    "grammar": "Grammatikk",
+    "menu": "Meny",
+    "account": "Konto"
+  },
+  "auth": {
+    "email": "E-post",
+    "password": "Passord",
+    "name": "Navn",
+    "signIn": "Logg inn",
+    "signUp": "Opprett konto",
+    "magicLink": "Send meg en innloggingslenke",
+    "magicLinkSent": "Sjekk innboksen for innloggingslenken.",
+    "sourceLanguage": "Språket jeg lærer fra",
+    "errors": {
+      "invalid": "E-postadressen eller passordet stemmer ikke.",
+      "generic": "Noe gikk galt. Prøv igjen.",
+      "unverified": "Bekreft e-postadressen din først. Vi har nettopp sendt deg en ny lenke.",
+      "notLinked": "Denne e-postadressen har allerede en Molo-konto. Logg inn med e-post, og koble til {{provider}} under Innstillinger."
+    },
+    "welcome": "Molo! La oss lære isiXhosa.",
+    "welcomeBody": "Logg inn for å beholde rekken, XP og repetisjonene dine på tvers av enheter.",
+    "switchToSignUp": "Ny her? Opprett konto",
+    "switchToSignIn": "Har du konto? Logg inn",
+    "passwordHint": "Minst 10 tegn",
+    "signUpBody": "Opprett en konto for å beholde rekken, XP og repetisjonene dine på tvers av enheter.",
+    "withApple": "Fortsett med Apple",
+    "withGoogle": "Fortsett med Google",
+    "or": "eller med e-post",
+    "providerOff": "Innlogging med {{provider}} er ikke satt opp ennå.",
+    "verifySent": "Vi har sendt en bekreftelseslenke til {{email}}. Åpne den, så er du logget inn.",
+    "checkInbox": "Sjekk innboksen",
+    "resend": "Send lenken på nytt",
+    "resent": "Sendt. Det kan ta et minutt før lenken kommer.",
+    "verified": "E-postadressen din er bekreftet. Velkommen til Molo!",
+    "backToSignIn": "Tilbake til innlogging"
+  },
+  "units": {
+    "title": "Kapitler",
+    "empty": "Ingen publiserte kapitler ennå. Innhold dukker opp her når en redaktør publiserer det.",
+    "start": "Start",
+    "continue": "Fortsett",
+    "unit1": {
+      "title": "Molo! Hilsener og klikk",
+      "skills": {
+        "greetings": {
+          "title": "Hilsener"
+        },
+        "clicks": {
+          "title": "Klikkene"
+        },
+        "names": {
+          "title": "Navn og mennesker"
+        },
+        "numbers": {
+          "title": "Tallene 1 til 10"
+        },
+        "classes": {
+          "title": "Substantiv og klassene deres"
+        }
+      }
+    },
+    "crown": "{{mature}} av {{total}} ord mestret",
+    "lessons": "Leksjoner: {{count}}",
+    "minutes": "{{count}} min",
+    "lesson": "Leksjon {{order}}",
+    "words": "{{count}} ord",
+    "crowned": "Kronet! Alle ordene er mestret.",
+    "mastered": "Mestret",
+    "offline": "Kopi uten nett",
+    "exercises_one": "{{count}} oppgave",
+    "exercises_other": "{{count}} oppgaver",
+    "sample": "Eksempelkapittel",
+    "exercises": "{{count}} oppgaver",
+    "locked": "Låst",
+    "lockedHint": "Fullfør {{unit}} først",
+    "downloaded": "Lastet ned",
+    "download": {
+      "title": "Ta med kapittelet uten nett",
+      "hint": "Alle oppgavene og alle opptakene, lagret på denne telefonen.",
+      "size": "Omtrent {{size}} å laste ned",
+      "start": "Last ned",
+      "working": "Laster ned",
+      "progress": "{{done}} av {{total}} opptak",
+      "ready": "Klar uten nett",
+      "readyHint": "{{size}} på denne telefonen. Virker helt uten dekning.",
+      "remove": "Slett nedlastingen",
+      "errorOffline": "Forbindelsen ble brutt før nedlastingen var ferdig, så ingenting ble lagret. Prøv igjen på wifi.",
+      "errorNoSpace": "Det er ikke nok plass på denne telefonen. Frigjør litt plass og prøv igjen.",
+      "errorMissingAudio": "Et opptak som trengs i kapittelet, kunne ikke hentes, så ingenting ble lagret.",
+      "errorFailed": "Nedlastingen ble ikke ferdig, så ingenting ble lagret.",
+      "plusOnly": "Kapitler uten nett følger med Molo Plus. Ha alle oppgavene og opptakene på telefonen der det ikke er dekning.",
+      "getPlus": "Skaff Molo Plus",
+      "pillPlus": "Uten nett · Plus",
+      "pillPlusLabel": "Uten nett med Molo Plus",
+      "failedShort": "Nedlastingen mislyktes",
+      "percent": "{{percent}} %",
+      "progressHint": "Viser fremdriften og lar deg stoppe nedlastingen."
+    },
+    "loadError": "Kurset kunne ikke lastes. Sjekk tilkoblingen og prøv igjen."
+  },
+  "lesson": {
+    "check": "Sjekk",
+    "continue": "Fortsett",
+    "correct": "Riktig!",
+    "incorrect": "Ikke helt.",
+    "correctAnswerWas": "Svaret var",
+    "skip": "Hopp over",
+    "progress": "{{done}} av {{total}}",
+    "listen": "Lytt",
+    "listenAgain": "Lytt igjen",
+    "slow": "Sakte",
+    "chooseGloss": "Hva betyr dette?",
+    "chooseAudio": "I hvilket opptak hører du",
+    "assemble": "Bygg setningen",
+    "matchPairs": "Finn parene",
+    "sortClasses": "Sorter substantivene i klassene sine",
+    "clickIdentify": "Hvilket klikk hørte du?",
+    "record": "Ta opp",
+    "stop": "Stopp",
+    "compare": "Sammenlign med innleseren",
+    "xpEarned": "+{{xp}} XP",
+    "perfect": "Perfekt leksjon!",
+    "attribution": {
+      "forvo": "Uttale fra Forvo"
+    },
+    "typeTheXhosa": "Skriv det på isiXhosa",
+    "typePlaceholder": "Skriv her…",
+    "clickHint": "Hør etter klikket: {{letters}}",
+    "typoHint": "Godkjent, men legg merke til stavemåten:",
+    "fillBlanks": "Fyll inn",
+    "speakTitle": "Si det",
+    "reference": "Innleser",
+    "yourTake": "Deg",
+    "soundedRight": "Det hørtes riktig ut",
+    "tryAgain": "Prøv igjen",
+    "noMic": "Ingen mikrofon tilgjengelig, hopper over.",
+    "recordHint": "Lytt, trykk og si det.",
+    "summaryTitle": "Leksjonen er ferdig",
+    "summaryCorrect": "Riktige svar: {{correct}} av {{total}}",
+    "exit": "Avslutt leksjonen",
+    "rightAnswer": "Riktig svar",
+    "keepGoing": "Fortsett",
+    "leaveTitle": "Vil du avslutte leksjonen?",
+    "leaveBody": "Svarene dine i denne leksjonen går tapt.",
+    "leaveConfirm": "Avslutt",
+    "clickTeach": {
+      "c": "c er tannklikket: tungespissen bak fortennene, som et mykt tsk.",
+      "x": "x er sideklikket: tungen mot siden, som når du smatter til en hest.",
+      "q": "q er ganeklikket: tungespissen trekkes brått fra ganen, som en kork."
+    },
+    "chooseGlossQuiet": "Hva betyr dette ordet?",
+    "chooseWordQuiet": "Hvilket ord betyr dette?",
+    "quietOn": "Stillemodus er på",
+    "quietOff": "Stillemodus",
+    "quietToggle": "Slå lytteoppgaver av eller på",
+    "nothingInModes": "Alle oppgavene i denne leksjonen krever lytting eller tale. Slå dem på for å fortsette.",
+    "turnOnListening": "Slå på lytting",
+    "skippedForModes": "{{count}} oppgaver hoppet over i stillemodus",
+    "skippedForModes_one": "{{count}} oppgave hoppet over i stillemodus",
+    "skippedForModes_other": "{{count}} oppgaver hoppet over i stillemodus",
+    "noAudio": "Ingen lyd ennå",
+    "typeAnswer": "Skriv det på isiXhosa",
+    "fillBlank": "Fyll inn formen som mangler",
+    "blank": "tomt felt",
+    "speak": {
+      "title": "Si det som innleseren",
+      "record": "Hold inne for å ta opp",
+      "recording": "Tar opp…",
+      "yours": "Ditt opptak",
+      "theirs": "Innleser",
+      "compare": "Hvordan hørtes det ut?",
+      "soundedRight": "Hørtes riktig ut",
+      "notYet": "Ikke ennå",
+      "micDenied": "Molo har ikke tilgang til mikrofonen. Du kan gi tilgang i innstillingene. Oppgaven hoppes over foreløpig.",
+      "noReference": "Ikke noe referanseopptak ennå"
+    },
+    "quietMode": "Stillemodus",
+    "emptyModes": "Alle oppgavene her krever lytting eller tale. Slå dem på i innstillingene.",
+    "openSettings": "Åpne innstillinger",
+    "readInstead": "Les ordet",
+    "otherVoice": "En annen stemme",
+    "voiceBy": "Stemme: {{name}}",
+    "clickNoAudio": "Ingen klikkopptak i denne leksjonen ennå.",
+    "clickReplay": "Spill av klikket igjen",
+    "clickVariant": {
+      "aspirated": "{{letters}} er det samme klikket med et pust av luft rett etter.",
+      "nasal": "{{letters}} er det samme klikket, men lufta går ut gjennom nesen.",
+      "voiced": "{{letters}} er det samme klikket med stemmen i gang mens det lages.",
+      "voiced_nasal": "{{letters}} er det samme klikket gjennom nesen, med stemmen i gang."
+    },
+    "answerArea": "Svaret ditt",
+    "addWord": "Legg til {{word}}",
+    "removeWord": "Fjern {{word}}",
+    "blankAt": "Tomt felt {{n}}",
+    "voiceOf": "Stemme {{index}} av {{total}}. Hør en annen stemme.",
+    "bucketFor": "Legg det valgte ordet i {{label}}",
+    "moment": {
+      "newWord": "Nytt ord",
+      "tricky": "Vanskelig",
+      "newWordHint": "Dette ordet har du ikke møtt før.",
+      "trickyHint": "Dette har du bommet på før."
+    },
+    "run": {
+      "inARow": "{{count}} på rad",
+      "inARow_one": "{{count}} på rad",
+      "inARow_other": "{{count}} på rad",
+      "onFire": "{{count}} på rad — i flytsonen"
+    },
+    "speaker": {
+      "listening": "Solfuglen spiller det",
+      "teaching": "Tranen viser det",
+      "producing": "Pingvinen lytter etter det"
+    },
+    "wordHint": {
+      "open": "Hva betyr {{word}}?",
+      "none": "Ingen forklaring på dette ordet ennå."
+    },
+    "report": {
+      "action": "Meld fra om oppgaven",
+      "title": "Hva er galt her?",
+      "note": "Noe å legge til? (valgfritt)",
+      "send": "Send til en redaktør",
+      "cancel": "Avbryt",
+      "thanks": "Takk. En redaktør ser på det.",
+      "already": "Du har allerede meldt fra om dette. Det ligger hos en redaktør.",
+      "failed": "Det ble ikke sendt. Prøv igjen senere.",
+      "tooMany": "Det er mange meldinger på kort tid. Vent et minutt, så kan du sende resten.",
+      "guestTitle": "Si fra til en redaktør?",
+      "guestBody": "Meldingen går til en person som kan rette feilen, og må knyttes til et navn. Det tar bare et øyeblikk å opprette en konto, og leksjonene dine blir med.",
+      "reason": {
+        "wrong_gloss": "Oversettelsen ser feil ut",
+        "wrong_answer": "Svaret mitt burde blitt godtatt",
+        "audio_problem": "Lyden mangler eller er utydelig",
+        "typo": "Det er en skrivefeil",
+        "other": "Noe annet"
+      }
+    },
+    "audioFailed": "Kunne ikke spille av opptaket",
+    "intro": {
+      "one": "Nytt ord",
+      "many": "Nye ord",
+      "listen": "Lytt til {{word}}"
+    }
+  },
+  "review": {
+    "title": "Repetisjon",
+    "due": "{{count}} til repetisjon",
+    "nothingDue": "Ingenting å repetere. Kom tilbake senere, eller start en ny leksjon.",
+    "again": "Igjen",
+    "hard": "Vanskelig",
+    "good": "Bra",
+    "easy": "Lett",
+    "reveal": "Vis svaret",
+    "done": "Alt repetert",
+    "sessionXp": "+{{xp}} XP denne økten",
+    "hearIt": "Hør ordet, husk betydningen, og vurder deg selv.",
+    "start": "Start repetisjon",
+    "sessionDone": "Økten er ferdig",
+    "queued": "Lagret uten nett; synkroniseres",
+    "newCards": "Nye: {{count}}",
+    "signInFirst": "Logg inn for å repetere ordene du har lært.",
+    "emptyCta": "Åpne en leksjon"
+  },
+  "gamification": {
+    "streak": "{{count}} dager på rad",
+    "streak_one": "{{count}} dag på rad",
+    "streak_other": "{{count}} dager på rad",
+    "level": "Nivå {{level}}",
+    "dailyGoal": "Dagsmål",
+    "xpToday": "{{xp}} / {{goal}} XP i dag",
+    "levelUp": "Nytt nivå!",
+    "newLevel": "Du nådde nivå {{level}}",
+    "goalReached": "Dagsmålet er nådd",
+    "toGoal": "{{xp}} XP igjen til dagsmålet",
+    "levelUpBody": "Du nådde nivå {{level}}. Fortsett å øve hver dag for å beholde rekken.",
+    "streakAtRisk": "Ta dagens leksjon for å beholde rekken",
+    "xp": "XP",
+    "freezeReady": "rekkefrys klar",
+    "frozen": "En rekkefrys reddet rekken din",
+    "levelRing": "Nivå {{level}}, {{xp}} av {{goal}} XP i dag"
+  },
+  "celebration": {
+    "a11y": {
+      "sequence": "Slutten av leksjonen",
+      "week": "Dager du har øvd denne uka",
+      "medal": "Medalje for {{words}} ord",
+      "crown": "Krone for et fullført kapittel"
+    },
+    "skipAll": "Hopp over",
+    "continue": "Fortsett",
+    "back": "Tilbake til stien",
+    "lesson": {
+      "title": "Leksjonen er ferdig",
+      "perfect": "Ikke én feil",
+      "xpLabel": "Opptjent XP",
+      "accuracy": "Riktige svar: {{correct}} av {{total}} · {{percent}} %"
+    },
+    "streak": {
+      "title": "Rekken fortsetter",
+      "titleFrozen": "Rekken ble reddet",
+      "dayLabel": "dager på rad",
+      "dayLabel_one": "dag på rad",
+      "dayLabel_other": "dager på rad",
+      "body": "Kom tilbake i morgen for å fortsette rekken.",
+      "bodyFrozen": "En rekkefrys dekket dagen du ikke øvde, så du beholder rekken.",
+      "week": "Denne uka"
+    },
+    "milestone": {
+      "title": "{{words}} ord",
+      "subtitle": "Ord du har lært",
+      "body": "Så mange isiXhosa-ord har du hørt. Si noen av dem høyt i dag."
+    },
+    "unit": {
+      "title": "Kapittelet er fullført",
+      "titleFlawless": "Kapittelet er fullført, uten en eneste feil",
+      "body": "{{unit}} er unnagjort.",
+      "bodyFlawless": "{{unit}} er unnagjort, og du bommet ikke én gang."
+    },
+    "weekday": {
+      "mon": "M",
+      "tue": "T",
+      "wed": "O",
+      "thu": "T",
+      "fri": "F",
+      "sat": "L",
+      "sun": "S"
+    }
+  },
+  "nounClass": {
+    "label": "Klasse {{label}}",
+    "1": {
+      "label": "Klasse 1"
+    },
+    "1a": {
+      "label": "Klasse 1a"
+    },
+    "2": {
+      "label": "Klasse 2"
+    },
+    "2a": {
+      "label": "Klasse 2a"
+    },
+    "3": {
+      "label": "Klasse 3"
+    },
+    "4": {
+      "label": "Klasse 4"
+    },
+    "5": {
+      "label": "Klasse 5"
+    },
+    "6": {
+      "label": "Klasse 6"
+    },
+    "7": {
+      "label": "Klasse 7"
+    },
+    "8": {
+      "label": "Klasse 8"
+    },
+    "9": {
+      "label": "Klasse 9"
+    },
+    "10": {
+      "label": "Klasse 10"
+    }
+  },
+  "edit": {
+    "title": "Redaktør",
+    "deniedTitle": "Bare for redaktører",
+    "deniedBody": "Denne delen av Molo krever rollen redaktør eller administrator. Spør en administrator hvis du skal ha den.",
+    "deniedSignIn": "Logg inn med en redaktørkonto for å bruke denne delen av Molo.",
+    "backToLearning": "Tilbake til læringen",
+    "content": "Innhold",
+    "reviewQueue": "Gjennomgangskø",
+    "audioBacklog": {
+      "waiting": "{{count}} opptak venter på behandling",
+      "waiting_one": "{{count}} opptak venter på behandling",
+      "waiting_other": "{{count}} opptak venter på behandling",
+      "hint": "Behandlingen kjører med noen minutters mellomrom, og et opptak kommer i gjennomgangskøen når det er ferdig."
+    },
+    "recorder": {
+      "title": "Ta opp flere ord",
+      "speaker": "Innleser",
+      "queue": "Ord som skal tas opp",
+      "record": "Ta opp",
+      "stop": "Stopp",
+      "retake": "Ta opp på nytt",
+      "upload": "Last opp",
+      "uploaded": "Lastet opp, behandles",
+      "consentMissing": "Denne innleseren har ikke registrert samtykke. Registrer samtykke først.",
+      "levelHint": "Snakk med normal stemme; toppene bør ligge rundt midten av måleren.",
+      "gender": "Stemme",
+      "ageGroup": "Aldersgruppe",
+      "genderAny": "ikke angitt",
+      "female": "kvinne",
+      "male": "mann",
+      "child": "barn",
+      "teen": "tenåring",
+      "adult": "voksen",
+      "elder": "eldre",
+      "missingForSpeaker": "Bare det denne innleseren ikke har lest inn",
+      "displayName": "Visningsnavn",
+      "region": "Region eller dialekt",
+      "consentLabel": "Samtykke",
+      "noConsent": "uten samtykke",
+      "consent": {
+        "internal": "bare internt",
+        "published": "kan publiseres",
+        "commercial": "kommersiell bruk"
+      },
+      "consentHelp": "Velg bare det det signerte samtykkeskjemaet sier. Lyd brukes i betalingsappen bare med kommersiell bruk."
+    },
+    "goldens": {
+      "title": "Former godkjent av veileder",
+      "lemma": "Oppslagsord",
+      "form": "Form",
+      "expected": "Svaret ditt (isiXhosa)",
+      "validatedBy": "Navnet ditt",
+      "validatedOn": "Dato",
+      "irregular": "Uregelmessig",
+      "export": "Last ned TOML for crates/xh-morph/golden",
+      "sessionCount": "Former i økten: {{count}} · klare for eksport: {{ready}}",
+      "exportHelp": "Bare tilfeller med veilederens form, navn og en gyldig dato eksporteres. Uferdige tilfeller blir stående i arket.",
+      "sessionTitle": "Denne økten",
+      "sessionHelp": "Fyll inn dette én gang. Alle kortene starter med det, og hvert kort kan fortsatt endres for seg.",
+      "tutorAll": "Navnet ditt, for alle kort",
+      "dateAll": "Dagens dato, for alle kort",
+      "jump": "Hopp til et klassepar",
+      "progress": "{{ready}} klare · {{remaining}} igjen",
+      "nextUnfinished": "Neste uferdige",
+      "allDone": "Alle tilfellene er klare",
+      "exportNone": "Ingenting er klart for eksport ennå",
+      "note": "Kilde og notater fra økten",
+      "check": "Sammenlign med xh-morph",
+      "agrees": "xh-morph er enig i formen du skrev inn. Dette godkjenner ikke en klasse og publiserer ikke innhold.",
+      "differs": "xh-morph er uenig. Behold veilederens form og noter avgjørelsen.",
+      "unavailable": "xh-morph kan ikke sammenligne dette tilfellet. Behold veilederens form og noter spørsmålet.",
+      "error": "Kontrollen mislyktes. Behold veilederens form og prøv igjen.",
+      "forms": {
+        "plural": "Flertall",
+        "singular": "Entall",
+        "subject_concord": "Subjektskongruens",
+        "object_concord": "Objektskongruens",
+        "possessive": "Possessivkongruens",
+        "locative": "Lokativ"
+      },
+      "howTitle": "Slik fungerer denne siden",
+      "how1": "Hvert kort spør etter én form av et ord – for eksempel flertall. Skriv formen du ville sagt.",
+      "how2": "«Navnet ditt» fylles inn fra feltet øverst, og det samme gjør datoen. La svaret stå tomt hvis du er usikker.",
+      "how3": "Hvert kort lagres av seg selv når du går ut av et felt, og viser «Lagret» når det er gjort. Du kan lukke siden og fortsette senere, på hvilken som helst enhet.",
+      "state": {
+        "saving": "Lagrer …",
+        "saved": "Lagret",
+        "error": "Ikke lagret ennå. Det er tatt vare på i denne nettleseren; trykk Prøv igjen.",
+        "retry": "Prøv igjen"
+      },
+      "savedServer": "Alle kortene er lagret.",
+      "unsavedCount": "{{count}} kort er ikke lagret ennå",
+      "loadFailed": "De lagrede svarene kunne ikke lastes inn. Det du skriver, tas vare på i denne nettleseren til forbindelsen er tilbake.",
+      "lastSavedBy": "Lagret av {{name}}, {{time}}",
+      "exportTitle": "For operatøren: eksport",
+      "termsTitle": "Hva grammatikkordene betyr",
+      "termClass": "Substantivklasse",
+      "formHelp": {
+        "class": "isiXhosa deler substantiver inn i nummererte klasser etter hvordan de begynner. Klassen avgjør flertallsformen og alle de små delene i en setning som samsvarer med substantivet. Hvert kort oppgir klassen til ordet.",
+        "plural": "Hele ordet for flere enn én. På isiXhosa endres begynnelsen av ordet, ikke slutten. Skriv hele ordet.",
+        "singular": "Hele ordet for én. Kortet viser et ord som allerede er i flertall; skriv entallsformen, den andre halvdelen av paret. På isiXhosa endrer begynnelsen av ordet seg, ikke slutten.",
+        "subject_concord": "Den lille delen først i et verb som endrer seg med substantivet som gjør noe: «The tree is falling» og «The trees are falling» er ulike der. Skriv bare den delen, med bindestrek etter: xx-.",
+        "object_concord": "Den lille delen inne i et verb som endrer seg med substantivet det gjøres noe med, som i «I see the tree» og «I see the trees». Skriv bare den delen, med bindestrek på begge sider: -xx-.",
+        "possessive": "Den lille bindedelen i «the child’s tree» som endrer seg med det som eies (treet), ikke med eieren. Skriv bare den delen, med bindestrek etter: xx-.",
+        "locative": "Ordet for «ved, i, på, til eller fra» stedet, tingen eller personen: ett helt ord, slik du ville sagt det. Mange substantiv endrer begynnelsen og får en ending; ord som umama får en annen begynnelse i stedet."
+      },
+      "pairTitle": "Klasse {{singular}} og klasse {{plural}}",
+      "pairIntro": "Et substantiv i klasse {{singular}} får flertall i klasse {{plural}}, og et substantiv i klasse {{plural}} er flertallet av et i klasse {{singular}}. Hvert kort viser den ene siden av paret og spør etter den andre.",
+      "pairLink": "{{singular}}/{{plural}} · {{ready}}/{{count}}",
+      "locativeTitle": "Lokativer: ved, i, på, til eller fra",
+      "locativeIntro": "Hvert kort viser et substantiv. Skriv det ene ordet som betyr ved, i, til eller fra det, slik du ville sagt det.",
+      "locativeLink": "Lokativer · {{ready}}/{{count}}",
+      "pairAsk": "Klasse {{cls}} → klasse {{other}}",
+      "oldCard": "På det gamle kortet, som spurte etter flertallet av dette flertallsordet, skrev du: {{form}}",
+      "earlierTitle": "Tidligere svar på kort som ikke lenger stilles",
+      "earlierHelp": "Disse kortene spurte etter flertallet av et ord som allerede er i flertall, eller av isiXhosa, som ikke har flertall. De er tatt vare på her og på serveren; ingenting du skrev, er borte, og ingenting her blir brukt.",
+      "earlierRow": "{{lemma}} · klasse {{cls}} · {{form}}",
+      "earlierUnsaved": "ikke lagret ennå",
+      "frames": {
+        "preview": "Forhåndsvisning for administratorer: setningsrammene under er slått av for redaktører til operatøren slår dem på.",
+        "parkedTitle": "Samsvar mellom ord: kommer snart, i en økt sammen",
+        "parkedBody": "Spørsmålene om samsvar (de små delene av en setning som endrer seg med substantivet) bygges om til hele setninger å si, til en økt sammen med læreren. Til da er de slått av, og her er ingenting å gjøre.",
+        "exampleTitle": "Hva samsvar betyr, med eksempler",
+        "example": "På engelsk blir «The tree is falling» til «The trees are falling»: verbet endrer seg med substantivet. På isiXhosa endrer begynnelsen av verbet seg med substantivets klasse, og det gjør andre små deler av setningen også: i «I see the tree» og i «the child’s tree». Et kort vil vise en slik setning på engelsk. Du sier den på isiXhosa, skriver hele setningen og markerer delen som endret seg med substantivet.",
+        "earlierTitle": "Dine tidligere svar på samsvarskortene",
+        "earlierHelp": "Tatt vare på på serveren, slik du skrev dem; ingenting er borte, og ingenting her blir brukt før de nye kortene er slått på.",
+        "intro": "Si dette på isiXhosa, slik du ville sagt det (setningen står på engelsk):",
+        "noFrame": "Skriv en kort setning med dette ordet, slik du ville sagt den.",
+        "anyVerb": "Hvis «falling» ikke passer til dette ordet, bruk et hvilket som helst verb som gjør det. Det som teller, er delen som endrer seg med substantivet.",
+        "sentenceLabel": "Hele setningen, på isiXhosa",
+        "mark": "Marker delen som samsvarer med substantivet",
+        "markHint": "Merk den delen i setningen over, og trykk så på knappen.",
+        "markEmpty": "Merk delen i setningen først.",
+        "markSpace": "Merk én del av ett ord, uten mellomrom.",
+        "marked": {
+          "before": "Du markerte ",
+          "middle": ". Det blir lagret som ",
+          "after": "."
+        },
+        "use": "Bruk dette",
+        "savedBefore": "Lagret svar: ",
+        "sentence": {
+          "subject_concord": {
+            "singular": "The {{noun}} is falling.",
+            "plural": "The {{noun}} are falling."
+          },
+          "object_concord": {
+            "singular": "I see the {{noun}}.",
+            "plural": "I see the {{noun}}."
+          },
+          "possessive": {
+            "otherOwner": "the woman’s {{noun}}",
+            "singular": "the child’s {{noun}}",
+            "plural": "the child’s {{noun}}"
+          }
+        }
+      }
+    },
+    "speakers": "Innlesere",
+    "search": "Søk i oppslagsord",
+    "filters": {
+      "status": "Status",
+      "pos": "Ordklasse",
+      "class": "Klasse",
+      "missingGloss": "Mangler ordforklaring",
+      "any": "Alle",
+      "pending": "Ikke publisert ennå",
+      "missingGlossAll": "Ingen av dem",
+      "missingGlossAny": "Minst én av dem"
+    },
+    "status": {
+      "draft": "Utkast",
+      "ai_draft": "KI-utkast",
+      "in_review": "Til gjennomgang",
+      "published": "Publisert",
+      "retired": "Trukket tilbake"
+    },
+    "lexeme": {
+      "lemma": "Oppslagsord",
+      "pos": "Ordklasse",
+      "nounClass": "Substantivklasse",
+      "register": "Språkstil",
+      "cefrBand": "CEFR-nivå",
+      "frequencyRank": "Frekvensrang",
+      "source": "Kilde",
+      "licence": "Lisens",
+      "attribution": "Kreditering",
+      "glosses": "Ordforklaringer",
+      "audio": "Lyd",
+      "revisions": "Historikk",
+      "save": "Lagre",
+      "saved": "Lagret",
+      "promote": "Send til gjennomgang",
+      "approve": "Godkjenn og publiser",
+      "reject": "Avvis",
+      "rejectNote": "Hvorfor? (påkrevd)",
+      "publishCheck": "Hva mangler",
+      "gateOk": "Klar til publisering",
+      "aiDraftBadge": "KI-utkast: ikke gjennomgått av et menneske ennå",
+      "assist": "Lag utkast til ordforklaringer med KI",
+      "assistHint": "Lagrer bare for språk der ingen redaktør har skrevet en ordforklaring, alltid som KI-utkast. Skriver aldri isiXhosa.",
+      "assistDone": "KI-utkast lagret for: {{langs}}",
+      "assistNothing": "Forslag hentet; alle språk har allerede en ordforklaring skrevet av en redaktør",
+      "assistUnavailable": "KI-hjelp er ikke satt opp på denne serveren",
+      "assistSuggestion": "KI-forslag",
+      "morph": "Genererte former (xh-morph)",
+      "morphUnvalidated": "Reglene for denne klassen er ennå ikke godkjent av en veileder. Formene vises bare til sammenligning og teller ikke ved publisering.",
+      "morphNotNoun": "Bare substantiv med klasse har genererte former"
+    },
+    "gloss": {
+      "gloss": "Ordforklaring",
+      "usageNote": "Bruksnotat",
+      "contrastiveNote": "Kontrastivt notat",
+      "en": "Engelsk",
+      "nb": "Norsk",
+      "googleSuggestion": "Også foreslått av Google Translate: {{gloss}}",
+      "agree": "Samsvarer",
+      "differs": "Avviker"
+    },
+    "gate": {
+      "pos_missing": "Ordklasse mangler",
+      "noun_class_missing": "Substantivklasse mangler",
+      "plural_not_generable": "xh-morph kan ikke lage flertallsformen, og ingen flertallslenke er angitt",
+      "gloss_missing": "Ordforklaring mangler: {{detail}}",
+      "audio_missing": "Ingen publisert lyd på nivå 1 eller 2",
+      "licence_missing": "Lisens mangler",
+      "source_missing": "Kilde mangler",
+      "approver_not_editorial": "Godkjenneren har ingen redaktørrolle",
+      "four_eyes": "Den som opprettet innholdet, kan ikke godkjenne det selv",
+      "lexeme_not_published": "Oppslagsord ikke publisert: {{detail}}",
+      "surface_form_unverified": "Overflateform ikke verifisert: {{detail}}",
+      "referenced_entity_not_published": "Ikke publisert: {{detail}}",
+      "no_morphology_generator": "Språket i dette kurset har ingen morfologigenerator, så ingen form kan verifiseres",
+      "option_labels_collide": "To svaralternativer ser like ut ({{detail}}). Endre en glosse eller bytt et feilalternativ, slik at alle flisene er forskjellige.",
+      "click_audio_missing": "Ingen publisert studioopptak av klikket {{detail}} alene",
+      "no_published_children": "Ingenting i den er publisert ennå"
+    },
+    "tabs": {
+      "overview": "I dag",
+      "content": "Innhold",
+      "review": "Gjennomgangskø",
+      "recorder": "Opptak",
+      "goldens": "Kontrollformer",
+      "curriculum": "Læreplan",
+      "sentences": "Setninger",
+      "studio": "Studio",
+      "grammar": "Grammatikk",
+      "write": "Skriv setninger",
+      "culture": "Kulturkort"
+    },
+    "curriculum": {
+      "title": "Læreplan",
+      "empty": "Ingen kapitler ennå. Opprett det første nedenfor.",
+      "newUnit": "Nytt kapittel",
+      "newSkill": "Ny ferdighet",
+      "newLesson": "Ny leksjon",
+      "newExercise": "Ny oppgave",
+      "slug": "Kortnavn",
+      "titleKey": "Tittelnøkkel (i18n)",
+      "order": "Rekkefølge",
+      "cefrBand": "CEFR-nivå",
+      "kind": "Type",
+      "estimatedMinutes": "Minutter",
+      "exercises": "Oppgaver: {{count}}",
+      "lexemes": "{{count}} oppslagsord",
+      "create": "Opprett",
+      "delete": "Slett utkast",
+      "deleteConfirm": "Slette dette utkastet og alt under det?",
+      "deleted": "Slettet",
+      "created": "Opprettet",
+      "unit": "Kapittel",
+      "skill": "Ferdighet",
+      "lesson": "Leksjon",
+      "exercise": "Oppgave",
+      "prerequisite": "Krever kapittel",
+      "none": "ingen",
+      "course": "Kurs",
+      "courseHint": "Nye kapitler opprettes i dette kurset."
+    },
+    "exercise": {
+      "title": "Oppgave",
+      "type": "Type",
+      "note": "Redaktørnotat",
+      "payload": "Innhold (JSON)",
+      "payloadValid": "Innholdet er gyldig",
+      "payloadInvalid": "Innholdet er ugyldig: {{error}}",
+      "structured": "Skjema",
+      "json": "JSON",
+      "prompt": "Oppslagsord i spørsmålet",
+      "options": "Alternativer",
+      "correct": "Riktig",
+      "addOption": "Legg til alternativ",
+      "removeOption": "Fjern",
+      "pickLexeme": "Søk oppslagsord",
+      "noResults": "Ingen treff",
+      "references": "Innhold det vises til",
+      "unpublishedRef": "ikke publisert: blokkerer publisering av oppgaven",
+      "save": "Lagre",
+      "saved": "Lagret",
+      "new": "Ny oppgave",
+      "context": "{{unit}} › {{skill}} › leksjon {{lesson}}"
+    },
+    "newLexeme": {
+      "title": "Nytt oppslagsord",
+      "lemma": "Oppslagsord (slik kilden skriver det)",
+      "pos": "Ordklasse",
+      "nounClass": "Substantivklasse",
+      "source": "Kilde",
+      "licence": "Lisens",
+      "create": "Opprett utkast",
+      "hint": "Oppretter et utkast. Ordforklaringer, lyd og gjennomgang kommer etterpå; ingenting her når en elev."
+    },
+    "sentence": {
+      "title": "Setninger",
+      "new": "Ny setning",
+      "create": "Opprett",
+      "text": "isiXhosa-tekst",
+      "textHint": "Lagres nøyaktig slik du skriver den. Bygg ordlisten under fra leksikonet; ingenting her genereres.",
+      "register": "Språkstil",
+      "cefrBand": "CEFR-nivå",
+      "sourceRef": "Kildereferanse",
+      "tokens": "Ord",
+      "tokensHint": "Hvert ord er et oppslagsord fra leksikonet med den formen det har her. xh-morph sjekker formen. En form som ikke kan sjekkes, må merkes som uregelmessig og få et notat før publisering.",
+      "search": "Finn et oppslagsord",
+      "add": "Legg til",
+      "surfaceForm": "Form i denne setningen",
+      "irregular": "Uregelmessig",
+      "irregularNote": "Hvorfor formen er riktig (påkrevd for uregelmessige former)",
+      "moveUp": "Opp",
+      "moveDown": "Ned",
+      "remove": "Fjern",
+      "verify": "Sjekk med xh-morph",
+      "saveTokens": "Lagre ord",
+      "tokensSaved": "Ord lagret",
+      "expectedPlural": "xh-morph-flertall",
+      "verified": "verifisert",
+      "unverified": "uverifisert",
+      "mismatch": "avvik",
+      "matchedLemma": "oppslagsord",
+      "matchedPlural": "flertall",
+      "glosses": "Oversettelser",
+      "gloss": "Oversettelse",
+      "literalGloss": "Ord for ord",
+      "audio": "Lyd",
+      "revisions": "Historikk",
+      "cols": {
+        "text": "Setning",
+        "tokens": "Ord",
+        "glosses": "Oversettelser",
+        "audio": "Lyd",
+        "updated": "Oppdatert"
+      },
+      "empty": "Ingen setninger ennå.",
+      "created": "Setning opprettet",
+      "saved": "Lagret",
+      "lexemeDraft": "oppslagsord ikke publisert"
+    },
+    "studio": {
+      "title": "Lydstudio",
+      "queue": "Å spille inn",
+      "queueList": "Kø ({{count}})",
+      "position": "{{index}} av {{total}}",
+      "kind": {
+        "all": "Alle",
+        "lexeme": "Ord",
+        "sentence": "Fraser",
+        "click": "Klikk"
+      },
+      "onlyMissing": "Bare uten lyd",
+      "unit": "Kapittel",
+      "anyUnit": "Alle kapitler",
+      "record": "Ta opp",
+      "stop": "Stopp",
+      "retake": "Ta opp på nytt",
+      "upload": "Lagre og gå videre",
+      "play": "Spill av opptaket",
+      "existing": "Eksisterende lyd",
+      "processing": "Behandles",
+      "hint": "Mellomrom: ta opp / stopp · P: spill av · Enter: lagre · ← →: forrige / neste",
+      "nothing": "Ingenting igjen å spille inn.",
+      "speakerFirst": "Velg en innleser med registrert samtykke for å starte.",
+      "done": "Spilt inn denne økten: {{count}}",
+      "skip": "Hopp over",
+      "recording": "Tar opp…",
+      "take": "Opptaket ditt",
+      "clickMeaning": "{{base}}-klikket, {{variant}}",
+      "clickVariant": {
+        "plain": "vanlig",
+        "aspirated": "aspirert",
+        "nasal": "nasal",
+        "voiced": "stemt",
+        "voiced_nasal": "stemt nasal"
+      },
+      "clickHint": "Si klikket alene, og én gang til etter en kort pause.",
+      "clickApproved": "Klikkopptaket er godkjent",
+      "previous": "Forrige",
+      "next": "Neste",
+      "loadFailed": "Listen kunne ikke lastes. Ingenting er tapt.",
+      "takeMismatch": "Dette opptaket hører til et annet ord. Ta det opp på nytt.",
+      "unitNumbered": "{{number}}. {{title}}",
+      "unitOld": "{{title}} (gammel)",
+      "useFile": "Bruk en fil",
+      "useFileHint": "Et opptak fra en annen app: WAV, M4A, MP3, FLAC eller OGG.",
+      "fileTake": "Fra filen {{name}}",
+      "fileUnreadable": "Denne filen er ikke lyd som nettleseren kan lese. Prøv WAV, M4A, MP3, FLAC eller OGG.",
+      "replace": "Erstatt",
+      "replacing": "Erstatter opptaket fra {{speaker}}. Ta opp et nytt, bruk en fil eller klipp dette nedenfor. Når du lagrer, sendes det gamle opptaket tilbake som erstattet.",
+      "replacingPublished": "Erstatter det publiserte opptaket fra {{speaker}}. Det blir liggende ute til en redaktør godkjenner det nye.",
+      "cancelReplace": "Behold det gamle opptaket",
+      "trimExisting": "Klipp dette opptaket",
+      "loadTakeFailed": "Dette opptaket kunne ikke åpnes. Ta det opp på nytt i stedet.",
+      "replacedNote": "Erstattet av et nytt opptak i studioet.",
+      "replaced": "Det gamle opptaket ble sendt tilbake som erstattet.",
+      "unknownSpeaker": "en navnløs taler",
+      "bulk": {
+        "open": "Last opp filer",
+        "title": "Last opp flere opptak",
+        "help": "Gi hver fil navn etter ordet eller bokstaven den sier, for eksempel ordet etterfulgt av .m4a. Store bokstaver og aksenter spiller ingen rolle. Sjekk treffene nedenfor før noe lastes opp.",
+        "choose": "Velg filer",
+        "matched": "Treff ({{count}})",
+        "unmatched": "Uten treff ({{count}})",
+        "unmatchedHelp": "Ingen elementer i denne listen har det navnet. Gi filen nytt navn etter ordet den sier, eller åpne elementet og bruk «Bruk en fil».",
+        "ambiguous": "Flere elementer har dette navnet; bruk «Bruk en fil» på det riktige.",
+        "upload": "Last opp {{count}} opptak",
+        "cancel": "Avbryt",
+        "progress": "Laster opp {{done}} av {{total}} …",
+        "done": "{{count}} opptak lastet opp",
+        "failed": "{{name}} ble ikke lastet opp: {{error}}",
+        "none": "Velg én eller flere lydfiler for å begynne.",
+        "duplicate": "En annen fil passer allerede til dette elementet."
+      },
+      "skipped": "Hoppet over",
+      "listDone": {
+        "skipped": "Ferdig med denne listen. De {{count}} elementene du hoppet over, blir liggende nederst til en redaktør har rettet dem.",
+        "empty": "Ingenting igjen å spille inn i denne listen.",
+        "clicks": "Spill inn klikkene"
+      },
+      "editWord": "Rediger dette ordet",
+      "editSentence": "Rediger denne setningen",
+      "note": {
+        "open": "Merknad",
+        "label": "En merknad til redaktørene",
+        "hint": "Redaktørene ser den på I dag, ved siden av dette elementet. Den hopper ikke over noe og endrer ingenting.",
+        "send": "Send merknad"
+      },
+      "skipNote": {
+        "label": "Hva er galt? (valgfritt)",
+        "hint": "Redaktøren ser denne merknaden ved ordet. Elementer du hopper over, flyttes til slutten av listen.",
+        "sendAndSkip": "Send merknad og hopp over",
+        "skipOnly": "Hopp over uten merknad",
+        "cancel": "Avbryt",
+        "sent": "Merknaden er sendt til redaktøren",
+        "failed": "Merknaden ble ikke sendt. Sjekk tilkoblingen og prøv igjen."
+      },
+      "discard": {
+        "button": "Slett opptaket",
+        "confirm": "Slette dette opptaket for godt?",
+        "yes": "Ja, slett",
+        "cancel": "Behold det",
+        "done": "Opptaket er slettet"
+      }
+    },
+    "bulk": {
+      "selected": "{{count}} valgt",
+      "selectRow": "Velg {{lemma}}",
+      "selectAll": "Velg alle radene på denne siden",
+      "clear": "Fjern markeringen",
+      "promote": "Send til gjennomgang",
+      "sendBack": "Send tilbake til utkast",
+      "retire": "Trekk tilbake",
+      "publish": "Godkjenn og publiser",
+      "noteRequired": "Et notat er påkrevd. Si hva som må endres.",
+      "notePlaceholder": "Hvorfor? (påkrevd)",
+      "confirmPublish": "Publisere {{count}} rader? Hver rad sjekkes for seg; det som ikke er klart, blir stående.",
+      "cancel": "Avbryt",
+      "running": "Jobber…",
+      "done": "{{applied}} flyttet, {{blocked}} blokkert",
+      "allBlocked": "Ingenting flyttet: {{blocked}} blokkert",
+      "results": "Hva skjedde",
+      "resultsHint": "Hver rad ble sjekket for seg. Blokkerte rader er uendret.",
+      "moved": "Flyttet til {{status}}",
+      "blocked": "Blokkert",
+      "close": "Lukk",
+      "hint": "Hold Shift inne og klikk i en avkrysningsboks for å velge flere rader."
+    },
+    "assign": {
+      "assignee": "Ansvarlig",
+      "unassigned": "Ingen ansvarlig",
+      "takeIt": "Tildel til meg",
+      "release": "Fjern tildeling",
+      "assignTo": "Tildel til",
+      "assigned": "Tildelt",
+      "released": "Tildeling fjernet",
+      "assignedBy": "Tildelt av {{name}}",
+      "since": "siden {{date}}",
+      "filter": "Vis",
+      "filterAll": "Alle",
+      "filterMine": "Mine",
+      "filterUnassigned": "Uten ansvarlig",
+      "empty": "Ingenting venter på gjennomgang."
+    },
+    "audioQa": {
+      "title": "Sjekk opptaket",
+      "duration": "{{seconds}} s",
+      "peak": "Topp {{db}} dBFS",
+      "clipping": "Opptaket klipper. Flytt deg litt fra mikrofonen og ta opp på nytt.",
+      "quiet": "Svært lavt. Kom nærmere mikrofonen og ta opp på nytt.",
+      "trimStart": "Beskjær fra starten",
+      "trimEnd": "Beskjær til slutten",
+      "trimHint": "Dra i håndtakene, eller bruk piltastene. Serveren fjerner stillhet og normaliserer lydstyrken uansett; dette bestemmer bare hva den får.",
+      "reset": "Angre beskjæring",
+      "preview": "Spill av beskåret opptak",
+      "waveform": "Bølgeform av opptaket, {{seconds}} sekunder langt",
+      "trimmedLength": "Beholder {{seconds}} s",
+      "decoding": "Leser opptaket …",
+      "undecodable": "Dette opptaket kan ikke vises som bølgeform, men kan lastes opp likevel."
+    },
+    "page": {
+      "previous": "Forrige side",
+      "next": "Neste side"
+    },
+    "reports": {
+      "title": "Meldt fra om av elever",
+      "empty": "Ingenting er meldt.",
+      "open": "Åpne: {{count}}",
+      "resolve": "Merk som gjennomgått",
+      "reopen": "Åpne igjen",
+      "resolved": "Gjennomgått",
+      "openTab": "Åpne",
+      "allTab": "Alle",
+      "exercise": "Oppgave",
+      "reason": {
+        "wrong_gloss": "Feil oversettelse",
+        "wrong_answer": "Svar avvist",
+        "audio_problem": "Lydproblem",
+        "typo": "Skrivefeil",
+        "other": "Annet"
+      }
+    },
+    "overview": {
+      "title": "Hva som må gjøres",
+      "intro": "Her er arbeid du kan ta fatt på. Klikk på et tall for å se radene som er telt med.",
+      "refresh": "Oppdater",
+      "asOf": "Talt opp {{date}}",
+      "empty": "Ingenting gjenstår i denne kolonnen.",
+      "write": {
+        "title": "Å skrive",
+        "hint": "Innhold som ennå ikke finnes.",
+        "skills": "Ferdigheter uten en eneste setning",
+        "skillsMore": "og {{count}} til",
+        "skillLessons": "{{count}} leksjoner",
+        "skillLessons_one": "{{count}} leksjon",
+        "skillLessons_other": "{{count}} leksjoner",
+        "skillLessonsNone": "ingen leksjoner ennå",
+        "missingNb": "Ord med engelsk ordforklaring, men uten norsk",
+        "missingEn": "Ord med norsk ordforklaring, men uten engelsk",
+        "missingBoth": "Ord uten noen av ordforklaringene",
+        "exercisesUnpublished": "Oppgaver som bruker et ord eller en setning som ikke er publisert",
+        "sentencesUntranslated": "Setninger som mangler en oversettelse"
+      },
+      "record": {
+        "title": "Å spille inn",
+        "hint": "Ord som mangler opptak, med de største gruppene først.",
+        "byUnit": "Ord uten opptak av en morsmålsbruker, per kapittel",
+        "notInAnyUnit": "Ord som ennå ikke inngår i noe kapittel",
+        "takes": "Opptak som venter på gjennomgang hos en annen redaktør",
+        "speakers": "Innlesere med registrert samtykke",
+        "speakersNone": "Ingen innleser har registrert samtykke. Økten kan ikke starte.",
+        "unitMissing": "{{count}} ord",
+        "unitMissing_one": "{{count}} ord",
+        "unitMissing_other": "{{count}} ord"
+      },
+      "blocked": {
+        "title": "Sperret for publisering",
+        "hint": "Hva som hindrer publisering i dag, blant {{lexemes}} ord og {{sentences}} setninger som ennå ikke er publisert.",
+        "none": "Ingenting er sperret: alle ventende rader oppfyller kravene til publisering.",
+        "words": "ord",
+        "sentences": "setninger",
+        "reason": {
+          "pos_missing": "mangler ordklasse",
+          "noun_class_missing": "er substantiv uten klasse",
+          "plural_not_generable": "står i en substantivklasse xh-morph ennå ikke kan bøye",
+          "no_morphology_generator": "er i et språk uten morfologigenerator",
+          "gloss_missing": "trenger en ordforklaring på {{lang}}",
+          "audio_missing": "trenger et opptak av en morsmålsbruker",
+          "licence_missing": "mangler lisens",
+          "source_missing": "mangler kilde",
+          "lexeme_not_published": "bruker et ord som ikke er publisert",
+          "surface_form_unverified": "har en form xh-morph ikke har bekreftet",
+          "referenced_entity_not_published": "viser til noe upublisert",
+          "approver_not_editorial": "trenger godkjenning fra en redaktør",
+          "four_eyes": "trenger gjennomgang av en annen redaktør",
+          "body_missing": "mangler notattekst på {{lang}}",
+          "worked_example_missing": "oppgir en regel uten et gjennomgått eksempel",
+          "option_labels_collide": "tilbyr to svaralternativer som ser like ut",
+          "click_audio_missing": "spiller av et klikk ingen har tatt opp",
+          "no_published_children": "har ingenting publisert ennå"
+        }
+      },
+      "notes": {
+        "title": "Merknader om ord og setninger",
+        "hint": "Oftest hvorfor en innleser hoppet over noe i studioet. Åpne en for å rette den.",
+        "by": "{{name}} · {{date}}"
+      }
+    },
+    "grammar": {
+      "title": "Grammatikknotater",
+      "hint": "Regelen eleven får se før øvelsen. Både notatet og teksten må være publisert før eleven ser dem. Før du publiserer, må du vurdere to ting: Er forklaringen godt skrevet, og stemmer påstanden? Forbeholdet viser hvilken påstand som må sjekkes.",
+      "none": "Ingen grammatikknotater ennå.",
+      "newNote": "Nytt notat",
+      "slug": "Kortnavn",
+      "skill": "Ferdighet",
+      "order": "Rekkefølge",
+      "caveat": "Hva redaktøren må sjekke",
+      "caveatEmpty": "Ingenting notert",
+      "language": "Språk",
+      "noteTitle": "Tittel",
+      "rule": "Regelen",
+      "correction": "Etter et feilsvar",
+      "correctionHint": "Vises i tilbakemeldingen når eleven svarer feil. Lar du feltet stå tomt, vises bare tittelen.",
+      "save": "Lagre",
+      "saved": "Lagret",
+      "cells": "Former",
+      "cellsHint": "Det gjennomgåtte eksempelet og paradigmet, én form per celle. Skrevet av `molo content grammar` fra leksikonet og xh-morph; rediger dem her bare hvis du vet at formen er riktig.",
+      "cellsNone": "Ingen former ennå. Et notat uten gjennomgått eksempel kan ikke publiseres.",
+      "noAudio": "ikke noe opptak",
+      "roleExample": "Gjennomgått eksempel",
+      "roleParadigm": "Paradigme",
+      "bodyMissing": "Ikke skrevet på {{lang}} ennå",
+      "open": "Åpne",
+      "back": "Tilbake til lista"
+    },
+    "write": {
+      "title": "Skriv setninger",
+      "hint": "Hvert kort er en setning en nybegynner trenger, på engelsk, med ordene den bør bygges rundt. Skriv hvordan du ville sagt den på isiXhosa. Hvis den engelske setningen ikke sier det samme som din, endrer du den engelske. Hvis den ikke fungerer på isiXhosa i det hele tatt, legger du den til side og skriver hvorfor.",
+      "unit": "Enhet",
+      "allUnits": "Alle enheter",
+      "show": "Vis",
+      "filter": {
+        "open": "Å skrive",
+        "fulfilled": "Skrevet",
+        "dismissed": "Lagt til side"
+      },
+      "progress": "{{done}} av {{total}} skrevet",
+      "none": "Ingenting her. `molo content sentence-requests` laster inn forespørslene.",
+      "note": "Sammenheng",
+      "words": "Bygg den rundt",
+      "noWords": "Ingen bestemte ord",
+      "xhosa": "isiXhosa",
+      "xhosaHint": "Akkurat slik du ville sagt det. Den lagres som utkast: ordene må fortsatt markeres, den må spilles inn og godkjennes av en annen redaktør før en elev ser den.",
+      "editTranslation": "Endre oversettelsen",
+      "english": "Engelsk",
+      "norwegian": "Norsk",
+      "norwegianHint": "Skrevet av en modell. La den stå hvis du ikke leser norsk; en redaktør som gjør det, sjekker den.",
+      "save": "Lagre setningen",
+      "saved": "Lagret som utkast til setning",
+      "dismiss": "Legg til side",
+      "dismissReason": "Hvorfor fungerer ikke dette på isiXhosa? Den neste som ser på den, leser dette.",
+      "reopen": "Legg tilbake",
+      "openSentence": "Oversettelse og ord",
+      "sendToReview": "Send til gjennomgang",
+      "sentToReview": "Sendt til gjennomgang",
+      "recordIt": "Spill den inn",
+      "takeBack": {
+        "button": "Ta tilbake og skriv på nytt",
+        "confirm": "Slette dette utkastet og skrive kortet på nytt?",
+        "yes": "Ja, ta den tilbake",
+        "cancel": "Behold den"
+      }
+    },
+    "culture": {
+      "title": "Kulturkort",
+      "hint": "Korte notater om hvordan isiXhosa brukes, skrevet av en modell. Hvert kort lister påstandene du blir bedt om å bekrefte. Rett teksten eller stryk en påstand du ikke kan bekrefte, og send så kortet til gjennomgang.",
+      "caveat": "Bekreft før godkjenning",
+      "words": "Ord kortet viser",
+      "wordsHint": "isiXhosa-ordene i et kort kommer fra ordlisten. Hvert ord må være publisert, med innspilling, før kortet kan bli det.",
+      "cardTitle": "Tittel",
+      "body": "Tekst",
+      "save": "Lagre",
+      "saved": "Lagret",
+      "none": "Ingen kulturkort ennå. `molo content culture` laster dem inn.",
+      "preview": "Forhåndsvis",
+      "previewTitle": "Slik eleven ser det",
+      "closePreview": "Lukk forhåndsvisningen",
+      "addWord": "Legg til et ord fra ordlisten",
+      "searchWords": "Søk i ordlisten",
+      "noMatches": "Ingen ord i ordlisten passer. Bare ord som allerede finnes i ordlisten, kan legges til.",
+      "removeWord": "Fjern {{lemma}}",
+      "noWords": "Ingen ord ennå.",
+      "unsaved": "Ulagrede endringer",
+      "needsBoth": "Fyll inn tittel og tekst på begge språk for å lagre.",
+      "publishedLocked": "Et publisert kort kan ikke endres her. Trekk det tilbake først.",
+      "lastEdit": {
+        "edit": "Sist redigert av {{name}}, {{time}}",
+        "status": "Status sist endret av {{name}}, {{time}}",
+        "created": "Lastet inn av {{name}}, {{time}}"
+      },
+      "someone": "noen",
+      "caveatNone": "Ingen påstander å bekrefte på dette kortet."
+    },
+    "mobile": {
+      "detail": "Gjennomgang av innhold",
+      "empty": "Ingen ord eller ordforklaringer venter på gjennomgang.",
+      "lexeme": "Ord",
+      "gloss": "Ordforklaring",
+      "refresh": "Oppdater køen",
+      "needsConnection": "Du trenger nettilkobling for å gå gjennom innhold. Koble til og prøv igjen.",
+      "notRecorded": "Ikke registrert",
+      "noNote": "Ingen revisjonsmerknad.",
+      "note": "Revisjonsmerknad (påkrevd for å sende tilbake)",
+      "rejected": "Serveren kunne ikke godkjenne endringen. Sjekk tilkoblingen og kravene for godkjenning, og oppdater før du prøver igjen.",
+      "noLongerInReview": "Dette innholdet venter ikke lenger på gjennomgang.",
+      "playAudio": "Spill av opptak",
+      "origin": {
+        "human": "Opphav: menneskelig redaktør",
+        "llm": "Opphav: maskinutkast",
+        "unknown": "Opphav: ikke registrert"
+      },
+      "reviewingGloss": "Gjennomgang av ordforklaringen på {{language}}"
+    },
+    "phoneStudio": {
+      "title": "Studio",
+      "intro": "Velg en innleser med samtykke og spill inn ordene og setningene som mangler lyd.",
+      "noSpeakers": "Ingen innlesere har registrert samtykke. Legg til samtykke i nettstudioet først.",
+      "unit": "Kapittel",
+      "allUnits": "Alle kapitler",
+      "startSession": "Start innspillingsøkt",
+      "endSession": "Avslutt økten",
+      "queued": "Jobb {{id}} er i kø — behandles på serveren; lyden er ikke publisert ennå.",
+      "microphone": "Tillat mikrofontilgang for å spille inn kurslyd for den valgte innleseren.",
+      "micDenied": "Molo trenger tilgang til mikrofonen. Gi tilgang i telefonens innstillinger, og prøv å ta opp igjen.",
+      "failed": "Opptaket eller opplastingen mislyktes. Sjekk tilkoblingen og prøv igjen.",
+      "record": "Ta opp",
+      "rerecord": "Ta opp på nytt",
+      "stop": "Stopp opptaket",
+      "play": "Spill av opptaket",
+      "pause": "Sett på pause",
+      "upload": "Last opp og fortsett",
+      "kept": "Plassen din i økten er lagret. Innspillingen fortsetter der når du er på nett igjen."
+    },
+    "review": {
+      "clickAudio": "Klikk: {{letter}}",
+      "clickAudioHint": "Spill av og godkjenn det i studioet, under Klikk.",
+      "by": "av {{name}}",
+      "recordingOf": "Opptak: {{text}}",
+      "spokenBy": "lest inn av {{name}}",
+      "cultureCard": "Kulturkort: {{title}}",
+      "exercise": "Oppgave: {{type}}",
+      "sentence": "Setning",
+      "approve": "Godkjenn og publiser",
+      "sendBack": "Send tilbake",
+      "ownItem": "Du laget dette. En annen redaktør godkjenner det.",
+      "approved": "Godkjent og publisert",
+      "sentBack": "Sendt tilbake til utkast",
+      "play": "Spill av opptaket",
+      "ownItemAdmin": "Du laget dette. Som administrator kan du godkjenne det selv; historikken viser at ingen annen redaktør gjorde det.",
+      "bulk": {
+        "selectAll": "Velg alt du kan godkjenne ({{count}})",
+        "approve": "Godkjenn og publiser valgte ({{count}})",
+        "progress": "Publiserer {{done}} av {{total}} …",
+        "hint": "Opptak og glosser går først, så ord, øvelser, leksjoner og kapitler. Hver rad må fortsatt bestå publiseringskontrollen.",
+        "done": "{{count}} publisert",
+        "partly": "{{count}} publisert, {{blocked}} kunne ikke publiseres ennå (se radene)",
+        "blocked": "Ikke publisert: {{reason}}",
+        "selectRow": "Velg {{label}}"
+      }
+    },
+    "newVersion": {
+      "text": "En ny versjon av Molo er ute. Last inn siden på nytt for å få den; lagre det du holder på med først.",
+      "refresh": "Last inn på nytt"
+    }
+  },
+  "common": {
+    "loading": "Laster",
+    "error": "Noe gikk galt",
+    "retry": "Prøv igjen",
+    "cancel": "Avbryt",
+    "close": "Lukk",
+    "yes": "Ja",
+    "no": "Nei",
+    "language": "Språk",
+    "en": "English",
+    "nb": "Norsk",
+    "apply": "Bruk forslaget",
+    "notFoundTitle": "Fant ikke siden",
+    "notFoundBody": "Det finnes ingenting på denne adressen.",
+    "backHome": "Tilbake til start",
+    "switchLanguage": "Bytt til {{language}}"
+  },
+  "hearts": {
+    "count": "{{hearts}} av {{max}} hjerter",
+    "unlimited": "Ubegrensede hjerter",
+    "outTitle": "Tom for hjerter",
+    "outBody": "Repeter for å tjene ett tilbake, eller skaff Molo Plus.",
+    "nextIn": "Neste hjerte om {{time}}. Repeter for å tjene ett nå.",
+    "practise": "Repeter ({{count}} igjen)",
+    "getPlus": "Skaff Molo Plus",
+    "later": "Fortsett senere",
+    "why": "Hvorfor hjerter?",
+    "earned": "Hjerte tilbake!",
+    "lost": "Du mistet et hjerte. {{hearts}} av {{max}} igjen."
+  },
+  "plus": {
+    "title": "Molo Plus",
+    "body": "Lær uten grenser og bidra til flere opptak med ekte stemmer.",
+    "cta": "Skaff Plus",
+    "soon": "Kommer snart i appen",
+    "active": "Plus er aktivt",
+    "renews": "Fornyes {{date}}",
+    "monthly": "Månedlig",
+    "yearly": "Årlig",
+    "price": "{{nok}} kr",
+    "yearlyNote": "To måneder gratis",
+    "thanks": "Velkommen til Plus!",
+    "noOffer": "Ingen tilbud er tilgjengelige akkurat nå",
+    "fine": "Avslutt når som helst. Prisene er veiledende; butikken viser nøyaktig beløp.",
+    "perks": {
+      "hearts": {
+        "title": "Ubegrensede hjerter",
+        "body": "Feil stopper aldri en leksjon."
+      },
+      "freeze": {
+        "title": "Rekkefrys",
+        "body": "En glemt dag avslutter ikke rekken."
+      },
+      "offline": {
+        "title": "Leksjoner uten nett",
+        "body": "Last ned kapitler i appen og lær hvor som helst."
+      },
+      "support": {
+        "title": "Betal innleserne",
+        "body": "Plus finansierer opptak med isiXhosa-talende og arbeidet til redaktørene som sjekker hvert ord."
+      }
+    },
+    "restore": "Gjenopprett kjøp",
+    "nothingToRestore": "Fant ikke noe tidligere kjøp på denne kontoen",
+    "appStoresOnly": "Bruk App Store eller Google Play for å få Molo Plus hvis du bor utenfor Norge eller kontoen din mangler registrert land.",
+    "noCountry": "Kontoen din har ikke registrert land, så kjøp på nettet er ikke tilgjengelig. Du kan få Molo Plus via App Store eller Google Play.",
+    "guestNote": "Logg inn for å se hvordan du kan få Plus. På nettet selges Plus til kontoer registrert i Norge; ellers får du det via App Store og Google Play.",
+    "perMonth": "{{price}} / måned",
+    "perYear": "{{price}} / år",
+    "trial": "Gratis i {{period}}, deretter {{price}}",
+    "intro": "{{intro}} i {{period}}, deretter {{price}}",
+    "period": {
+      "day": "{{count}} dager",
+      "day_one": "{{count}} dag",
+      "day_other": "{{count}} dager",
+      "week": "{{count}} uker",
+      "week_one": "{{count}} uke",
+      "week_other": "{{count}} uker",
+      "month": "{{count}} måneder",
+      "month_one": "{{count}} måned",
+      "month_other": "{{count}} måneder",
+      "year": "{{count}} år",
+      "year_one": "{{count}} år",
+      "year_other": "{{count}} år"
+    },
+    "unavailable": "Molo Plus kan ikke kjøpes akkurat nå. Sjekk tilkoblingen og prøv igjen.",
+    "disclosureIos": "Betalingen trekkes fra Apple-kontoen din når du bekrefter kjøpet. Abonnementet fornyes automatisk til samme pris og lengde med mindre du sier det opp senest 24 timer før gjeldende periode slutter; kontoen din belastes for fornyelsen i løpet av de siste 24 timene før perioden slutter. Administrer eller si opp abonnementet i innstillingene for App Store-kontoen din.",
+    "disclosureAndroid": "Betalingen trekkes fra Google Play-kontoen din når du bekrefter kjøpet. Abonnementet fornyes automatisk til samme pris og lengde til du sier det opp. Du kan si opp når som helst i Google Play under Betalinger og abonnementer, deretter Abonnementer; du beholder Plus ut den betalte perioden.",
+    "manage": "Administrer abonnementet",
+    "included": "Dette får du med Plus"
+  },
+  "settings": {
+    "title": "Innstillinger",
+    "dailyGoal": "Dagsmål (XP)",
+    "sourceLang": "Språket jeg lærer fra",
+    "reminders": "Påminnelser på e-post",
+    "save": "Lagre",
+    "saved": "Lagret",
+    "signInFirst": "Logg inn for å endre mål og språk.",
+    "sound": "Lydeffekter",
+    "soundHint": "Lyder for riktige svar, rekker og nye nivåer. Bare på denne enheten.",
+    "modes": "Lytting og tale",
+    "modesHint": "Slå av der du ikke kan lytte eller snakke. Lytteoppgaver blir leseoppgaver; taleoppgaver hoppes over.",
+    "listening": "Lytteoppgaver",
+    "speaking": "Taleoppgaver",
+    "about": "Om",
+    "version": "Versjon {{version}}",
+    "offline": "Data uten nett",
+    "offlineHint": "Kapitler du åpner, lagres kryptert på denne telefonen.",
+    "syncPending": "Repetisjoner som venter på synkronisering: {{count}}",
+    "downloadsNone": "Ingen kapitler er lastet ned ennå. Åpne et kapittel for å laste det ned.",
+    "downloads_one": "{{count}} kapittel lastet ned, {{size}}",
+    "downloads_other": "{{count}} kapitler lastet ned, {{size}}",
+    "downloads": "{{count}} kapitler lastet ned, {{size}}",
+    "downloadsRemoveAll": "Slett alle nedlastinger",
+    "signedInAs": "Logget inn som {{name}}",
+    "account": "Konto",
+    "learning": "Læring",
+    "replayOnboarding": "Vis introduksjonen igjen",
+    "voice": "Foretrukket stemme",
+    "voiceHint": "Når et ord har flere opptak, spilles den foretrukne stemmen først.",
+    "voiceAny": "Hvilken som helst",
+    "voiceFemale": "En kvinne",
+    "voiceMale": "En mann",
+    "voiceChild": "Et barn",
+    "pushReminders": "Påminnelser på telefonen",
+    "pushRemindersHint": "En påminnelse på telefonen om kvelden, bare når du står i fare for å miste rekken.",
+    "pushSimulator": "Varsler krever en fysisk enhet. Simulatoren kan ikke registreres.",
+    "pushDenied": "Varsler er slått av for Molo. Slå dem på i telefonens innstillinger.",
+    "pushFailed": "Kunne ikke slå på påminnelser på telefonen. Prøv igjen.",
+    "motion": "Mindre bevegelse",
+    "motionHint": "Kortere animasjoner og ingen konfetti. Gjelder bare denne enheten; systeminnstillingen din gjelder fortsatt.",
+    "course": "Kurs",
+    "courseHint": "Flere språk kommer. isiXhosa er foreløpig det eneste kurset.",
+    "connected": {
+      "title": "Tilkoblede kontoer",
+      "body": "Måter du kan logge inn på denne kontoen. Koble til Apple eller Google for å logge inn med dem neste gang.",
+      "email": "E-post og passord",
+      "connectedBadge": "Tilkoblet",
+      "connect": "Koble til {{provider}}",
+      "disconnect": "Koble fra {{provider}}",
+      "disconnectConfirm": "Vil du koble fra {{provider}}? Du kan koble til igjen senere.",
+      "linked": "{{provider}} er koblet til.",
+      "unlinked": "{{provider}} er koblet fra.",
+      "lastMethod": "Dette er den eneste måten du kan logge inn på, så den kan ikke kobles fra.",
+      "errors": {
+        "taken": "Denne {{provider}}-kontoen er allerede koblet til en annen Molo-konto.",
+        "reauth": "Av sikkerhetshensyn må du logge ut og inn igjen før du prøver på nytt.",
+        "unverified": "Denne {{provider}}-kontoen har ingen bekreftet e-postadresse, så den kan ikke kobles til."
+      }
+    },
+    "support": "Kontakt brukerstøtte",
+    "profile": {
+      "title": "Konto",
+      "body": "Navnet ditt, e-post, passord og måtene du logger inn på.",
+      "email": "E-post",
+      "name": "Navn",
+      "nameHint": "Bare du ser hele navnet ditt. Ligaer viser visningsnavnet ditt, eller ellers fornavnet ditt.",
+      "nameSave": "Lagre navn",
+      "nameSaved": "Navnet er lagret.",
+      "nameInvalid": "Skriv et navn på 1 til 80 tegn.",
+      "changeEmail": "Endre e-post",
+      "newEmail": "Ny e-post",
+      "emailHint": "Vi sender en lenke til den nye adressen. E-posten endres når du åpner den, og vi gir beskjed til den gamle adressen.",
+      "emailSend": "Send bekreftelseslenke",
+      "emailSent": "Se etter lenken i {{email}}. E-posten endres når du åpner den.",
+      "emailSame": "Dette er allerede e-posten din.",
+      "emailInvalid": "Skriv en gyldig e-postadresse.",
+      "emailChanged": "E-posten din er endret.",
+      "password": "Passord",
+      "currentPassword": "Nåværende passord",
+      "newPassword": "Nytt passord",
+      "signOutOthers": "Logg ut på andre enheter",
+      "passwordSave": "Endre passord",
+      "passwordChanged": "Passordet er endret.",
+      "passwordWrong": "Det nåværende passordet er ikke riktig.",
+      "passwordShort": "Det nye passordet må ha minst {{min}} tegn.",
+      "setPassword": "Lag et passord",
+      "setPasswordHint": "Du logger inn med {{providers}}. Lag et passord for å kunne logge inn med e-posten din også.",
+      "setPasswordSave": "Lagre passord",
+      "passwordSet": "Passordet er lagret. Nå kan du logge inn med e-post og passord."
+    }
+  },
+  "notifications": {
+    "streakReminder": {
+      "title": "Molo, {{name}}!",
+      "body": "Rekken din på {{count}} dager ryker i natt. Én kort leksjon redder den.",
+      "body_one": "Rekken din på {{count}} dag ryker i natt. Én kort leksjon redder den.",
+      "body_other": "Rekken din på {{count}} dager ryker i natt. Én kort leksjon redder den."
+    }
+  },
+  "leagues": {
+    "title": "Ligaer",
+    "tier": {
+      "bronze": "Bronse",
+      "silver": "Sølv",
+      "gold": "Gull",
+      "sapphire": "Safir",
+      "ruby": "Rubin"
+    },
+    "daysLeft": "Dager igjen: {{count}}",
+    "promote": "Opprykkssone",
+    "demote": "Nedrykkssone",
+    "stay": "Trygg sone",
+    "empty": "Tjen XP denne uken for å bli med i en liga.",
+    "you": "Deg",
+    "history": "Tidligere uker",
+    "outcome": {
+      "promoted": "Rykket opp",
+      "stayed": "Ble i samme liga",
+      "demoted": "Rykket ned"
+    },
+    "rules": "De {{promote}} øverste rykker opp, de {{demote}} nederste rykker ned. {{size}} elever per liga.",
+    "signInFirst": "Logg inn for å konkurrere.",
+    "week": "Uke fra {{date}}",
+    "rank": "#{{rank}}",
+    "notJoined": "Tjen XP denne uken for å bli med i en liga",
+    "hiddenName": "Skjult elev",
+    "anonymous": "En elev",
+    "actions": "Valg for {{name}}",
+    "report": "Rapporter navnet",
+    "reportTitle": "Rapportere dette navnet?",
+    "reportBody": "Rapporter navnet hvis det er støtende eller later som det er noen andre. Det skjules for deg med en gang, og vi går gjennom alle rapporter innen 24 timer.",
+    "reported": "Takk. Navnet er skjult for deg, og vi går gjennom det.",
+    "hide": "Skjul denne eleven",
+    "show": "Vis denne eleven igjen",
+    "actionFailed": "Det gikk ikke. Prøv igjen."
+  },
+  "onboarding": {
+    "hello": {
+      "title": "Molo!",
+      "body": "Lær isiXhosa slik det høres ut. Hvert ord er lest inn av en ekte stemme, og klikkelydene kommer først.",
+      "listen": "Hør en ekte hilsen"
+    },
+    "language": {
+      "title": "Språket jeg lærer fra",
+      "body": "Ordforklaringer og notater vises på dette språket. Du kan bytte senere."
+    },
+    "goal": {
+      "title": "Hvor mye hver dag?",
+      "casual": "Avslappet",
+      "regular": "Jevn innsats",
+      "serious": "Målrettet",
+      "perDay": "{{xp}} XP om dagen",
+      "minutes": "ca. {{min}} min"
+    },
+    "where": {
+      "title": "Hvor skal du lære?",
+      "body": "Slå av disse på bussen eller biblioteket. Du kan endre dem når som helst.",
+      "sound": "Lydeffekter"
+    },
+    "clicks": {
+      "title": "Møt klikkelydene",
+      "body": "isiXhosa har 15 klikkelyder, alle bygd på tre grunnklikk: c, x og q. Trykk på hvert for å se hvordan det lages.",
+      "c": "Tungespissen bak fortennene, trekk den skarpt ned, som et mykt «tsk».",
+      "x": "Tungen mot sidetennene, trekk den vekk: lyden du lager til en hest.",
+      "q": "Tungespissen i ganen, slipp den: et hult «popp».",
+      "tapHint": "Trykk på et klikk",
+      "listenHint": "Trykk for å høre det",
+      "play": "Hør klikket {{click}}",
+      "label": "Klikket {{click}}"
+    },
+    "ready": {
+      "title": "Du er klar",
+      "body": "Den første leksjonen er kort. Si ordene høyt.",
+      "start": "Start første leksjon",
+      "browse": "Se kapitlene",
+      "account": "Opprett en konto for å beholde rekken",
+      "guest": "Fortsett som gjest"
+    },
+    "skip": "Hopp over",
+    "next": "Neste",
+    "back": "Tilbake",
+    "step": "Steg {{n}} av {{total}}"
+  },
+  "landing": {
+    "hero": {
+      "title": "Molo!",
+      "body": "Lær isiXhosa slik det høres ut: hvert ord med en ekte stemme, klikkelydene først og korte leksjoner som sitter.",
+      "cta": "Kom i gang"
+    },
+    "why": {
+      "title": "Hvorfor isiXhosa?",
+      "body": "Et språk ti millioner mennesker våkner til.",
+      "speakers": {
+        "stat": "10 millioner",
+        "title": "har det som morsmål",
+        "body": "Det nest mest brukte språket i hjemmet i Sør-Afrika, og stemmen til Østkapp."
+      },
+      "official": {
+        "stat": "1 av 12",
+        "title": "offisielle språk",
+        "body": "Offisielt i hele Sør-Afrika, og ett av tre offisielle språk i Vestkapp, Cape Town inkludert."
+      },
+      "clicks": {
+        "stat": "c · x · q",
+        "title": "tre grunnklikk, 15 klikkelyder",
+        "body": "Omtrent ett av ti hverdagsord har et klikk, en lyd isiXhosa tok opp fra naboene khoekhoe og san for flere hundre år siden."
+      },
+      "famous": {
+        "stat": "Wakanda",
+        "title": "du har hørt det allerede",
+        "body": "Miriam Makebas Click Song, språket i Wakanda i Black Panther, språket Nelson Mandela og Desmond Tutu snakket hjemme."
+      },
+      "source": "Antall morsmålsbrukere: Statistics South Africa, folketellingen 2022."
+    },
+    "how": {
+      "title": "Slik lærer Molo deg",
+      "voices": {
+        "title": "En ekte stemme på hvert ord",
+        "body": "Ingen syntetisk tale. Hvert ord og hver frase du lærer, er lest inn av en som snakker isiXhosa, eller hentet fra et lisensiert opptak."
+      },
+      "clicks": {
+        "title": "Klikkene først, ikke som fotnote",
+        "body": "Egne klikkøvelser: lytt, skill dem fra hverandre, ta opp deg selv og sammenlign med innleseren."
+      },
+      "human": {
+        "title": "Sjekket av folk som snakker det",
+        "body": "Ingenting når deg før en isiXhosa-redaktør har godkjent det. Bøyningsformer kommer fra regler, ikke gjetning."
+      },
+      "play": {
+        "title": "Kort, lekent, daglig",
+        "body": "Leksjoner på fem minutter, repetisjon med mellomrom tilpasset deg, rekker, ligaer og en liten fugl som heier."
+      }
+    },
+    "end": {
+      "title": "Si ditt første ord i dag",
+      "body": "Det tar to minutter å komme i gang, og første leksjon er fri for fagspråk.",
+      "editors": "Redaktørinnlogging"
+    }
+  },
+  "home": {
+    "greeting": "Molo!",
+    "welcomeBack": "Velkommen tilbake, {{name}}",
+    "continueLearning": "Fortsett",
+    "reviewCard": "Repetisjon",
+    "reviewDue": "{{count}} ord til repetisjon",
+    "reviewNone": "Ingenting å repetere ennå",
+    "leaguesCard": "Liga",
+    "path": "Stien din",
+    "lockedHint": "Fullfør den forrige leksjonen for å låse opp",
+    "signInHint": "Logg inn for å beholde rekken og XP"
+  },
+  "legal": {
+    "privacy": "Personvernerklæring",
+    "terms": "Vilkår for bruk",
+    "accept": "Ved å fortsette godtar du",
+    "and": "og",
+    "licences": "Lisenser og kildehenvisninger",
+    "contact": "Kontakt",
+    "support": "Brukerstøtte"
+  },
+  "account": {
+    "title": "Dataene dine",
+    "body": "Last ned alle opplysningene Molo har om deg, eller slett kontoen og alle opplysningene.",
+    "export": "Last ned dataene mine",
+    "deleteTitle": "Slett konto",
+    "deleteBody": "Dette sletter kontoen din, fremgangen og rekken for godt. Skriv {{word}} for å bekrefte.",
+    "delete": "Slett kontoen min",
+    "deleteConfirm": "Slette kontoen nå? Dette kan ikke angres.",
+    "deleted": "Kontoen din er slettet.",
+    "confirmWord": "SLETT",
+    "confirmLabel": "Skriv {{word}} for å bekrefte",
+    "deleteStoreNote": "Å slette kontoen avslutter ikke et Molo Plus-abonnement fra App Store eller Google Play. Si det opp der først, ellers fornyes det."
+  },
+  "guest": {
+    "wallTitle": "Lagre fremgangen din",
+    "wallBody": "Du fullførte {{count}} leksjon som gjest. Opprett en konto for å beholde XP-en, starte en rekke og bli med i en liga.",
+    "wallBody_one": "Du fullførte {{count}} leksjon som gjest. Opprett en konto for å beholde XP-en, starte en rekke og bli med i en liga.",
+    "wallBody_other": "Du fullførte {{count}} leksjoner som gjest. Opprett en konto for å beholde XP-en, starte en rekke og bli med i en liga.",
+    "create": "Opprett en gratis konto",
+    "haveAccount": "Jeg har allerede konto",
+    "keep": "Ingenting går tapt: leksjonene blir med deg.",
+    "banner": "{{xp}} XP tjent som gjest. Lagre?",
+    "synced": "{{count}} leksjon lagret på kontoen din",
+    "synced_one": "{{count}} leksjon lagret på kontoen din",
+    "synced_other": "{{count}} leksjoner lagret på kontoen din",
+    "locked": "Lagre fremgangen din for å låse opp"
+  },
+  "a11y": {
+    "skipToContent": "Hopp til innholdet",
+    "mainNav": "Hovedmeny",
+    "editorNav": "Redaktørmeny",
+    "lessonProgress": "Fremgang i leksjonen",
+    "reviewProgress": "Fremgang i repetisjonen",
+    "onboardingProgress": "Fremgang i introduksjonen",
+    "answerFeedback": "Tilbakemelding på svaret",
+    "options": "Svaralternativer",
+    "wordBank": "Ordbank",
+    "mascots": "Molos maskoter: en malakittsolfugl og en afrikansk pingvin",
+    "wordsXh": "isiXhosa-ord",
+    "meanings": "Betydninger",
+    "wordsToSort": "Ord som skal sorteres",
+    "momentBadge": "Om denne oppgaven",
+    "runCounter": "Riktige svar på rad",
+    "launch": "Molo starter",
+    "grammarNote": "Grammatikknotat"
+  },
+  "mistakes": {
+    "title": "Øv på feilene",
+    "subtitle": "Ord du svarte feil på. Svar riktig, så forsvinner ordet fra lista.",
+    "open": "{{count}} å øve på",
+    "open_one": "{{count}} ord å øve på",
+    "open_other": "{{count}} ord å øve på",
+    "none": "Ingen feil å øve på. Godt jobbet.",
+    "noneCta": "Åpne en leksjon",
+    "start": "Øv",
+    "knewIt": "Jeg kunne det",
+    "stillLearning": "Må øve mer",
+    "timesWrong": "feil {{count}} ganger",
+    "timesWrong_one": "feil én gang",
+    "timesWrong_other": "feil {{count}} ganger",
+    "cleared": "Fullført",
+    "sessionDone": "Feilene er øvd på",
+    "signInFirst": "Logg inn for å øve på ordene du svarte feil på."
+  },
+  "courses": {
+    "xhosa": {
+      "title": "isiXhosa"
+    }
+  },
+  "path": {
+    "unit": "Kapittel {{number}}",
+    "unitProgress": "{{done}} av {{total}} leksjoner",
+    "wordList": "Ord",
+    "wordListTitle": "Ord i {{unit}}",
+    "wordListEmpty": "Dette kapittelet har ingen ord ennå.",
+    "sectionNav": "Læringssti",
+    "kind": {
+      "listen": "Lytteleksjon",
+      "speak": "Leksjon med taleøvelser",
+      "culture": "Kulturkort",
+      "test": "Kapittelprøve",
+      "mixed": "Øvingsleksjon"
+    },
+    "state": {
+      "current": "Start her",
+      "open": "Ikke påbegynt",
+      "done": "Fullført",
+      "crown": "Kronenivå {{level}}",
+      "locked": "Låst"
+    },
+    "node": "{{kind}} {{order}}: {{state}}",
+    "chest": {
+      "title": "Kiste",
+      "locked": "Kiste: fullfør alle leksjonene i {{skill}} for å åpne den",
+      "ready": "Åpne kisten og få {{xp}} XP",
+      "claimed": "Kisten er åpnet: {{xp}} XP mottatt",
+      "reward": "+{{xp}} XP",
+      "opening": "Åpner …"
+    },
+    "guide": {
+      "name": "Veilederen din",
+      "dismiss": "Skjønner"
+    }
+  },
+  "curriculum": {
+    "units": {
+      "greet-and-introduce": {
+        "title": "Hils og si hvem du er",
+        "skills": {
+          "greet-someone": {
+            "title": "Hils på noen og si ha det"
+          },
+          "hear-the-three-clicks": {
+            "title": "Hør forskjellen på c, x og q"
+          },
+          "say-yes-no-thanks": {
+            "title": "Si ja, nei og takk"
+          },
+          "say-who-you-are": {
+            "title": "Si hva du heter og hvor du er fra"
+          }
+        }
+      },
+      "people": {
+        "title": "Snakk om folk og familie",
+        "skills": {
+          "name-your-family": {
+            "title": "Sett navn på folkene i familien din"
+          },
+          "say-who-someone-is": {
+            "title": "Si hvem noen er"
+          },
+          "talk-about-more-than-one": {
+            "title": "Snakk om flere enn én person"
+          }
+        }
+      },
+      "things": {
+        "title": "Sett navn på tingene rundt deg",
+        "skills": {
+          "name-things-at-home": {
+            "title": "Sett navn på tingene i et hjem"
+          },
+          "name-animals-and-plants": {
+            "title": "Sett navn på dyr og planter"
+          },
+          "point-at-one-or-many": {
+            "title": "Si én ting eller mange"
+          },
+          "name-parts-of-the-body": {
+            "title": "Sett navn på kroppsdelene"
+          }
+        }
+      },
+      "food-and-drink": {
+        "title": "Bestill mat og drikke",
+        "skills": {
+          "name-food-and-drink": {
+            "title": "Sett navn på mat og drikke"
+          },
+          "say-what-you-want": {
+            "title": "Si hva du vil ha og hva du liker"
+          },
+          "count-what-you-order": {
+            "title": "Tell det du bestiller"
+          },
+          "talk-about-cooking": {
+            "title": "Snakk om å lage mat og spise"
+          }
+        }
+      },
+      "getting-around": {
+        "title": "Finn fram",
+        "skills": {
+          "ask-for-directions": {
+            "title": "Spør om veien"
+          },
+          "name-places-in-town": {
+            "title": "Sett navn på steder i en by"
+          },
+          "take-a-taxi": {
+            "title": "Ta taxi og reis"
+          },
+          "say-where-something-is": {
+            "title": "Si hvor noe er"
+          }
+        }
+      },
+      "time": {
+        "title": "Snakk om når",
+        "skills": {
+          "name-the-days": {
+            "title": "Sett navn på dagene og månedene"
+          },
+          "tell-the-time": {
+            "title": "Si hvilken tid på dagen det er"
+          },
+          "talk-about-yesterday": {
+            "title": "Snakk om det som skjedde"
+          },
+          "talk-about-tomorrow": {
+            "title": "Snakk om det som skal skje"
+          }
+        }
+      },
+      "describing": {
+        "title": "Beskriv ting og folk",
+        "skills": {
+          "name-the-colours": {
+            "title": "Sett navn på fargene"
+          },
+          "say-how-big": {
+            "title": "Si hvor stort eller lite noe er"
+          },
+          "describe-a-person": {
+            "title": "Beskriv hvordan noen er"
+          },
+          "join-a-describing-word": {
+            "title": "Sett et beskrivende ord til et substantiv"
+          }
+        }
+      },
+      "shopping": {
+        "title": "Handle og betal",
+        "skills": {
+          "go-to-the-market": {
+            "title": "Handle på marked og i butikk"
+          },
+          "talk-about-money": {
+            "title": "Snakk om penger og priser"
+          },
+          "ask-how-much": {
+            "title": "Spør hvor mye og hvor mange"
+          }
+        }
+      },
+      "work-and-study": {
+        "title": "Snakk om jobb og studier",
+        "skills": {
+          "talk-about-your-job": {
+            "title": "Si hva slags arbeid du gjør"
+          },
+          "talk-about-school": {
+            "title": "Snakk om skole og læring"
+          },
+          "describe-your-day": {
+            "title": "Beskriv dagen din"
+          }
+        }
+      },
+      "asking-for-help": {
+        "title": "Be om hjelp",
+        "skills": {
+          "say-you-are-unwell": {
+            "title": "Si at du er syk"
+          },
+          "ask-someone-for-help": {
+            "title": "Be noen om hjelp"
+          },
+          "be-polite-about-it": {
+            "title": "Vær høflig og be om unnskyldning"
+          }
+        }
+      }
+    }
+  },
+  "grammar": {
+    "title": "Grammatikk",
+    "subtitle": "Reglene du har låst opp. Hver form har et opptak, for skriftbildet bærer ikke tonen.",
+    "noteHeading": "Før du begynner",
+    "example": "For eksempel",
+    "rule": "Regelen",
+    "forms": "Formene",
+    "gotIt": "Skjønner",
+    "skip": "Hopp over",
+    "showRule": "Vis regelen",
+    "hideRule": "Skjul regelen",
+    "patternLabel": "Mønsteret",
+    "tableCaption": "{{title}}: alle formene, med opptak",
+    "noRecording": "Ikke noe opptak ennå",
+    "morphemes": "{{word}}, delt opp: {{parts}}",
+    "openReference": "Alle reglene",
+    "columns": {
+      "class": "Klasse",
+      "word": "Ord",
+      "gloss": "Betydning",
+      "singular": "Entall",
+      "plural": "Flertall",
+      "subjectConcord": "Subjektskongruens",
+      "objectConcord": "Objektskongruens",
+      "possessive": "Possessivkongruens"
+    },
+    "reference": {
+      "empty": "Ingen regler her ennå. De dukker opp etter hvert som du låser dem opp.",
+      "locked": "Ikke låst opp ennå",
+      "lockedHint": "Fullfør en leksjon i denne ferdigheten, så åpner den seg.",
+      "lockedCount": "{{count}} regler du ikke har kommet til ennå",
+      "lockedCount_one": "{{count}} regel du ikke har kommet til ennå",
+      "lockedCount_other": "{{count}} regler du ikke har kommet til ennå",
+      "showLocked": "Vis dem jeg ikke har kommet til",
+      "hideLocked": "Skjul dem igjen",
+      "inSkill": "{{unit}} — {{skill}}"
+    }
+  },
+  "lexicon": {
+    "title": "Leksikon som datapakke",
+    "intro": "Last ned det publiserte isiXhosa-leksikonet bak Molo, med engelske og norske ordforklaringer.",
+    "attribution": "Bearbeidet fra IsiXhosa.click, en studentdrevet ordbok støttet av University of Cape Town og SADiLaR.",
+    "source": "Besøk IsiXhosa.click",
+    "changes": "Vi har tilpasset ordforklaringene for elever, lagt til norske oversettelser, bruksnotater og sammenligninger mellom språkene, og gjort redaksjonelle rettelser. Hver oppføring beholder kilde og navngivelse.",
+    "scope": "Arkivet inneholder publiserte oppslagsord, ordforklaringer og eksempelsetninger, kildeinformasjon, navngivelse og lisensfiler. Lyd, oppgaver, læreplan, illustrasjoner og appkode er ikke inkludert.",
+    "licence": "Creative Commons Navngivelse-DelPåSammeVilkår 4.0",
+    "headwords_one": "{{count}} publisert oppslagsord",
+    "headwords_other": "{{count}} publiserte oppslagsord",
+    "exported": "Eksportert {{date}}",
+    "empty": "Ingen oppslagsord er publisert ennå. Nedlastingen inneholder lisens- og navngivelsesfilene.",
+    "download": "Last ned leksikonet (.tgz)",
+    "unavailable": "Leksikonpakken er midlertidig utilgjengelig. Prøv igjen senere."
+  },
+  "age": {
+    "title": "Aldersgrense",
+    "privacy": "Vi lagrer om du oppfyller alderskravet og landvalget ditt for å avgjøre om nettkjøp er tilgjengelig. Fødselsåret og fødselsdagsbekreftelsen lagres ikke.",
+    "birthYear": "Fødselsår",
+    "country": "Bostedsland",
+    "chooseCountry": "Velg landet ditt",
+    "southAfrica": "Sør-Afrika",
+    "norway": "Norge",
+    "otherCountry": "Et annet land",
+    "confirmAge": "Jeg har allerede fylt {{age}} år.",
+    "errors": {
+      "invalid": "Oppgi fødselsåret ditt og velg land for å opprette en konto.",
+      "under13": "Du må være minst 13 år for å opprette en Molo-konto.",
+      "under18ZA": "Du må være minst 18 år for å opprette en Molo-konto i Sør-Afrika.",
+      "confirm": "Bekreft at du allerede har nådd aldersgrensen."
+    },
+    "stepTitle": "Fødselsår og bostedsland",
+    "stepBody": "Ett steg til før du begynner. Molo er for elever fra 13 år, og fra 18 år i Sør-Afrika.",
+    "stepContinue": "Fortsett",
+    "deleted": "Vi har slettet kontoen og alt som var i den."
+  },
+  "leagueSettings": {
+    "title": "Personvern i ligaer",
+    "displayName": "Visningsnavn i ligaer",
+    "nameHint": "Vises til andre elever. La feltet stå tomt for å bruke bare fornavnet ditt. Maksimalt 40 tegn.",
+    "optOut": "Ikke delta i ligaer",
+    "optOutHint": "Når du lagrer, fjernes du fra ukens liga med en gang. Leksjonene, XP og rekken beholdes. Slå av valget og tjen XP for å bli med igjen.",
+    "save": "Lagre ligainnstillinger",
+    "disabled": "Du har valgt å stå utenfor ligaer. Du kan endre dette i Innstillinger.",
+    "nameNotAllowed": "Velg et annet navn. Dette navnet er ikke tillatt i ligaer."
+  },
+  "withdrawal": {
+    "title": "Angrerett",
+    "expressStart": "Jeg ber uttrykkelig om at Molo Plus starter med en gang, før angrefristen på 14 dager er ute. Hvis jeg angrer, betaler jeg for den forholdsmessige delen av den betalte perioden som allerede er levert.",
+    "form": "Standard angreskjema",
+    "downloadForm": "Last ned skjemaet",
+    "how": "Kjøp på nettet har 14 dagers angrerett. Gå til Innstillinger → Molo Plus for å sende angremelding, eller skriv til support@hellomolo.com. Apple- og Google-kjøp behandles av butikken.",
+    "purchase": "Nettkjøp {{date}}",
+    "deadline": "Send angremelding innen {{date}}.",
+    "estimate": "Anslått refusjon hvis du angrer nå: {{amount}}. Vi kontrollerer betalingen før refusjon.",
+    "estimateUnknown": "Vi beregner refusjonen ut fra betalingen og perioden som allerede er levert.",
+    "start": "Angre kjøpet",
+    "confirm": "Bekreft bruk av angrerett",
+    "confirmBody": "Når du sender, stoppes Plus-tilgangen for dette kjøpet med en gang. Vi registrerer ønsket ditt om å avslutte avtalen og få refundert den ubrukte perioden.",
+    "received": "Angremeldingen er mottatt",
+    "pending": "Angremeldingen er registrert, og Plus-tilgangen for dette kjøpet er stoppet. Vi stanser fornyelsen og behandler refusjonen manuelt innen 14 dager etter meldingen din.",
+    "refunded": "Angremeldingen er ferdig behandlet, og refusjonen er registrert.",
+    "receipt": "Last ned bekreftelsen",
+    "receiptDetails": "Referanse: {{id}}\nProdukt: {{product}}\nKjøpt: {{purchasedAt}}\nAngremelding mottatt: {{requestedAt}}",
+    "expired": "Den ordinære angrefristen er ute. Kontakt kundestøtte hvis rettighetene dine eller kjøpsopplysningene må undersøkes.",
+    "missing": "Mangler kjøpet, eller trenger du hjelp? Kontakt",
+    "error": "Vi kunne ikke registrere angremeldingen. Last siden på nytt eller skriv til support@hellomolo.com."
+  },
+  "preview": {
+    "switch": "Forhåndsvis utkast",
+    "banner": "Forhåndsvisning — upublisert innhold; ingenting her teller",
+    "exit": "Avslutt forhåndsvisning",
+    "open": "Åpne forhåndsvisning",
+    "lesson": "Leksjon {{number}}",
+    "exercise": "Oppgave {{number}}",
+    "next": "Neste oppgave",
+    "finished": "Forhåndsvisningen er ferdig. Ingenting ble lagret.",
+    "missingAudio": "Mangler lyd: {{content}}",
+    "missingContent": "Denne oppgaven mangler innhold den viser til.",
+    "empty": "Ikke noe innhold å forhåndsvise ennå.",
+    "path": "Tilbake til forhåndsvisningsstien",
+    "unit": "Tilbake til kapittelet",
+    "connection": "Forhåndsvisning krever nettilkobling."
+  },
+  "licences": {
+    "libraries": "Biblioteker med åpen kildekode",
+    "search": "Finn et bibliotek",
+    "noResults": "Ingen biblioteker passer søket."
+  },
+  "email": {
+    "changeVerify": {
+      "subject": "Bekreft den nye e-posten din for Molo",
+      "body": "Åpne denne lenken for å bruke {{email}} på Molo-kontoen din: {{url}}\n\nLenken utløper om en time. Til du åpner den, beholder kontoen den gamle adressen. Hvis du ikke ba om dette, kan du se bort fra denne e-posten."
+    },
+    "changeNotice": {
+      "subject": "E-posten på Molo-kontoen din endres",
+      "body": "Noen som er logget inn på Molo-kontoen din, har bedt om å endre e-posten til {{email}}. Den endres først når lenken som er sendt til den adressen, blir åpnet.\n\nHvis det var deg, trenger du ikke gjøre noe. Hvis ikke, logg inn, endre passordet og skriv til support@hellomolo.com."
+    }
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1788456539661,
+      "tag": "0000_init",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1788457847266,
+      "tag": "0001_account_issuer",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1788513246805,
+      "tag": "0002_leagues",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1788515976887,
+      "tag": "0003_prefs_modes",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1788516765171,
+      "tag": "0004_onboarding",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1788519058049,
+      "tag": "0005_voices",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1788520077285,
+      "tag": "0006_hearts_entitlements",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1788527758260,
+      "tag": "0007_streak_freeze",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1788542363315,
+      "tag": "0008_push_tokens",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1788542423315,
+      "tag": "0009_learner_mistakes",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1788542483315,
+      "tag": "0010_seed_idempotency",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1788542543315,
+      "tag": "0011_review_assignment",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1788542603315,
+      "tag": "0012_multi_course",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1788800000000,
+      "tag": "0013_skill_chests",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1788800060000,
+      "tag": "0014_exercise_reports",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1788800120000,
+      "tag": "0015_assigned_to_index",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1788800180000,
+      "tag": "0016_grammar_notes",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1789925763179,
+      "tag": "0017_registration_age_gate",
+      "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "7",
+      "when": 1789926529304,
+      "tag": "0018_league_privacy",
+      "breakpoints": true
+    },
+    {
+      "idx": 19,
+      "version": "7",
+      "when": 1789927875245,
+      "tag": "0019_web_purchase_withdrawal",
+      "breakpoints": true
+    },
+    {
+      "idx": 20,
+      "version": "7",
+      "when": 1789967801711,
+      "tag": "0020_gloss_suggestions",
+      "breakpoints": true
+    },
+    {
+      "idx": 21,
+      "version": "7",
+      "when": 1790019744339,
+      "tag": "0021_web_checkout_country",
+      "breakpoints": true
+    },
+    {
+      "idx": 22,
+      "version": "7",
+      "when": 1790244983190,
+      "tag": "0022_studio_click_audio",
+      "breakpoints": true
+    },
+    {
+      "idx": 23,
+      "version": "7",
+      "when": 1790361145886,
+      "tag": "0023_social_age_pending",
+      "breakpoints": true
+    },
+    {
+      "idx": 24,
+      "version": "7",
+      "when": 1790365065593,
+      "tag": "0024_league_moderation",
+      "breakpoints": true
+    },
+    {
+      "idx": 25,
+      "version": "7",
+      "when": 1790403293749,
+      "tag": "0025_click_identify",
+      "breakpoints": true
+    },
+    {
+      "idx": 26,
+      "version": "7",
+      "when": 1790404779659,
+      "tag": "0026_sentence_requests",
+      "breakpoints": true
+    },
+    {
+      "idx": 27,
+      "version": "7",
+      "when": 1790409768626,
+      "tag": "0027_golden_answers",
+      "breakpoints": true
+    },
+    {
+      "idx": 28,
+      "version": "7",
+      "when": 1790548100268,
+      "tag": "0028_studio_click_notes",
+      "breakpoints": true
+    }
+  ]
+}

@@ -1,0 +1,380 @@
+<!doctype html>
+<meta charset="utf-8" />
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Nunito:wght@400;600;700&display=swap"
+/>
+<style>
+  :root {
+    --sun: #f6b73c;
+    --ochre: #d9772b;
+    --indigo: #26264f;
+    --sea: #1fa38c;
+    --coral: #e85d5d;
+    --sand: #fff7e8;
+    --sand-deep: #f3e3c3;
+    --ink: #1e1e2a;
+    --cloud: #ffffff;
+  }
+  body {
+    margin: 0;
+    font-family: Nunito, sans-serif;
+    color: var(--ink);
+  }
+  .shot {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+  }
+  .display {
+    font-family: Fredoka, sans-serif;
+    font-weight: 700;
+  }
+
+  /* ---------------------------------------------------------------------
+     The mark, in HTML so the M is really Fredoka. An <img>-embedded SVG
+     cannot reach the page's webfonts, which is why the icons used to fall
+     back to a system M. Every measurement is a share of --s, so one recipe
+     renders 1024 for the App Store and 32 for a browser tab.
+     --------------------------------------------------------------------- */
+  .mark {
+    position: relative;
+    width: var(--s);
+    height: var(--s);
+    overflow: hidden;
+    background: var(--indigo);
+    flex: none;
+  }
+  .mark .sun {
+    position: absolute;
+    left: 50%;
+    top: 44%;
+    width: 62%;
+    height: 62%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: var(--sun);
+  }
+  .mark .hills {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 42%;
+    display: block;
+  }
+  .mark .letter {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Fredoka, sans-serif;
+    font-weight: 700;
+    color: var(--indigo);
+    line-height: 1;
+    font-size: calc(var(--s) * 0.4);
+    padding-bottom: calc(var(--s) * 0.11);
+  }
+  .mark.rounded {
+    border-radius: calc(var(--s) * 0.22);
+  }
+  /* Android crops a maskable icon to any shape, so the sun and the letter
+     stay inside the middle; only ground reaches the edge. */
+  .mark.maskable .sun {
+    top: 42%;
+    width: 46%;
+    height: 46%;
+  }
+  .mark.maskable .letter {
+    font-size: calc(var(--s) * 0.3);
+    padding-bottom: calc(var(--s) * 0.15);
+  }
+  .mark.maskable .hills {
+    height: 34%;
+  }
+
+  /* Wordmark: the mark beside the name, drawn in HTML so the type is Fredoka.
+     Transparent ground; the renderer keeps the alpha. */
+  .wordmark {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 56px;
+    width: max-content;
+  }
+  .wordmark .name {
+    font-family: Fredoka, sans-serif;
+    font-weight: 700;
+    font-size: 150px;
+    line-height: 0.95;
+    letter-spacing: -0.01em;
+  }
+  .wordmark .tag {
+    font-family: Nunito, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 10px;
+    opacity: 0.72;
+  }
+  #wordmark .name,
+  #wordmark .tag {
+    color: var(--indigo);
+  }
+  #wordmark-light .name,
+  #wordmark-light .tag {
+    color: var(--sand);
+  }
+
+  /* Google Play feature graphic: 1024x500, no rounded corners, safe centre. */
+  #feature {
+    width: 1024px;
+    height: 500px;
+    background: var(--indigo);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 64px;
+    box-sizing: border-box;
+  }
+  #feature .sun {
+    position: absolute;
+    right: -150px;
+    top: -170px;
+    width: 560px;
+    height: 560px;
+    border-radius: 50%;
+    background: radial-gradient(
+      circle,
+      rgba(246, 183, 60, 0.55) 0%,
+      rgba(246, 183, 60, 0.22) 45%,
+      rgba(246, 183, 60, 0) 70%
+    );
+  }
+  #feature .hills {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 180px;
+    background: linear-gradient(180deg, transparent, rgba(31, 163, 140, 0.35));
+  }
+  #feature .words {
+    position: relative;
+    max-width: 560px;
+  }
+  #feature h1 {
+    font-family: Fredoka, sans-serif;
+    font-weight: 700;
+    font-size: 62px;
+    color: var(--sand);
+    margin: 0 0 14px;
+    line-height: 1.05;
+  }
+  #feature p {
+    font-size: 26px;
+    color: rgba(255, 247, 232, 0.86);
+    margin: 0;
+    line-height: 1.35;
+  }
+  #feature .bird {
+    position: relative;
+    width: 340px;
+    height: 340px;
+    filter: drop-shadow(0 18px 40px rgba(0, 0, 0, 0.35));
+  }
+
+  /* Store listing tile: 1024x1024 with the wordmark, for press and web cards. */
+  #tile {
+    width: 1024px;
+    height: 1024px;
+    background: var(--sand);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+  }
+  #tile h1 {
+    font-family: Fredoka, sans-serif;
+    font-weight: 700;
+    font-size: 108px;
+    color: var(--indigo);
+    margin: 0;
+  }
+  #tile p {
+    font-size: 34px;
+    color: var(--ink);
+    opacity: 0.75;
+    margin: 0;
+  }
+
+  /* Screenshot frame: a device shot on a coloured ground with one caption line.
+     1284x2778 is the App Store 6.7-inch size; Play accepts it too. */
+  .frame {
+    width: 1284px;
+    height: 2778px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 56px;
+    padding: 96px 0 0;
+    box-sizing: border-box;
+  }
+  .frame h2 {
+    font-family: Fredoka, sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    margin: 0 64px;
+    text-align: center;
+    line-height: 1.1;
+  }
+  .frame .device {
+    width: 980px;
+    border-radius: 56px;
+    overflow: hidden;
+    box-shadow: 0 40px 90px rgba(38, 38, 79, 0.28);
+    background: var(--cloud);
+  }
+  .frame .device img {
+    display: block;
+    width: 100%;
+  }
+  .sandbg {
+    background: var(--sand);
+  }
+  .sandbg h2 {
+    color: var(--indigo);
+  }
+  .indigobg {
+    background: var(--indigo);
+  }
+  .indigobg h2 {
+    color: var(--sand);
+  }
+  .seabg {
+    background: var(--sea);
+  }
+  .seabg h2 {
+    color: var(--cloud);
+  }
+  .sunbg {
+    background: var(--sun);
+  }
+  .sunbg h2 {
+    color: var(--indigo);
+  }
+</style>
+
+<div class="wordmark" id="wordmark">
+  <div class="mark rounded" style="--s: 220px">
+    <div class="sun"></div>
+    <svg class="hills" viewBox="0 0 100 42" preserveAspectRatio="none">
+      <path
+        d="M0 14 C 22 6, 46 10, 68 14 C 80 16, 92 13, 100 10 L 100 42 L 0 42 Z"
+        fill="#1FA38C"
+      />
+      <path d="M0 27 C 30 21, 62 25, 100 21 L 100 42 L 0 42 Z" fill="#D9772B" />
+    </svg>
+    <div class="letter">M</div>
+  </div>
+  <div>
+    <div class="name">Molo</div>
+    <div class="tag" data-i18n="tileBody">isiXhosa, click by click</div>
+  </div>
+</div>
+<div class="wordmark" id="wordmark-light">
+  <div class="mark rounded" style="--s: 220px">
+    <div class="sun"></div>
+    <svg class="hills" viewBox="0 0 100 42" preserveAspectRatio="none">
+      <path
+        d="M0 14 C 22 6, 46 10, 68 14 C 80 16, 92 13, 100 10 L 100 42 L 0 42 Z"
+        fill="#1FA38C"
+      />
+      <path d="M0 27 C 30 21, 62 25, 100 21 L 100 42 L 0 42 Z" fill="#D9772B" />
+    </svg>
+    <div class="letter">M</div>
+  </div>
+  <div>
+    <div class="name">Molo</div>
+    <div class="tag" data-i18n="tileBody">isiXhosa, click by click</div>
+  </div>
+</div>
+
+<!-- One mark per output size; the renderer screenshots them by id. -->
+<div class="mark" id="mark-1024" style="--s: 1024px">
+  <div class="sun"></div>
+  <svg class="hills" viewBox="0 0 100 42" preserveAspectRatio="none">
+    <path d="M0 14 C 22 6, 46 10, 68 14 C 80 16, 92 13, 100 10 L 100 42 L 0 42 Z" fill="#1FA38C" />
+    <path d="M0 27 C 30 21, 62 25, 100 21 L 100 42 L 0 42 Z" fill="#D9772B" />
+  </svg>
+  <div class="letter">M</div>
+</div>
+<div class="mark" id="mark-512" style="--s: 512px">
+  <div class="sun"></div>
+  <svg class="hills" viewBox="0 0 100 42" preserveAspectRatio="none">
+    <path d="M0 14 C 22 6, 46 10, 68 14 C 80 16, 92 13, 100 10 L 100 42 L 0 42 Z" fill="#1FA38C" />
+    <path d="M0 27 C 30 21, 62 25, 100 21 L 100 42 L 0 42 Z" fill="#D9772B" />
+  </svg>
+  <div class="letter">M</div>
+</div>
+<div class="mark maskable" id="mark-maskable" style="--s: 512px">
+  <div class="sun"></div>
+  <svg class="hills" viewBox="0 0 100 34" preserveAspectRatio="none">
+    <path d="M0 12 C 22 5, 46 9, 68 12 C 80 14, 92 11, 100 8 L 100 34 L 0 34 Z" fill="#1FA38C" />
+    <path d="M0 22 C 30 17, 62 21, 100 17 L 100 34 L 0 34 Z" fill="#D9772B" />
+  </svg>
+  <div class="letter">M</div>
+</div>
+<div class="mark rounded" id="mark-256" style="--s: 256px">
+  <div class="sun"></div>
+  <svg class="hills" viewBox="0 0 100 42" preserveAspectRatio="none">
+    <path d="M0 14 C 22 6, 46 10, 68 14 C 80 16, 92 13, 100 10 L 100 42 L 0 42 Z" fill="#1FA38C" />
+    <path d="M0 27 C 30 21, 62 25, 100 21 L 100 42 L 0 42 Z" fill="#D9772B" />
+  </svg>
+  <div class="letter">M</div>
+</div>
+
+<div class="shot" id="feature">
+  <div class="sun"></div>
+  <div class="hills"></div>
+  <div class="words">
+    <h1 data-i18n="featureTitle">Learn isiXhosa the way it sounds</h1>
+    <p data-i18n="featureBody">
+      A real voice on every word. The clicks first. Short lessons that stick.
+    </p>
+  </div>
+  <img class="bird" src="../../illustrations/sunbird-hello.svg" alt="" />
+</div>
+
+<div class="shot" id="tile">
+  <div class="mark rounded" style="--s: 360px">
+    <div class="sun"></div>
+    <svg class="hills" viewBox="0 0 100 42" preserveAspectRatio="none">
+      <path
+        d="M0 14 C 22 6, 46 10, 68 14 C 80 16, 92 13, 100 10 L 100 42 L 0 42 Z"
+        fill="#1FA38C"
+      />
+      <path d="M0 27 C 30 21, 62 25, 100 21 L 100 42 L 0 42 Z" fill="#D9772B" />
+    </svg>
+    <div class="letter">M</div>
+  </div>
+  <h1>Molo</h1>
+  <p data-i18n="tileBody">isiXhosa, click by click</p>
+</div>
+
+<div class="shot frame sandbg" id="frame-1">
+  <h2 data-i18n="cap1">Every word has a real voice</h2>
+  <div class="device"><img id="img-1" src="" alt="" /></div>
+</div>
+<div class="shot frame indigobg" id="frame-2">
+  <h2 data-i18n="cap2">The clicks come first, not last</h2>
+  <div class="device"><img id="img-2" src="" alt="" /></div>
+</div>
+<div class="shot frame seabg" id="frame-3">
+  <h2 data-i18n="cap3">Short lessons, kept up by a streak</h2>
+  <div class="device"><img id="img-3" src="" alt="" /></div>
+</div>
+<div class="shot frame sunbg" id="frame-4">
+  <h2 data-i18n="cap4">Checked by isiXhosa editors, always</h2>
+  <div class="device"><img id="img-4" src="" alt="" /></div>
+</div>

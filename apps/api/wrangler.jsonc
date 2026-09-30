@@ -1,0 +1,128 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "molo-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": false,
+  "observability": { "enabled": true },
+  // 17:00 UTC is early evening in Oslo and Cape Town: abandoned age-pending sign-ups are deleted,
+  // leagues finalise, streak reminders go out.
+  // Monday 08:00 UTC: the weekly content report to Slack (apps/api/src/scheduled.ts).
+  // Every five minutes: start the GitHub audio worker when recordings wait
+  // (apps/api/src/audio-worker-kick.ts); it never opens a database connection.
+  "triggers": { "crons": ["*/5 * * * *"] },
+  // Workers rate limiting (GA). Keys are per IP; period must be 10 or 60 seconds.
+  "ratelimits": [
+    { "name": "AUTH_LIMITER", "namespace_id": "1001", "simple": { "limit": 20, "period": 60 } },
+    { "name": "WEBHOOK_LIMITER", "namespace_id": "1002", "simple": { "limit": 120, "period": 60 } },
+    // "Report this exercise": per account, not per IP. See src/ratelimit.ts for
+    // why five. `period` may only be 10 or 60.
+    { "name": "REPORT_LIMITER", "namespace_id": "1003", "simple": { "limit": 5, "period": 60 } },
+  ],
+  "vars": {
+    "ENVIRONMENT": "local",
+    "BETTER_AUTH_URL": "http://localhost:8787",
+    "WEB_ORIGIN": "http://localhost:3300",
+    "PUBLIC_AUDIO_BASE_URL": "http://localhost:8787/audio",
+  },
+  // Bindings. Ids are filled by Alchemy per environment (infra/); locally
+  // wrangler simulates R2 and Queues, and the database comes from
+  // DATABASE_URL in .dev.vars instead of Hyperdrive.
+  // Two configurations over one database (infra/alchemy.run.ts): HYPERDRIVE has
+  // the query cache off and carries auth, sessions and learner state;
+  // HYPERDRIVE_CACHED has it on for 60s and carries published content only.
+  // Locally both are the same Postgres and neither caches — wrangler does not
+  // simulate the query cache — so this only keeps the code path honest.
+  "hyperdrive": [
+    {
+      "binding": "HYPERDRIVE",
+      "id": "00000000000000000000000000000000",
+      "localConnectionString": "postgres://molo:molo@localhost:55432/molo",
+    },
+    {
+      "binding": "HYPERDRIVE_CACHED",
+      "id": "00000000000000000000000000000001",
+      "localConnectionString": "postgres://molo:molo@localhost:55432/molo",
+    },
+  ],
+  "r2_buckets": [
+    { "binding": "R2_PUBLIC", "bucket_name": "molo-public" },
+    { "binding": "R2_PRIVATE", "bucket_name": "molo-private" },
+  ],
+  "queues": {
+    "producers": [
+      { "binding": "AUDIO_QUEUE", "queue": "molo-audio-process" },
+      { "binding": "INGEST_QUEUE", "queue": "molo-ingest" },
+      { "binding": "FORVO_QUEUE", "queue": "molo-forvo-backfill" },
+    ],
+    "consumers": [
+      { "queue": "molo-ingest", "max_batch_size": 1, "max_retries": 3 },
+      {
+        "queue": "molo-forvo-backfill",
+        "max_batch_size": 5,
+        "max_retries": 3,
+        "max_batch_timeout": 30,
+      },
+    ],
+  },
+  "env": {
+    // Playwright e2e: own database, own ports, same local simulation of R2 and Queues.
+    //
+    // Deliberately no `ratelimits`. Environments do not inherit top-level
+    // bindings, so wrangler warns about it on every boot, and the warning is
+    // wrong for us: every spec shares one client address, so production
+    // numbers would have the specs locking each other out, and `src/ratelimit.ts`
+    // fails open, so their absence changes nothing a spec asserts. Adding them
+    // with generous limits was tried on 2026-09-06 and reverted — it could not
+    // be shown to help, and the local worker crashed mid-suite while it was in.
+    // If a spec ever needs to assert a 429, give it its own environment.
+    "e2e": {
+      "vars": {
+        "ENVIRONMENT": "local",
+        "BETTER_AUTH_URL": "http://localhost:8788",
+        "WEB_ORIGIN": "http://localhost:3301",
+        "PUBLIC_AUDIO_BASE_URL": "http://localhost:8788/audio",
+      },
+      "hyperdrive": [
+        {
+          "binding": "HYPERDRIVE",
+          "id": "00000000000000000000000000000000",
+          "localConnectionString": "postgres://molo:molo@localhost:55432/molo_e2e",
+        },
+        {
+          "binding": "HYPERDRIVE_CACHED",
+          "id": "00000000000000000000000000000001",
+          "localConnectionString": "postgres://molo:molo@localhost:55432/molo_e2e",
+        },
+      ],
+      "r2_buckets": [
+        { "binding": "R2_PUBLIC", "bucket_name": "molo-public" },
+        { "binding": "R2_PRIVATE", "bucket_name": "molo-private" },
+      ],
+      "queues": {
+        "producers": [
+          { "binding": "AUDIO_QUEUE", "queue": "molo-audio-process" },
+          { "binding": "INGEST_QUEUE", "queue": "molo-ingest" },
+          { "binding": "FORVO_QUEUE", "queue": "molo-forvo-backfill" },
+        ],
+      },
+    },
+    "preview": {
+      "vars": {
+        "ENVIRONMENT": "preview",
+        "BETTER_AUTH_URL": "https://api-preview.hellomolo.com",
+        "WEB_ORIGIN": "https://preview.hellomolo.com",
+        "PUBLIC_AUDIO_BASE_URL": "https://api-preview.hellomolo.com/audio",
+      },
+    },
+    "prod": {
+      "vars": {
+        "ENVIRONMENT": "prod",
+        "BETTER_AUTH_URL": "https://api.hellomolo.com",
+        "WEB_ORIGIN": "https://hellomolo.com",
+        "PUBLIC_AUDIO_BASE_URL": "https://api.hellomolo.com/audio",
+      },
+    },
+  },
+}

@@ -1,0 +1,87 @@
+# Maestro flow: the native controls and the developer screen.
+#
+# Written for the Android walk that is still owed. The iOS side of @expo/ui was
+# walked by hand on a simulator; Android was built and installed but never
+# walked, because the emulator wedged under load. This flow makes that walk one
+# command instead of an afternoon of tapping, and it is the same walk on both
+# platforms so the two can be compared.
+#
+# Needs: a booted device with the app installed, the local API reachable, and a
+# signed-in account (run sign-in.yaml first, or the settings screen shows the
+# signed-out state and the toggles that need an account are absent).
+#
+#   maestro test apps/mobile/maestro/tour-native-controls.yaml
+#
+# Screenshots land in the working directory as native-*.png.
+appId: com.hardmax.molo
+---
+- launchApp:
+    stopApp: false
+
+# ---- settings: the controls @expo/ui replaced -----------------------------
+
+# The tab label, in either language. There is no id on the tab bar: it is a
+# native control, and its label is what both platforms expose.
+- tapOn:
+    text: "Innstillinger|Settings"
+- extendedWaitUntil:
+    visible:
+      id: "ui-language"
+    timeout: 20000
+- takeScreenshot: native-01-settings
+
+# The segmented control for the interface language. Switching it should change
+# the surrounding copy immediately, which is the thing worth seeing.
+- tapOn:
+    id: "ui-language"
+- takeScreenshot: native-02-language-segmented
+
+# The switches. Each is a platform switch behind our wrapper, so what matters
+# is that it flips, that it persists, and that TalkBack reads a name and a
+# state. The last of those a flow cannot assert; the report says so.
+- tapOn:
+    id: "listening-toggle"
+- takeScreenshot: native-03-listening-off
+- tapOn:
+    id: "listening-toggle"
+
+- tapOn:
+    id: "sound-toggle"
+- takeScreenshot: native-04-sound-off
+- tapOn:
+    id: "sound-toggle"
+
+- tapOn:
+    id: "motion-toggle"
+- takeScreenshot: native-05-reduce-motion
+
+# The voice menu: a platform menu behind our own chip-styled trigger, and the
+# one control that was never seen on a device at all.
+- tapOn:
+    id: "voice-select"
+- takeScreenshot: native-06-voice-menu
+- pressKey: Back
+
+# ---- the developer screen -------------------------------------------------
+
+- scrollUntilVisible:
+    element:
+      id: "settings-developer"
+    direction: DOWN
+    timeout: 20000
+- tapOn:
+    id: "settings-developer"
+- extendedWaitUntil:
+    visible:
+      id: "developer-screen"
+    timeout: 20000
+- takeScreenshot: native-07-developer
+
+# ---- a sheet, which is the other thing @expo/ui changed --------------------
+#
+# Out of hearts and the save-progress wall are real bottom sheets now, but only
+# where the learner has a way back. Reaching one by playing is slow, so the
+# gallery has it as a demo; that is what the demo exists for.
+
+- back
+- takeScreenshot: native-08-back-in-settings

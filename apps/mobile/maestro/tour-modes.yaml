@@ -1,0 +1,71 @@
+# Maestro flow: settings, quiet mode, leagues and review screenshots.
+# Screenshots land in the current working directory (p4-*.png).
+# Run: cd <out dir> && maestro test apps/mobile/maestro/tour-modes.yaml
+appId: com.hardmax.molo
+---
+- launchApp:
+    stopApp: false
+- runFlow: go-home.yaml
+- tapOn:
+    text: "Innstillinger|Settings"
+- extendedWaitUntil:
+    visible:
+      id: "listening-toggle"
+    timeout: 20000
+- takeScreenshot: p4-12-settings
+- tapOn:
+    id: "listening-toggle"
+    retryTapIfNoChange: false
+- takeScreenshot: p4-13-settings-listening-off
+- runFlow: go-home.yaml
+- tapOn:
+    id: "start-dev-fixture-unit-1"
+- extendedWaitUntil:
+    visible:
+      id: "lesson-1"
+    timeout: 20000
+- tapOn:
+    id: "lesson-1"
+- extendedWaitUntil:
+    visible:
+      id: "exit-lesson"
+    timeout: 20000
+- runFlow:
+    when:
+      visible:
+        text: "Fortsett|Continue"
+    commands:
+      - tapOn:
+          text: "Fortsett|Continue"
+- takeScreenshot: p4-14-lesson-quiet
+- tapOn:
+    id: "quiet-mode"
+    retryTapIfNoChange: false
+- takeScreenshot: p4-15-lesson-quiet-off
+- runFlow: go-home.yaml
+- tapOn:
+    text: "Ligaer|Leagues"
+- extendedWaitUntil:
+    visible:
+      text: "Ligaer|Leagues"
+    timeout: 20000
+- takeScreenshot: p4-16-leagues
+- runFlow: go-home.yaml
+- tapOn:
+    text: "Repetisjon|Review"
+- extendedWaitUntil:
+    visible:
+      text: "Repetisjon|Review"
+    timeout: 20000
+- takeScreenshot: p4-17-review
+- runFlow: go-home.yaml
+- tapOn:
+    text: "Innstillinger|Settings"
+- extendedWaitUntil:
+    visible:
+      id: "listening-toggle"
+    timeout: 20000
+- tapOn:
+    id: "listening-toggle"
+    retryTapIfNoChange: false
+- runFlow: go-home.yaml

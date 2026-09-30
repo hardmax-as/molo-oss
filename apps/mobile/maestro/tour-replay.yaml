@@ -1,0 +1,20 @@
+# Maestro flow: reopen the intro via settings, then run the welcome tour.
+appId: com.hardmax.molo
+---
+- launchApp:
+    stopApp: false
+- runFlow: go-home.yaml
+- tapOn:
+    text: "Innstillinger|Settings"
+- extendedWaitUntil:
+    visible:
+      id: "listening-toggle"
+    timeout: 20000
+- scrollUntilVisible:
+    element:
+      id: "replay-onboarding"
+    direction: DOWN
+- tapOn:
+    id: "replay-onboarding"
+    retryTapIfNoChange: false
+- runFlow: tour-welcome.yaml
